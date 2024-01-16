@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+
+  border-bottom-color: rgb(225, 225, 225);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.navLink {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.54;
+  cursor: pointer;
+  color: rgb(49, 49, 49);
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: #747bff;
+}
