@@ -1,9 +1,16 @@
+import Image from "next/image";
 import styles from "./Header.module.css";
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <p>Logo</p>
+      <Image
+        src="/fullLogoAKLawyer2.png"
+        alt="Vercel Logo"
+        width={200}
+        height={60}
+        priority
+      />
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
