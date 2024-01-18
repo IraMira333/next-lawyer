@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(245, 247, 250);
+  background-color: var(--accent-bgcolor);
   border-top-color: rgb(225, 225, 225);
   border-top-style: solid;
   border-top-width: 1px;
@@ -7,7 +7,7 @@
   padding: 20px;
 }
 .footerSpan {
-  color: rgb(255, 122, 0);
+  color: var(--accent-text-color);
   margin-right: 10px;
 }
 
