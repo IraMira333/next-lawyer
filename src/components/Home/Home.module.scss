@@ -1,57 +1,105 @@
 .accentBG {
   background-color: var(--accent-bgcolor);
+  padding: 36px 10px 90px 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 6px 0px inset;
 
-  padding: 36px 30px 190px 30px;
+  //   padding: 36px 30px 190px 30px;
 }
 
 .spanTitleHome {
   color: var(--accent-text-color);
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 400;
   display: block;
   text-align: start;
-  margin-left: 40px;
+
   margin-bottom: 25px;
+  //   font-size: 34px;
+  //   margin-left: 40px;
 }
 .homeTitleH1 {
   font-family: var(--font-lora);
-  font-size: 33.6px;
+  font-size: 24.5px;
   line-height: 1.3;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
   text-align: center;
+  //   font-size: 33.6px;
+  //   font-weight: 300;
 }
 
 .homeP1 {
-  font-family: var(--font-mulish);
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.625;
+  line-height: 2.18;
 
-  text-align: center;
+  text-align: left;
+  //   line-height: 1.625;
 }
 .firstImage {
-  margin-top: -120px;
+  margin-top: -40px;
+  //   margin-top: -120px;
 }
-.displayFlex {
-  display: flex;
-  gap: 10px;
+.secondSection {
+  padding: 70px 20px 60px 20px;
+  //   padding: 100px 10px 60px 10px;
 }
+// .displayFlex {
+//   display: flex;
+//   justify-content: center;
+//   gap: 10px;
+//   margin-bottom: 60px;
+// }
 .divWhy {
-  width: 384px;
+  max-width: 384px;
 }
 .titleWhy {
   font-family: var(--font-robotoCond);
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.3;
   color: var(--accent-text-color);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 25px;
+  //   font-size: 24px;
 }
 .titleBecause {
   font-family: var(--font-lora);
   font-style: italic;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
+  margin-bottom: 20px;
+  //   font-size: 36px;
+}
+
+.aboutMeHomeDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.125;
+}
+.buttonBio {
+  font-family: var(--font-mulish);
+  background-color: var(--accent-text-color);
+
+  border-radius: 10px;
+  padding: 12px 80px;
+  border-style: none;
+  font-size: 14px;
+  line-height: 1.43;
+  transition: all 500ms ease-out;
+
+  &:hover {
+    background-color: var(--accent-bgcolor);
+    color: var(--accent-text-color);
+    box-shadow: 2px 2px 2px rgb(255, 122, 0);
+  }
+}
+
+.titleThirdSection {
+  color: var(--accent-text-color);
+  font-family: var(--font-robotoCond);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
 }

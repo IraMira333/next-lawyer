@@ -23,20 +23,15 @@ const HomePart = () => {
       <Image
         src="/choosing-career-types-of-lawyers.jpg"
         alt="Lawyer Photo"
-        width={700}
-        height={400}
+        width={250}
+        height={143}
+        // width={700}
+        // height={400}
         className={styles.firstImage}
       />
 
-      <section>
+      <section className={styles.secondSection}>
         <div className={styles.displayFlex}>
-          <Image
-            src="/ak-second-photo.jpeg"
-            alt="Lawyer Photo"
-            width={426}
-            height={284}
-            className={styles.secondImage}
-          />
           <div className={styles.divWhy}>
             <h2 className={styles.titleWhy}>
               ЧOMY КУРЦ АНТОНІЙ ВОЛОДИМИРОВИЧ?
@@ -45,22 +40,37 @@ const HomePart = () => {
               - Я впевнений, я маю силу і знання вам допомогти...
             </h3>
           </div>
+          <Image
+            src="/ak-second-photo.jpeg"
+            alt="Lawyer Photo"
+            width={213}
+            height={142}
+            // width={426}
+            // height={284}
+            className={styles.secondImage}
+          />
         </div>
-        <p>
-          Практикою у сфері міграційного права займаюсь більше п’ятнадцяти
-          років. За цей час я досконало вивчив склад мислення, поведінку та
-          стиль роботи посадових та службових осіб міграційної служби України та
-          працівників інших правоохоронних органів України.
-        </p>
-        <p>
-          Нажаль, порушення законодавства, корупційні діяння, зневажливе
-          ставлення до прав і свобод громадян трапляються повсякчасно. Іноземці
-          відчувають себе безпомічними та розгубленими перед свавіллям
-          посадовців. На цей час я вже не можу спокійно дивитись на цей жах.
-        </p>
+        <div className={styles.aboutMeHomeDiv}>
+          <p>
+            Практикою у сфері міграційного права займаюсь більше п’ятнадцяти
+            років. За цей час я досконало вивчив склад мислення, поведінку та
+            стиль роботи посадових та службових осіб міграційної служби України
+            та працівників інших правоохоронних органів України.
+          </p>
+          <p>
+            Нажаль, порушення законодавства, корупційні діяння, зневажливе
+            ставлення до прав і свобод громадян трапляються повсякчасно.
+            Іноземці відчувають себе безпомічними та розгубленими перед
+            свавіллям посадовців. На цей час я вже не можу спокійно дивитись на
+            цей жах.
+          </p>
+        </div>
+        <button className={styles.buttonBio}>Біографія</button>
       </section>
-      <section>
-        <h2>КОМУ Я НАДАЮ ПРАВОВУ ДОПОМОГУ </h2>
+      <section className={styles.accentBG}>
+        <h2 className={styles.titleThirdSection}>
+          КОМУ Я НАДАЮ ПРАВОВУ ДОПОМОГУ{" "}
+        </h2>
         <ul>
           <li>
             <h4>
