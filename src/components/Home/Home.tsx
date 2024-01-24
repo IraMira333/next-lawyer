@@ -1,27 +1,51 @@
 import Image from "next/image";
+import styles from "./Home.module.scss";
 
 const HomePart = () => {
   return (
     <>
       <div>
-        <h1>
-          Надання правової допомоги та захисту прав іноземних громадян в Україні
-        </h1>
-        <p>
-          Імміграційний адвокат Курц Антоній Володимирович здійснює захист
-          порушених прав іноземних громадян та громадян України у відносинах з
-          Державною міграційною службою України.
-        </p>
+        <section className={styles.accentBG}>
+          <h1 className={styles.homeTitleH1}>
+            <span className={styles.spanTitleHome}>
+              Курц Антоній Володимирович
+            </span>
+            Надання правової допомоги та захисту прав іноземних громадян в
+            Україні
+          </h1>
+          <p className={styles.homeP1}>
+            Імміграційний адвокат Курц Антоній Володимирович здійснює захист
+            порушених прав іноземних громадян та громадян України у відносинах з
+            Державною міграційною службою України.
+          </p>
+        </section>
       </div>
       <Image
         src="/choosing-career-types-of-lawyers.jpg"
         alt="Lawyer Photo"
         width={700}
         height={400}
+        className={styles.firstImage}
       />
 
       <section>
-        <h2>Чому саме адвокат Курц Антоній Володимирович?</h2>
+        <div className={styles.displayFlex}>
+          <Image
+            src="/ak-second-photo.jpeg"
+            alt="Lawyer Photo"
+            width={426}
+            height={284}
+            className={styles.secondImage}
+          />
+          <div className={styles.divWhy}>
+            <h2 className={styles.titleWhy}>
+              ЧOMY КУРЦ АНТОНІЙ ВОЛОДИМИРОВИЧ?
+            </h2>
+            <h3 className={styles.titleBecause}>
+              - Я впевнений, я маю силу і знання вам допомогти...
+            </h3>
+          </div>
+        </div>
         <p>
           Практикою у сфері міграційного права займаюсь більше п’ятнадцяти
           років. За цей час я досконало вивчив склад мислення, поведінку та
@@ -34,7 +58,6 @@ const HomePart = () => {
           відчувають себе безпомічними та розгубленими перед свавіллям
           посадовців. На цей час я вже не можу спокійно дивитись на цей жах.
         </p>
-        <p>Я впевнений, я маю силу і знання вам допомогти.</p>
       </section>
       <section>
         <h2>КОМУ Я НАДАЮ ПРАВОВУ ДОПОМОГУ </h2>

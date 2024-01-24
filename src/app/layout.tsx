@@ -1,12 +1,31 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lora, Mulish, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import styles from "@/components/Footer/Footer.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const lora = Lora({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  variable: "--font-lora",
+  display: "swap",
+});
+
+const mulish = Mulish({
+  subsets: ["latin"],
+  weight: ["300", "500"],
+  variable: "--font-mulish",
+  display: "swap",
+});
+const robotoCond = Roboto_Condensed({
+  subsets: ["latin"],
+  weight: ["300", "500"],
+  style: ["normal", "italic"],
+  variable: "--font-robotoCond",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Immigration Lawyer",
@@ -22,8 +41,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html
+      lang="en"
+      className={`${lora.variable} ${mulish.variable} ${robotoCond.variable}`}
+    >
+      <body>
         <div className={styles.wrapperFT}>
           <Header />
           <main className={styles.mainFT}>{children}</main>
