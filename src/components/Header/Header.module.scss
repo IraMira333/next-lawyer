@@ -22,9 +22,9 @@
   line-height: 1.54;
   cursor: pointer;
   color: rgb(49, 49, 49);
-}
 
-.navLink:hover,
-.navLink:focus {
-  color: #747bff;
+  &:hover,
+  &:focus {
+    color: #747bff;
+  }
 }

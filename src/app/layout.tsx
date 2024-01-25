@@ -4,7 +4,7 @@ import "./globals.css";
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-import styles from "@/components/Footer/Footer.module.css";
+import styles from "@/components/Footer/Footer.module.scss";
 
 const lora = Lora({
   subsets: ["latin"],
