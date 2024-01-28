@@ -1,3 +1,4 @@
+import { GoogleMapsEmbed } from "@next/third-parties/google";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
           <span className={styles.footerSpan}>Антоній Курц</span>Адвокатське
           Бюро
         </h5>
-        <p> Україна, Київ вул. Деревлянська, 9</p>
+        <p> Україна, Київ вул. Деревлянська, 13</p>
         <ul className="">
           <li className="">
             <a href="tel:+380930324874" className="">
@@ -21,6 +22,13 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        <GoogleMapsEmbed
+          apiKey="AIzaSyAIa77Mdd2R_4EgZJoZrTMg5u56WDlf-hM"
+          height={200}
+          width="100%"
+          mode="place"
+          q="вулиця+Деревлянська,+13,+Київ,+04119"
+        />
       </div>
     </footer>
   );
