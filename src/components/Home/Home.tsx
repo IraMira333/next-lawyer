@@ -71,9 +71,21 @@ const HomePart = () => {
         <h2 className={styles.titleThirdSection}>
           КОМУ Я НАДАЮ ПРАВОВУ ДОПОМОГУ{" "}
         </h2>
-        <ul>
-          <li>
-            <h4>
+        <ul className={styles.whoDoIHelpList}>
+          <li className={styles.whoDoIHelpItem}>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/lawyers.png"}
+                alt="picture"
+                width={218}
+                height={212}
+              />
+              <h4 className={styles.whoDoIHelpTitle}>
+                Постраждалим від дій ДМС України
+              </h4>
+            </div>
+
+            {/* <h4>
               Особам, які зіткнулись з протиправними діями органів ДМС України у
               випадках:
             </h4>
@@ -82,7 +94,7 @@ const HomePart = () => {
                 <p>
                   скасування дозволу на імміграцію та визнання недійсною
                   посвідки на постійне проживання;
-                </p>
+                </p> 
               </li>
               <li>
                 <p>
@@ -96,17 +108,42 @@ const HomePart = () => {
               <li>
                 <p>прийнято рішення про заборону в’їзду в Україну.</p>
               </li>
-            </ul>
+            </ul>*/}
           </li>
           <li>
-            <h4>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/lawyers.png"}
+                alt="picture"
+                width={218}
+                height={212}
+              />
+
+              <h4 className={styles.whoDoIHelpTitle}>
+                Потребуючим захисту у зв'язку з порушенням міграційного
+                законодавства
+              </h4>
+            </div>
+            {/* <h4>
               Особам, які потребують захисника в зв’язку з притягненням до
               адміністративної відповідальності за порушення міграційного
               законодавства
-            </h4>
+            </h4> */}
           </li>
           <li>
-            <h4>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/lawyers.png"}
+                alt="picture"
+                width={218}
+                height={212}
+              />
+
+              <h4 className={styles.whoDoIHelpTitle}>
+                Іноземцям, які мають намір звернутись до органів ДМС України
+              </h4>
+            </div>
+            {/* <h4>
               Іноземцям, які мають намір звернутись до органів ДМС України з
               метою:
             </h4>
@@ -117,7 +154,7 @@ const HomePart = () => {
                 <p>продовження терміну перебування на території України</p>
                 <p>отримання статусу особи без громадянства</p>
               </li>
-            </ul>
+            </ul> */}
           </li>
         </ul>
       </section>

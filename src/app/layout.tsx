@@ -15,7 +15,7 @@ const lora = Lora({
 
 const mulish = Mulish({
   subsets: ["latin"],
-  weight: ["300", "500"],
+  weight: ["300", "400", "500"],
   variable: "--font-mulish",
   display: "swap",
 });
