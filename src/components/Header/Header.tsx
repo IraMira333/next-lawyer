@@ -16,6 +16,13 @@ const Header = () => {
       </Link>
 
       <nav className={styles.nav}>
+        <Image
+          src="/burger-menu-opt.svg"
+          alt="Menu"
+          className={styles.burgerMenu}
+          width={32}
+          height={32}
+        />
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <Link className={styles.navLink} href="/services">

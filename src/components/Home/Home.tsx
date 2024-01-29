@@ -67,7 +67,9 @@ const HomePart = () => {
             цей жах.
           </p>
         </div>
-        <button className={styles.buttonBio}>Біографія</button>
+        <div style={{ textAlign: "center" }}>
+          <button className={styles.buttonBio}>Біографія</button>
+        </div>
       </section>
       <section className={styles.accentBG}>
         <h2 className={styles.titleThirdSection}>

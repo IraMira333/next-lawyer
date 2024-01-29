@@ -1,18 +1,36 @@
 .header {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
   background-color: white;
   border-bottom-color: rgb(225, 225, 225);
   border-bottom-style: solid;
   border-bottom-width: 1px;
+  @media screen and (min-width: 400px) {
+    padding: 20px;
+  }
 }
-
-.navList {
+.nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 40px;
+}
+.burgerMenu {
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+}
+.navList {
+  display: none;
+
+  @media screen and (min-width: 400px) {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 500px) {
+    gap: 40px;
+  }
 }
 
 .navLink {
