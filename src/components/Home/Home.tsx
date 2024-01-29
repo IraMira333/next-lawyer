@@ -20,15 +20,17 @@ const HomePart = () => {
           </p>
         </section>
       </div>
-      <Image
-        src="/choosing-career-types-of-lawyers.jpg"
-        alt="Lawyer Photo"
-        width={250}
-        height={143}
-        // width={700}
-        // height={400}
-        className={styles.firstImage}
-      />
+      <div style={{ textAlign: "center" }}>
+        <Image
+          src="/choosing-career-types-of-lawyers.jpg"
+          alt="Lawyer Photo"
+          width={250}
+          height={143}
+          // width={700}
+          // height={400}
+          className={styles.firstImage}
+        />
+      </div>
 
       <section className={styles.secondSection}>
         <div className={styles.displayFlex}>

@@ -25,6 +25,6 @@
 
   &:hover,
   &:focus {
-    color: #747bff;
+    color: var(--accent-text-color);
   }
 }
