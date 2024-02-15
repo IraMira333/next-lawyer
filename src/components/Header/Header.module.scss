@@ -15,11 +15,7 @@
   align-items: center;
   justify-content: flex-end;
 }
-.burgerMenu {
-  @media screen and (min-width: 400px) {
-    display: none;
-  }
-}
+
 .navList {
   display: none;
 
