@@ -1,8 +1,9 @@
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import Link from "next/link";
+import ModalComponent from "../Modal/Modal";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <Link href="/">
@@ -16,13 +17,7 @@ const Header = () => {
       </Link>
 
       <nav className={styles.nav}>
-        <Image
-          src="/burger-menu-opt.svg"
-          alt="Menu"
-          className={styles.burgerMenu}
-          width={32}
-          height={32}
-        />
+        <ModalComponent />
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <Link className={styles.navLink} href="/services">

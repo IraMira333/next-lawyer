@@ -1,8 +1,11 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import Modal from "react-modal";
-const MyComponent = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const customStyles = {
+import styles from "./Modal.module.scss";
+
+const ModalComponent: React.FC = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const customStyles: Modal.Styles = {
     overlay: {
       backgroundColor: "rgba(0, 0, 0, 0.6)",
     },
@@ -17,7 +20,15 @@ const MyComponent = () => {
   };
   return (
     <div>
-      <button onClick={() => setIsOpen(true)}>Open Modal</button>
+      <button onClick={() => setIsOpen(true)}>
+        <Image
+          src="/burger-menu-opt.svg"
+          alt="Menu"
+          className={styles.burgerMenu}
+          width={32}
+          height={32}
+        />
+      </button>
       <Modal
         isOpen={isOpen}
         onRequestClose={() => setIsOpen(false)}
@@ -29,4 +40,4 @@ const MyComponent = () => {
     </div>
   );
 };
-export default MyComponent;
+export default ModalComponent;
