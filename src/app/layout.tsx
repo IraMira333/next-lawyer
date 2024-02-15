@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Lora, Mulish, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
-import { useHydrate } from "react-query";
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
@@ -41,8 +40,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const state = { isOpen: false };
-  useHydrate(state);
   return (
     <html
       lang="en"
