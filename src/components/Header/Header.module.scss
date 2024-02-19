@@ -15,7 +15,32 @@
   align-items: center;
   justify-content: flex-end;
 }
-
+.burgerMenu {
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+}
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.modalBox {
+  width: 70%;
+  height: 50%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
 .navList {
   display: none;
 
