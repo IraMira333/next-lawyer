@@ -1,15 +1,15 @@
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import Link from "next/link";
-import ModalComponent from "../Modal/Modal";
+import Modal from "../Modal/Modal";
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <Link href="/">
         <Image
           src="/fullLogoAKLawyer2.png"
-          alt="Vercel Logo"
+          alt="AKLawyer Logo"
           width={200}
           height={60}
           priority
@@ -17,7 +17,10 @@ const Header: React.FC = () => {
       </Link>
 
       <nav className={styles.nav}>
-        <ModalComponent />
+        <Link href="/menu" className={styles.burgerMenu}>
+          <Image src="/burger-menu-opt.svg" alt="Menu" width={32} height={32} />
+        </Link>
+
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <Link className={styles.navLink} href="/services">
