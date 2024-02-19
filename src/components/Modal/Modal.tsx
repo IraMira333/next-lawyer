@@ -1,43 +1,61 @@
-import Image from "next/image";
-import React, { useState } from "react";
-import Modal from "react-modal";
-import styles from "./Modal.module.scss";
+"use client";
+import { usePathname } from "next/navigation";
+import styles from "../Header/Header.module.scss";
+import Link from "next/link";
 
-const ModalComponent: React.FC = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const customStyles: Modal.Styles = {
-    overlay: {
-      backgroundColor: "rgba(0, 0, 0, 0.6)",
-    },
-    content: {
-      top: "50%",
-      left: "50%",
-      right: "auto",
-      bottom: "auto",
-      marginRight: "-50%",
-      transform: "translate(-50%, -50%)",
-    },
-  };
+export default function Modal() {
+  const pathname = usePathname();
+  console.log(pathname);
+  if (pathname === "/") return null;
   return (
-    <div>
-      <button onClick={() => setIsOpen(true)}>
-        <Image
-          src="/burger-menu-opt.svg"
-          alt="Menu"
-          className={styles.burgerMenu}
-          width={32}
-          height={32}
-        />
-      </button>
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={() => setIsOpen(false)}
-        style={customStyles}
-      >
-        <h1>Modal Content</h1>
-        <button onClick={() => setIsOpen(false)}>Close Modal</button>
-      </Modal>
-    </div>
+    <>
+      <Link href="/" className={styles.modal} />
+      <div className={styles.modalBox}>
+        <ul className={styles.navList}>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/services">
+              ПОСЛУГИ
+            </Link>
+          </li>
+
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/contacts">
+              КОНТАКТИ
+            </Link>
+          </li>
+        </ul>
+        <div>
+          <button type="button" onClick={() => console.log("Yes")}>
+            Close
+          </button>
+        </div>
+      </div>
+    </>
   );
-};
-export default ModalComponent;
+  // return (
+  //   <div>
+  // <ul className={styles.navList}>
+  //   <li className={styles.navItem}>
+  //     <Link className={styles.navLink} href="/services">
+  //       ПОСЛУГИ
+  //     </Link>
+  //   </li>
+
+  //   <li className={styles.navItem}>
+  //     <Link className={styles.navLink} href="/contacts">
+  //       КОНТАКТИ
+  //     </Link>
+  //   </li>
+  // </ul>
+  // <div className="flex justify-center mt-4">
+  //   {/* Using useRouter to dismiss modal*/}
+  //   <button
+  //     onClick={() => console.log("Yes")}
+  //     className="px-4 py-2 bg-blue-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-300"
+  //   >
+  //     Close
+  //   </button>
+  // </div>
+  //   </div>
+  // );
+}
