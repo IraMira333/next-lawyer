@@ -1,8 +1,17 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import Link from "next/link";
+import Navbar from "./Navbar/Navbar";
+import Sidebar from "./Sidebar/Sidebar";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle: () => void = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className={styles.header}>
       <Link href="/">
@@ -16,23 +25,8 @@ const Header = () => {
       </Link>
 
       <nav className={styles.nav}>
-        <Link href="/menu" className={styles.burgerMenu}>
-          <Image src="/burger-menu-opt.svg" alt="Menu" width={32} height={32} />
-        </Link>
-
-        <ul className={styles.navList}>
-          <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/services">
-              ПОСЛУГИ
-            </Link>
-          </li>
-
-          <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/contacts">
-              КОНТАКТИ
-            </Link>
-          </li>
-        </ul>
+        {isOpen && <Sidebar toggle={toggle} />}
+        <Navbar toggle={toggle} />
       </nav>
     </header>
   );
