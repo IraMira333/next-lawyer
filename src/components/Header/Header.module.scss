@@ -33,15 +33,22 @@
   z-index: 99;
 }
 .modalBox {
-  width: 70%;
+  width: 200px;
   height: 50%;
   background-color: white;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 100;
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  border-radius: 0 0 0 10px;
+  padding: 20px;
+}
+.closeMenuButton {
+  background-color: transparent;
+  border: none;
+  margin-left: 140px;
 }
 .navList {
   display: none;

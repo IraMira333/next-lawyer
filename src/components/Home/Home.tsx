@@ -85,11 +85,15 @@ const HomePart = () => {
                 height={212}
               />
               <h4 className={styles.whoDoIHelpTitle}>
-                Постраждалим від дій ДМС України
+                Особам, яким протиправно скасовано документи
               </h4>
             </div>
 
-            {/* <h4>
+            {/* 
+            <h4 className={styles.whoDoIHelpTitle}>
+                Постраждалим від дій ДМС України
+              </h4>
+            <h4>
               Особам, які зіткнулись з протиправними діями органів ДМС України у
               випадках:
             </h4>
@@ -137,7 +141,7 @@ const HomePart = () => {
           <li>
             <div className={styles.whoDoIHelpBox}>
               <Image
-                src={"/lawyers.png"}
+                src={"/uaDocs.avif"}
                 alt="picture"
                 width={218}
                 height={212}
