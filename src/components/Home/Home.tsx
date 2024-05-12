@@ -1,17 +1,16 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import styles from "./Home.module.scss";
 
 const HomePart = () => {
+  const t = useTranslations("Home");
   return (
     <>
       <div>
         <section className={styles.accentBG}>
           <h1 className={styles.homeTitleH1}>
-            <span className={styles.spanTitleHome}>
-              Курц Антоній Володимирович
-            </span>
-            Надання правової допомоги та захисту прав іноземних громадян в
-            Україні
+            <span className={styles.spanTitleHome}>{t("lawyer")}</span>
+            {t("title")}
           </h1>
           <p className={styles.homeP1}>
             Імміграційний адвокат Курц Антоній Володимирович здійснює захист
