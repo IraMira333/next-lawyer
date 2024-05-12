@@ -2,8 +2,11 @@ import Link from "next/link";
 import { IoMdClose } from "react-icons/io";
 import { AiOutlineSend } from "react-icons/ai";
 import styles from "../Header.module.scss";
+import { useLocale } from "next-intl";
 
 const Sidebar = ({ toggle }: { toggle: () => void }): JSX.Element => {
+  const locale = useLocale();
+
   return (
     <>
       <Link href="/" className={styles.modal} />
@@ -22,7 +25,11 @@ const Sidebar = ({ toggle }: { toggle: () => void }): JSX.Element => {
               color="orange"
               style={{ marginRight: "5px" }}
             />
-            <Link className={styles.navLink} href="/" onClick={toggle}>
+            <Link
+              className={styles.navLink}
+              href={`/${locale}`}
+              onClick={toggle}
+            >
               ГОЛОВНА
             </Link>
           </li>
@@ -32,7 +39,11 @@ const Sidebar = ({ toggle }: { toggle: () => void }): JSX.Element => {
               color="orange"
               style={{ marginRight: "5px" }}
             />
-            <Link className={styles.navLink} href="/services" onClick={toggle}>
+            <Link
+              className={styles.navLink}
+              href={`/${locale}/services`}
+              onClick={toggle}
+            >
               ПОСЛУГИ
             </Link>
           </li>
@@ -43,7 +54,11 @@ const Sidebar = ({ toggle }: { toggle: () => void }): JSX.Element => {
               color="orange"
               style={{ marginRight: "5px" }}
             />
-            <Link className={styles.navLink} href="/contacts" onClick={toggle}>
+            <Link
+              className={styles.navLink}
+              href={`/${locale}/contacts`}
+              onClick={toggle}
+            >
               КОНТАКТИ
             </Link>
           </li>

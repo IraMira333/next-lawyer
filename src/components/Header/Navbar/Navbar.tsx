@@ -1,8 +1,10 @@
 import Link from "next/link";
 import styles from "../Header.module.scss";
 import Image from "next/image";
+import { useLocale } from "next-intl";
 
 const Navbar = ({ toggle }: { toggle: () => void }): JSX.Element => {
+  const locale = useLocale();
   return (
     <>
       <button className={styles.burgerMenu} onClick={toggle}>
@@ -11,13 +13,13 @@ const Navbar = ({ toggle }: { toggle: () => void }): JSX.Element => {
 
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <Link className={styles.navLink} href="/services">
+          <Link className={styles.navLink} href={`/${locale}/services`}>
             ПОСЛУГИ
           </Link>
         </li>
 
         <li className={styles.navItem}>
-          <Link className={styles.navLink} href="/contacts">
+          <Link className={styles.navLink} href={`/${locale}/contacts`}>
             КОНТАКТИ
           </Link>
         </li>
