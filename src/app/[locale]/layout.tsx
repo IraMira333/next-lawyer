@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Lora, Mulish, Roboto_Condensed } from "next/font/google";
+import { NextIntlClientProvider, useMessages } from "next-intl";
+import { getMessages } from "next-intl/server";
 import "./globals.css";
 
 import Footer from "@/components/Footer/Footer";
@@ -35,24 +37,29 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default function LocaleLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  const messages = useMessages();
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`${lora.variable} ${mulish.variable} ${robotoCond.variable}`}
     >
-      <body>
-        <div className={styles.wrapperFT}>
-          <Header />
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <body>
+          <div className={styles.wrapperFT}>
+            <Header />
 
-          <main className={styles.mainFT}>{children}</main>
-          <Footer />
-        </div>
-      </body>
+            <main className={styles.mainFT}>{children}</main>
+            <Footer />
+          </div>
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }
