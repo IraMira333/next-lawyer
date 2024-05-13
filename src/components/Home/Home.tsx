@@ -6,19 +6,13 @@ const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <div>
-        <section className={styles.accentBG}>
-          <h1 className={styles.homeTitleH1}>
-            <span className={styles.spanTitleHome}>{t("lawyer")}</span>
-            {t("title")}
-          </h1>
-          <p className={styles.homeP1}>
-            Імміграційний адвокат Курц Антоній Володимирович здійснює захист
-            порушених прав іноземних громадян та громадян України у відносинах з
-            Державною міграційною службою України.
-          </p>
-        </section>
-      </div>
+      <section className={styles.accentBG}>
+        <h1 className={styles.homeTitleH1}>
+          <span className={styles.spanTitleHome}>{t("lawyer")}</span>
+          {t("title")}
+        </h1>
+        <p className={styles.homeP1}>{t("description")}</p>
+      </section>
       <div style={{ textAlign: "center" }}>
         <Image
           src="/choosing-career-types-of-lawyers.jpg"
@@ -31,15 +25,111 @@ const HomePart = () => {
         />
       </div>
 
+      <section className={styles.accentBG}>
+        <h2 className={styles.titleThirdSection}>{t("whomTitle")}</h2>
+        <ul className={styles.whoDoIHelpList}>
+          <li className={styles.whoDoIHelpItem}>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/lawyers.png"}
+                alt="picture"
+                width={218}
+                height={212}
+                className={styles.whoDoIHelpImage}
+              />
+              <div>
+                <h4 className={styles.whoDoIHelpTitle}>{t("whomBox1Title")}</h4>
+                <ul className={styles.listStyle}>
+                  <li>
+                    <p>{t("whomBox1Li1")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox1Li2")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox1Li3")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox1Li4")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox1Li5")}</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li className={styles.whoDoIHelpItem}>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/lawyers.png"}
+                alt="picture"
+                width={218}
+                height={212}
+                className={styles.whoDoIHelpImage}
+              />
+              <h4 className={styles.whoDoIHelpTitle}>{t("whomBox2Title")}</h4>
+            </div>
+          </li>
+          <li>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/uaDocs.avif"}
+                alt="picture"
+                width={218}
+                height={212}
+                className={styles.whoDoIHelpImage}
+              />
+              <div>
+                <h4 className={styles.whoDoIHelpTitle}>
+                  {t("whomBox3Title")}{" "}
+                </h4>
+                <ul className={styles.listStyle}>
+                  <li>
+                    <p>{t("whomBox3Li1")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox3Li2")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox3Li3")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox3Li4")}</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li className={styles.whoDoIHelpItem}>
+            <div className={styles.whoDoIHelpBox}>
+              <Image
+                src={"/lawyers.png"}
+                alt="picture"
+                width={218}
+                height={212}
+                className={styles.whoDoIHelpImage}
+              />
+              <div>
+                <h4 className={styles.whoDoIHelpTitle}>{t("whomBox4Title")}</h4>
+                <ul className={styles.listStyle}>
+                  <li>
+                    <p>{t("whomBox4Li1")}</p>
+                  </li>
+                  <li>
+                    <p>{t("whomBox4Li2")}</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
       <section className={styles.secondSection}>
         <div className={styles.displayFlex}>
           <div className={styles.divWhy}>
-            <h2 className={styles.titleWhy}>
-              ЧOMY КУРЦ АНТОНІЙ ВОЛОДИМИРОВИЧ?
-            </h2>
-            <h3 className={styles.titleBecause}>
-              - Я впевнений, я маю силу і знання вам допомогти...
-            </h3>
+            <h2 className={styles.titleWhy}>{t("whyTitle")}</h2>
+            <h3 className={styles.titleBecause}>{t("whyP4")}</h3>
           </div>
           <Image
             src="/ak-second-photo.jpeg"
@@ -52,118 +142,13 @@ const HomePart = () => {
           />
         </div>
         <div className={styles.aboutMeHomeDiv}>
-          <p>
-            Практикою у сфері міграційного права займаюсь більше п’ятнадцяти
-            років. За цей час я досконало вивчив склад мислення, поведінку та
-            стиль роботи посадових та службових осіб міграційної служби України
-            та працівників інших правоохоронних органів України.
-          </p>
-          <p>
-            Нажаль, порушення законодавства, корупційні діяння, зневажливе
-            ставлення до прав і свобод громадян трапляються повсякчасно.
-            Іноземці відчувають себе безпомічними та розгубленими перед
-            свавіллям посадовців. На цей час я вже не можу спокійно дивитись на
-            цей жах.
-          </p>
+          <p>{t("whyP1")}</p>
+          <p>{t("whyP2")}</p>
+          <p>{t("whyP3")}</p>
         </div>
         <div style={{ textAlign: "center" }}>
-          <button className={styles.buttonBio}>Біографія</button>
+          <button className={styles.buttonBio}>{t("biographyButton")}</button>
         </div>
-      </section>
-      <section className={styles.accentBG}>
-        <h2 className={styles.titleThirdSection}>
-          КОМУ Я НАДАЮ ПРАВОВУ ДОПОМОГУ{" "}
-        </h2>
-        <ul className={styles.whoDoIHelpList}>
-          <li className={styles.whoDoIHelpItem}>
-            <div className={styles.whoDoIHelpBox}>
-              <Image
-                src={"/lawyers.png"}
-                alt="picture"
-                width={218}
-                height={212}
-              />
-              <h4 className={styles.whoDoIHelpTitle}>
-                Особам, яким протиправно скасовано документи
-              </h4>
-            </div>
-
-            {/* 
-            <h4 className={styles.whoDoIHelpTitle}>
-                Постраждалим від дій ДМС України
-              </h4>
-            <h4>
-              Особам, які зіткнулись з протиправними діями органів ДМС України у
-              випадках:
-            </h4>
-            <ul>
-              <li>
-                <p>
-                  скасування дозволу на імміграцію та визнання недійсною
-                  посвідки на постійне проживання;
-                </p> 
-              </li>
-              <li>
-                <p>
-                  скасовано рішення про оформлення набуття громадянства України,
-                  визнано недійсним та/чи вилучено паспорт громадянина України;
-                </p>
-              </li>
-              <li>
-                <p>відмовлено в оформленні дозволу на імміграцію в Україну;</p>
-              </li>
-              <li>
-                <p>прийнято рішення про заборону в’їзду в Україну.</p>
-              </li>
-            </ul>*/}
-          </li>
-          <li>
-            <div className={styles.whoDoIHelpBox}>
-              <Image
-                src={"/lawyers.png"}
-                alt="picture"
-                width={218}
-                height={212}
-              />
-
-              <h4 className={styles.whoDoIHelpTitle}>
-                Потребуючим захисту у зв'язку з порушенням міграційного
-                законодавства
-              </h4>
-            </div>
-            {/* <h4>
-              Особам, які потребують захисника в зв’язку з притягненням до
-              адміністративної відповідальності за порушення міграційного
-              законодавства
-            </h4> */}
-          </li>
-          <li>
-            <div className={styles.whoDoIHelpBox}>
-              <Image
-                src={"/uaDocs.avif"}
-                alt="picture"
-                width={218}
-                height={212}
-              />
-
-              <h4 className={styles.whoDoIHelpTitle}>
-                Іноземцям, які мають намір звернутись до органів ДМС України
-              </h4>
-            </div>
-            {/* <h4>
-              Іноземцям, які мають намір звернутись до органів ДМС України з
-              метою:
-            </h4>
-            <ul>
-              <li>
-                <p>набуття громадянства України</p>
-                <p>отримання посвідки на постійне/тимчасове проживання</p>
-                <p>продовження терміну перебування на території України</p>
-                <p>отримання статусу особи без громадянства</p>
-              </li>
-            </ul> */}
-          </li>
-        </ul>
       </section>
     </>
   );

@@ -1,10 +1,18 @@
 {
   "Site": {
-    "title": "Lawyer Kurts Antonii",
-    "description": ""
+    "title": "Migration Bureau",
+    "description": "Migration lawyer Kurts Antoniy Volodymyrovych protects the violated rights of foreign citizens and citizens of Ukraine in relations with the State Migration Service of Ukraine and other law enforcement agencies of Ukraine"
   },
   "Home": {
     "lawyer": "Kurts Antonii",
-    "title": "PROTECTION OF THE RIGHTS OF CITIZENS IN THE STATE MIGRATION SERVICE"
+    "title": "PROTECTION OF THE RIGHTS OF CITIZENS IN THE STATE MIGRATION SERVICE",
+    "description": "Migration lawyer Kurts Antoniy Volodymyrovych protects the violated rights of foreign citizens and citizens of Ukraine in relations with the State Migration Service of Ukraine and other law enforcement agencies of Ukraine",
+    "whyTitle": "Чому варто звернутись до міграційного бюро?",
+    "whyP1": "Особи, які вперше приїхали до України та мали можливість отримати незабутні враження під час відвідування державних органів та установ, як правило, бажають звести до мінімуму будь-яке спілкування з державою у подальшому та пов'язаний з цим стрес.",
+    "whyP2": "Практикою у сфері міграційного права займаюсь більше п’ятнадцяти років. За цей час я досконало вивчив склад мислення, поведінку та стиль роботи посадових і службових осіб міграційної служби України,  а також працівників інших правоохоронних органів України.",
+    "whyP3": "Нажаль, порушення законодавства, корупційні діяння, зневажливе ставлення до прав і свобод іноземних громадян і громадян України трапляються повсякчасно. Іноземці відчувають себе безпомічними та розгубленими перед свавіллям посадових осіб органів державної влади. На цей час я вже не можу спокійно дивитись на та що відбувається в суспільстві.",
+    "whyP4": "- I am sure, I have the strength and knowledge to help you...",
+    "biographyButton": "Biography",
+    "whomTitle": "WHEN YOU NEED OUR HELP"
   }
 }

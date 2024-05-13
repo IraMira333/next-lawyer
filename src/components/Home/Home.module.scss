@@ -1,6 +1,6 @@
 .accentBG {
   background-color: var(--accent-bgcolor);
-  padding: 36px 10px 90px 10px;
+  padding: 36px 10px 60px 10px;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 6px 0px inset;
 
@@ -20,7 +20,7 @@
 }
 .homeTitleH1 {
   font-family: var(--font-lora);
-  font-size: 24.5px;
+  font-size: 20px;
   line-height: 1.3;
   font-weight: 400;
   margin-bottom: 20px;
@@ -37,10 +37,11 @@
 }
 .firstImage {
   margin-top: -40px;
+  margin-bottom: 20px;
   //   margin-top: -120px;
 }
 .secondSection {
-  padding: 70px 20px 60px 20px;
+  padding: 20px 20px 60px 20px;
   //   padding: 100px 10px 60px 10px;
 }
 // .displayFlex {
@@ -54,18 +55,21 @@
 }
 .titleWhy {
   font-family: var(--font-robotoCond);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.3;
   color: var(--accent-text-color);
   margin-bottom: 15px;
   margin-top: 25px;
+  padding-left: auto;
+  padding-right: 0px;
+  text-align: right;
   //   font-size: 24px;
 }
 .titleBecause {
   font-family: var(--font-lora);
   font-style: italic;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
   //   font-size: 36px;
@@ -110,23 +114,34 @@
 //   outline: 1px solid green;
 // }
 .whoDoIHelpBox {
-  width: 240px;
-  height: 320px;
+  min-width: 300px;
+  min-height: 320px;
   background-color: var(--primary-bgcolor);
-
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   overflow: hidden;
   padding: 10px;
+  padding-bottom: 20px;
+
   margin-bottom: 30px;
   box-shadow: 0 4px 4px 4px rgb(171, 169, 167);
   transition: all 500ms ease-out;
 
-  &:hover {
-    scale: 1.05;
-    box-shadow: 0 6px 6px 6px rgb(171, 169, 167);
+  // &:hover {
+  //   scale: 1.05;
+  //   box-shadow: 0 6px 6px 6px rgb(171, 169, 167);
+  // }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    min-height: auto;
+    gap: 20px;
   }
+}
+.whoDoIHelpImage {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .whoDoIHelpTitle {
@@ -135,4 +150,12 @@
   font-weight: 400;
   text-align: center;
   margin-top: 15px;
+}
+
+.listStyle {
+  list-style-type: square;
+  padding-left: 15px;
+  & li::marker {
+    color: var(--accent-text-color);
+  }
 }
