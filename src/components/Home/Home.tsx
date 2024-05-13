@@ -141,13 +141,15 @@ const HomePart = () => {
             className={styles.secondImage}
           />
         </div>
-        <div className={styles.aboutMeHomeDiv}>
-          <p>{t("whyP1")}</p>
-          <p>{t("whyP2")}</p>
-          <p>{t("whyP3")}</p>
-        </div>
-        <div style={{ textAlign: "center" }}>
-          <button className={styles.buttonBio}>{t("biographyButton")}</button>
+        <div>
+          <div className={styles.aboutMeHomeDiv}>
+            <p>{t("whyP1")}</p>
+            <p>{t("whyP2")}</p>
+            <p>{t("whyP3")}</p>
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <button className={styles.buttonBio}>{t("biographyButton")}</button>
+          </div>
         </div>
       </section>
     </>

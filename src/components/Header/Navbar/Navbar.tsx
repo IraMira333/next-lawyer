@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "../Header.module.scss";
 import Image from "next/image";
 import { useLocale } from "next-intl";
+import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
 
 const Navbar = ({ toggle }: { toggle: () => void }): JSX.Element => {
   const locale = useLocale();
@@ -22,6 +23,9 @@ const Navbar = ({ toggle }: { toggle: () => void }): JSX.Element => {
           <Link className={styles.navLink} href={`/${locale}/contacts`}>
             КОНТАКТИ
           </Link>
+        </li>
+        <li>
+          <LanguageSwitcher />
         </li>
       </ul>
     </>
