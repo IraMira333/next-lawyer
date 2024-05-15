@@ -6,14 +6,22 @@ const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <section className={styles.accentBG}>
+      <section className={styles.heroSection}>
+        <Image
+          src="https://drive.google.com/uc?export=view&id=10BLyZMPzVFCSKxNchJR3nlVmTiJCO5co"
+          alt={t("heroImage")}
+          fill
+          sizes="100vw"
+          className={styles.heroImage}
+          priority
+        />
         <h1 className={styles.homeTitleH1}>
           <span className={styles.spanTitleHome}>{t("lawyer")}</span>
           {t("title")}
         </h1>
         <p className={styles.homeP1}>{t("description")}</p>
       </section>
-      <div style={{ textAlign: "center" }}>
+      <div className={styles.divFirstImage}>
         <Image
           src="/choosing-career-types-of-lawyers.jpg"
           alt="Lawyer Photo"
@@ -25,13 +33,13 @@ const HomePart = () => {
         />
       </div>
 
-      <section className={styles.accentBG}>
+      <section className={styles.servisesSection}>
         <h2 className={styles.titleThirdSection}>{t("whomTitle")}</h2>
         <ul className={styles.whoDoIHelpList}>
           <li className={styles.whoDoIHelpItem}>
             <div className={styles.whoDoIHelpBox}>
               <Image
-                src={"/lawyers.png"}
+                src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
                 alt="picture"
                 width={218}
                 height={212}
@@ -62,7 +70,7 @@ const HomePart = () => {
           <li className={styles.whoDoIHelpItem}>
             <div className={styles.whoDoIHelpBox}>
               <Image
-                src={"/lawyers.png"}
+                src="https://drive.google.com/uc?export=view&id=1IqNfGR28avp-RAPWZpA9eKU-oOtjKK9D"
                 alt="picture"
                 width={218}
                 height={212}
@@ -74,7 +82,7 @@ const HomePart = () => {
           <li>
             <div className={styles.whoDoIHelpBox}>
               <Image
-                src={"/uaDocs.avif"}
+                src="https://drive.google.com/uc?export=view&id=1MPAY2L7nUrptE6boiesM4iKHNZmpnWQY"
                 alt="picture"
                 width={218}
                 height={212}
@@ -125,7 +133,7 @@ const HomePart = () => {
           </li>
         </ul>
       </section>
-      <section className={styles.secondSection}>
+      <section className={`${styles.whyMeSection} ${styles.accentBG}`}>
         <div className={styles.displayFlex}>
           <div className={styles.divWhy}>
             <h2 className={styles.titleWhy}>{t("whyTitle")}</h2>
