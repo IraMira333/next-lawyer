@@ -109,31 +109,41 @@ const HomePart = () => {
               </div>
             </div>
           </li>
-          <li className={styles.whoDoIHelpItem}>
-            <div className={styles.whoDoIHelpBox}>
-              <Image
-                src={"/lawyers.png"}
-                alt="picture"
-                width={218}
-                height={212}
-                className={styles.whoDoIHelpImage}
-              />
-              <div>
-                <h4 className={styles.whoDoIHelpTitle}>{t("whomBox4Title")}</h4>
-                <ul className={styles.listStyle}>
-                  <li>
-                    <p>{t("whomBox4Li1")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox4Li2")}</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        </ul>
+      </section>
+      <section className={`${styles.servisesSection} ${styles.accentBG}`}>
+        <h2 className={styles.titleThirdSection}>
+          {t("whomOtherServicesTitle")}
+        </h2>
+        <ul>
+          <li>
+            <Image
+              src="https://drive.google.com/uc?export=view&id=16EMZ2DM4nXKKzhffY1R5ndEgY0Uqmuyz"
+              alt="picture"
+              width={218}
+              height={212}
+              className={styles.whoDoIHelpImage}
+            />
+            <h3>{t("whomBox4Title1")}</h3>
+
+            <ul>
+              <li>
+                <h4>{t("whomBox4Li1")}</h4>
+                <p>{t("whomBox4Li1P1")}</p>
+              </li>
+              <li>
+                <h4>{t("whomBox4Li2")}</h4>
+                <p>{t("whomBox4Li2P1")}</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3>{t("whomBox4Title2")}</h3>
+            <p>{t("whomBox4Li3")}</p>
           </li>
         </ul>
       </section>
-      <section className={`${styles.whyMeSection} ${styles.accentBG}`}>
+      <section className={`${styles.whyMeSection} `}>
         <div className={styles.displayFlex}>
           <div className={styles.divWhy}>
             <h2 className={styles.titleWhy}>{t("whyTitle")}</h2>
@@ -155,9 +165,9 @@ const HomePart = () => {
             <p>{t("whyP2")}</p>
             <p>{t("whyP3")}</p>
           </div>
-          <div style={{ textAlign: "center" }}>
+          {/* <div style={{ textAlign: "center" }}>
             <button className={styles.buttonBio}>{t("biographyButton")}</button>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
