@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import styles from "./Home.module.scss";
 
 const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <section className="relative container pt-0 pb-[60px] z-0 shadow-hero">
+      <section className="relative px-2 pt-0 pb-[60px] z-0 shadow-hero">
         <Image
           src="https://drive.google.com/uc?export=view&id=10BLyZMPzVFCSKxNchJR3nlVmTiJCO5co"
           alt={t("heroImage")}
@@ -35,8 +34,8 @@ const HomePart = () => {
         />
       </div>
 
-      <section className="container pt-9 pb-[60px]">
-        <h2 className=" font-robotoCond text-accent text-center mb-5 text-lg font-medium">
+      <section className="px-2 pt-9 pb-[60px]">
+        <h2 className="font-robotoCond text-accent text-center mb-5 text-lg font-medium">
           {t("whomTitle")}
         </h2>
         <ul>
@@ -47,11 +46,13 @@ const HomePart = () => {
                 alt="picture"
                 width={218}
                 height={212}
-                className={styles.whoDoIHelpImage}
+                className="w-[218px] h-[212px] flex object-cover mx-auto"
               />
               <div>
-                <h4 className={styles.whoDoIHelpTitle}>{t("whomBox1Title")}</h4>
-                <ul className={styles.listStyle}>
+                <h3 className="font-robotoCond text-lg text-center my-3">
+                  {t("whomBox1Title")}
+                </h3>
+                <ul className="list-square pl-4 marker-square ">
                   <li>
                     <p>{t("whomBox1Li1")}</p>
                   </li>
@@ -78,9 +79,11 @@ const HomePart = () => {
                 alt="picture"
                 width={218}
                 height={212}
-                className={styles.whoDoIHelpImage}
+                className="flex object-cover w-[218px] h-[212px] mx-auto"
               />
-              <h4 className={styles.whoDoIHelpTitle}>{t("whomBox2Title")}</h4>
+              <h3 className="font-robotoCond text-lg text-center my-3">
+                {t("whomBox2Title")}
+              </h3>
             </div>
           </li>
           <li>
@@ -90,13 +93,13 @@ const HomePart = () => {
                 alt="picture"
                 width={218}
                 height={212}
-                className={styles.whoDoIHelpImage}
+                className="flex object-cover w-[218px] h-[212px] mx-auto"
               />
               <div>
-                <h4 className={styles.whoDoIHelpTitle}>
+                <h3 className="font-robotoCond text-lg text-center my-3">
                   {t("whomBox3Title")}{" "}
-                </h4>
-                <ul className={styles.listStyle}>
+                </h3>
+                <ul className="list-square pl-4 marker-square">
                   <li>
                     <p>{t("whomBox3Li1")}</p>
                   </li>
@@ -115,8 +118,8 @@ const HomePart = () => {
           </li>
         </ul>
       </section>
-      <section className={`${styles.servisesSection} ${styles.accentBG}`}>
-        <h2 className={styles.titleThirdSection}>
+      <section className="bg-accentBg pt-8 px-3 pb-[60px] shadow-custom">
+        <h2 className="font-robotoCond text-accent text-center mb-5 text-lg font-medium">
           {t("whomOtherServicesTitle")}
         </h2>
         <ul>
@@ -126,32 +129,42 @@ const HomePart = () => {
               alt="picture"
               width={218}
               height={212}
-              className={styles.whoDoIHelpImage}
+              className="flex object-cover mx-auto"
             />
-            <h3>{t("whomBox4Title1")}</h3>
+            <h3 className="font-robotoCond text-lg text-center mt-3">
+              {t("whomBox4Title1")}
+            </h3>
 
             <ul>
               <li>
-                <h4>{t("whomBox4Li1")}</h4>
-                <p>{t("whomBox4Li1P1")}</p>
+                <h4 className="font-robotoCond text-base text-start my-2">
+                  {t("whomBox4Li1")}
+                </h4>
+                <p className="text-justify ">{t("whomBox4Li1P1")}</p>
               </li>
               <li>
-                <h4>{t("whomBox4Li2")}</h4>
-                <p>{t("whomBox4Li2P1")}</p>
+                <h4 className="font-robotoCond text-base text-start my-2">
+                  {t("whomBox4Li2")}
+                </h4>
+                <p className="text-justify ">{t("whomBox4Li2P1")}</p>
               </li>
             </ul>
           </li>
           <li>
-            <h3>{t("whomBox4Title2")}</h3>
-            <p>{t("whomBox4Li3")}</p>
+            <h3 className="font-robotoCond text-lg text-center my-3">
+              {t("whomBox4Title2")}
+            </h3>
+            <p className="text-justify ">{t("whomBox4Li3")}</p>
           </li>
         </ul>
       </section>
-      <section className={`${styles.whyMeSection} `}>
-        <div className={styles.displayFlex}>
-          <div className={styles.divWhy}>
-            <h2 className={styles.titleWhy}>{t("whyTitle")}</h2>
-            <h3 className={styles.titleBecause}>{t("whyP4")}</h3>
+      <section className="px-2">
+        <div>
+          <div className="max-w-[384px]">
+            <h2 className="font-robotoCond text-base font-medium text-accent text-right mb-4 mt-6 ">
+              {t("whyTitle")}
+            </h2>
+            <h3 className="font-lora italic text-xl mb-5">{t("whyP4")}</h3>
           </div>
           <Image
             src="/ak-second-photo.jpeg"
@@ -160,18 +173,15 @@ const HomePart = () => {
             height={142}
             // width={426}
             // height={284}
-            className={styles.secondImage}
+            className=""
           />
         </div>
         <div>
-          <div className={styles.aboutMeHomeDiv}>
-            <p>{t("whyP1")}</p>
-            <p>{t("whyP2")}</p>
-            <p>{t("whyP3")}</p>
+          <div className="my-3 text-justify text-base font-light">
+            <p className="indent-6">{t("whyP1")}</p>
+            <p className="indent-6">{t("whyP2")}</p>
+            <p className="indent-6">{t("whyP3")}</p>
           </div>
-          {/* <div style={{ textAlign: "center" }}>
-            <button className={styles.buttonBio}>{t("biographyButton")}</button>
-          </div> */}
         </div>
       </section>
     </>

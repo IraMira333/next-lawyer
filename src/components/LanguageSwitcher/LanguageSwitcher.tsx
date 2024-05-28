@@ -19,16 +19,12 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <ul className={styles.languageList}>
+    <ul className="flex gap-2 font-lora">
       {locales.map((curLocale) => (
         <li key={curLocale}>
           <Link
             href={redirectedPathName(curLocale)}
-            className={
-              curLocale === locale
-                ? styles.activeLanguage
-                : styles.inactiveLanguage
-            }
+            className={curLocale === locale ? "text-accent" : "text-nav"}
           >
             {curLocale}
           </Link>

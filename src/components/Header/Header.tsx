@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className={styles.header}>
+    <header className="flex justify-around p-[10px] border-b border-[#e1e1e1]">
       <Link href="/">
         <Image
           src="/fullLogoAKLawyer2.png"
@@ -24,7 +24,7 @@ const Header = () => {
         />
       </Link>
 
-      <nav className={styles.nav}>
+      <nav className="flex justify-end items-center text-nav">
         {isOpen && <Sidebar toggle={toggle} />}
         <Navbar toggle={toggle} />
       </nav>

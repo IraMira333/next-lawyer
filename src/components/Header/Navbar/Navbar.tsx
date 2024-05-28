@@ -1,5 +1,4 @@
 import Link from "next/link";
-import styles from "../Header.module.scss";
 import Image from "next/image";
 import { useLocale } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
@@ -8,19 +7,25 @@ const Navbar = ({ toggle }: { toggle: () => void }): JSX.Element => {
   const locale = useLocale();
   return (
     <>
-      <button className={styles.burgerMenu} onClick={toggle}>
+      <button className="bg-transparent bigmob:hidden" onClick={toggle}>
         <Image src="/burger-menu-opt.svg" alt="Menu" width={32} height={32} />
       </button>
 
-      <ul className={styles.navList}>
-        <li className={styles.navItem}>
-          <Link className={styles.navLink} href={`/${locale}/services`}>
+      <ul className="hidden bigmob:flex gap-5">
+        <li>
+          <Link
+            className="font-robotoCond text-nav font-bold text-sm cursor-pointer hover:text-accent focus:text-accent"
+            href={`/${locale}/services`}
+          >
             ПОСЛУГИ
           </Link>
         </li>
 
-        <li className={styles.navItem}>
-          <Link className={styles.navLink} href={`/${locale}/contacts`}>
+        <li>
+          <Link
+            className="font-robotoCond text-nav font-bold text-sm cursor-pointer hover:text-accent focus:text-accent"
+            href={`/${locale}/contacts`}
+          >
             КОНТАКТИ
           </Link>
         </li>

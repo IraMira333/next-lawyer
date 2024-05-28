@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import { Lora, Mulish, Roboto_Condensed } from "next/font/google";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import { getMessages } from "next-intl/server";
 import "./globals.css";
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-import styles from "@/components/Footer/Footer.module.scss";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -52,10 +50,10 @@ export default function LocaleLayout({
     >
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
-          <div className={styles.wrapperFT}>
+          <div className="flex flex-col min-h-[100%]">
             <Header />
 
-            <main className={styles.mainFT}>{children}</main>
+            <main className="flex-[1_0_auto]">{children}</main>
             <Footer />
           </div>
         </body>

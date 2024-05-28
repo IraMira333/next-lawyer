@@ -1,13 +1,11 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google";
-import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className="bg-accentBg border-t border-[#e1e1e1] p-4 flex-[0_0_auto]">
       <div>
-        <h5 className={styles.footerH5}>
-          <span className={styles.footerSpan}>Антоній Курц</span>Адвокатське
-          Бюро
+        <h5 className="font-lora text-xl font-medium">
+          <span className="text-accent mr-2">Антоній Курц</span>Адвокатське Бюро
         </h5>
         <p> Україна, Київ вул. Деревлянська, 13</p>
         <ul className="">

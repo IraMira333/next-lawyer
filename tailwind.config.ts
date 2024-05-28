@@ -8,18 +8,10 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    listStyleType: { square: "square" },
     extend: {
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "10px",
-          tab: "24px",
-          pc: "60px",
-        },
-
-        // padding: 36px 10px 60px 10px;
-      },
       screens: {
+        bigmob: "400px",
         tab: "768px",
         pc: "1280px",
         desk: "1536px",
