@@ -10,6 +10,12 @@ const config: Config = {
   theme: {
     listStyleType: { square: "square" },
     extend: {
+      variants: {
+        height: ["responsive", "hover", "focus"],
+      },
+      transitionProperty: {
+        height: "height",
+      },
       screens: {
         bigmob: "400px",
         tab: "768px",
@@ -32,8 +38,8 @@ const config: Config = {
         accent: "var(--accent-text-color)",
       },
       boxShadow: {
-        custom: "rgba(0, 0, 0, 0.12) 0px 0px 6px 0px inset",
-        hero: "rgba(0, 0, 0, 0.6) 0px 0px 16px 0px",
+        custom: "rgba(0, 0, 0, 0.12) 0px 0px 8px 4px inset",
+        hero: "rgba(0, 0, 0, 0.6) 0px 4px 8px 0px",
         card: "rgb(171, 169, 167) 0 4px 4px 4px",
       },
     },

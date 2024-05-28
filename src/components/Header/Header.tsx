@@ -1,19 +1,12 @@
-"use client";
 import { useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import Link from "next/link";
 import Navbar from "./Navbar/Navbar";
-import Sidebar from "./Sidebar/Sidebar";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle: () => void = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <header className="flex justify-between gap-2 px-3 py-2 bigmob:py-3 border-b border-[#e1e1e1]">
+    <header className=" flex justify-between items-center gap-2 px-3 py-2 bigmob:py-3 border-b border-[#e1e1e1] shadow-custom">
       <Link href="/">
         <Image
           src="/logoFullDark.svg"
@@ -26,8 +19,7 @@ const Header = () => {
       </Link>
 
       <nav className="flex justify-end items-center text-nav">
-        {isOpen && <Sidebar toggle={toggle} />}
-        <Navbar toggle={toggle} />
+        <Navbar />
       </nav>
     </header>
   );

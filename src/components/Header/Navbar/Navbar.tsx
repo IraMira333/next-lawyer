@@ -1,16 +1,35 @@
+"use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLocale } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
+import { MenuButtonBurger } from "../Sidebar/MenuButtonBurger";
+import MobileMenu from "./MobileMenu";
 
-const Navbar = ({ toggle }: { toggle: () => void }): JSX.Element => {
+const Navbar = () => {
+  const [isHeaderMenuOpened, setIsHeaderMenuOpened] = useState(false);
+
+  const toggleHeaderMenuOpen = () => setIsHeaderMenuOpened(!isHeaderMenuOpened);
+
+  useEffect(() => {
+    isHeaderMenuOpened
+      ? setTimeout(() => (document.body.style.overflow = "hidden"), 590)
+      : (document.body.style.overflow = "");
+  }, [isHeaderMenuOpened]);
   const locale = useLocale();
   return (
     <>
-      <button className="bg-transparent bigmob:hidden" onClick={toggle}>
-        <Image src="/burger-menu-opt.svg" alt="Menu" width={32} height={32} />
-      </button>
-
+      <div className="bigmob:hidden">
+        <MenuButtonBurger
+          isHeaderMenuOpened={isHeaderMenuOpened}
+          toggleHeaderMenuOpen={toggleHeaderMenuOpen}
+        />
+      </div>
+      <MobileMenu
+        isHeaderMenuOpened={isHeaderMenuOpened}
+        setIsHeaderMenuOpened={setIsHeaderMenuOpened}
+      />
       <ul className="hidden bigmob:flex gap-5">
         <li>
           <Link
