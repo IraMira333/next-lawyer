@@ -5,7 +5,7 @@ const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <section className="relative px-2 pt-0 pb-[60px] z-0 shadow-hero">
+      <section className="relative px-2 pt-2 pb-[60px] z-0 shadow-hero">
         <Image
           src="https://drive.google.com/uc?export=view&id=10BLyZMPzVFCSKxNchJR3nlVmTiJCO5co"
           alt={t("heroImage")}
@@ -14,10 +14,8 @@ const HomePart = () => {
           className="mb-8 object-cover z-[-1] "
           priority
         />
-        <h1 className=" font-lora text-xl leading-[50px] mb-5 text-center">
-          <span className="block text-accent text-start mb-4">
-            {t("lawyer")}
-          </span>
+        <h1 className=" font-lora text-xl leading-[40px] mb-3 text-center">
+          <span className="block text-accent text-start">{t("lawyer")}</span>
           {t("title")}
         </h1>
         <p className=" leading-6 text-center">{t("description")}</p>
