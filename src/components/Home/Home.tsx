@@ -6,22 +6,24 @@ const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <section className={styles.heroSection}>
+      <section className="relative container pt-0 pb-[60px] z-0 shadow-hero">
         <Image
           src="https://drive.google.com/uc?export=view&id=10BLyZMPzVFCSKxNchJR3nlVmTiJCO5co"
           alt={t("heroImage")}
           fill
           sizes="100vw"
-          className={styles.heroImage}
+          className="mb-8 object-cover z-[-1] "
           priority
         />
-        <h1 className={styles.homeTitleH1}>
-          <span className={styles.spanTitleHome}>{t("lawyer")}</span>
+        <h1 className=" font-lora text-xl leading-[50px] mb-5 text-center">
+          <span className="block text-accent text-start mb-4">
+            {t("lawyer")}
+          </span>
           {t("title")}
         </h1>
-        <p className={styles.homeP1}>{t("description")}</p>
+        <p className=" leading-6 text-center">{t("description")}</p>
       </section>
-      <div className={styles.divFirstImage}>
+      <div className="">
         <Image
           src="/choosing-career-types-of-lawyers.jpg"
           alt="Lawyer Photo"
@@ -29,15 +31,17 @@ const HomePart = () => {
           height={143}
           // width={700}
           // height={400}
-          className={styles.firstImage}
+          className="relative -mt-11 mb-5 mx-auto"
         />
       </div>
 
-      <section className={styles.servisesSection}>
-        <h2 className={styles.titleThirdSection}>{t("whomTitle")}</h2>
-        <ul className={styles.whoDoIHelpList}>
-          <li className={styles.whoDoIHelpItem}>
-            <div className={styles.whoDoIHelpBox}>
+      <section className="container pt-9 pb-[60px]">
+        <h2 className=" font-robotoCond text-accent text-center mb-5 text-lg font-medium">
+          {t("whomTitle")}
+        </h2>
+        <ul>
+          <li>
+            <div className="min-w-[300px] min-h-[320px] mx-auto border rounded-[10px] overflow-hidden p-[10px] pb-5 mb-6 shadow-card">
               <Image
                 src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
                 alt="picture"
@@ -67,8 +71,8 @@ const HomePart = () => {
               </div>
             </div>
           </li>
-          <li className={styles.whoDoIHelpItem}>
-            <div className={styles.whoDoIHelpBox}>
+          <li>
+            <div className="min-w-[300px] min-h-[320px] mx-auto border rounded-[10px] overflow-hidden p-[10px] pb-5 mb-6 shadow-card">
               <Image
                 src="https://drive.google.com/uc?export=view&id=1IqNfGR28avp-RAPWZpA9eKU-oOtjKK9D"
                 alt="picture"
@@ -80,7 +84,7 @@ const HomePart = () => {
             </div>
           </li>
           <li>
-            <div className={styles.whoDoIHelpBox}>
+            <div className="min-w-[300px] min-h-[320px] mx-auto border rounded-[10px] overflow-hidden p-[10px] pb-5 mb-6 shadow-card">
               <Image
                 src="https://drive.google.com/uc?export=view&id=1MPAY2L7nUrptE6boiesM4iKHNZmpnWQY"
                 alt="picture"
