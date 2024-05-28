@@ -2,6 +2,7 @@ import Link from "next/link";
 import { IoMdClose } from "react-icons/io";
 import { AiOutlineSend } from "react-icons/ai";
 import { useLocale } from "next-intl";
+import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
 
 const Sidebar = ({ toggle }: { toggle: () => void }): JSX.Element => {
   const locale = useLocale();
@@ -51,6 +52,9 @@ const Sidebar = ({ toggle }: { toggle: () => void }): JSX.Element => {
             >
               КОНТАКТИ
             </Link>
+          </li>
+          <li className="ml-4 mt-2">
+            <LanguageSwitcher />
           </li>
         </ul>
         <div></div>

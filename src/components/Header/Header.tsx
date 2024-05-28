@@ -13,14 +13,15 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-around p-[10px] border-b border-[#e1e1e1]">
+    <header className="flex justify-between gap-2 px-3 py-2 bigmob:py-3 border-b border-[#e1e1e1]">
       <Link href="/">
         <Image
-          src="/fullLogoAKLawyer2.png"
+          src="/logoFullDark.svg"
           alt="AKLawyer Logo"
-          width={200}
-          height={60}
+          width={520}
+          height={80}
           priority
+          className="w-[200px] h-auto tab:w-[300px]"
         />
       </Link>
 
