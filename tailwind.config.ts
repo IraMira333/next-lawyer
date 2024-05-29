@@ -28,9 +28,9 @@ const config: Config = {
         primary: "var(--primary-bgcolor)",
       },
       fontFamily: {
-        mulish: ["var(--font-mulish)"],
+        raleway: ["var(--font-raleway)"],
         lora: ["var(--font-lora)"],
-        robotoCond: ["var(--font-robotoCond)"],
+        robotoSlab: ["var(--font-robotoSlab)"],
       },
       colors: {
         primary: "var(--primary-text-color)",

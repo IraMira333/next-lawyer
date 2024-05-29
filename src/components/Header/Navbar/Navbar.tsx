@@ -30,10 +30,10 @@ const Navbar = () => {
         isHeaderMenuOpened={isHeaderMenuOpened}
         setIsHeaderMenuOpened={setIsHeaderMenuOpened}
       />
-      <ul className="hidden bigmob:flex gap-5">
+      <ul className="hidden bigmob:flex gap-3">
         <li>
           <Link
-            className="font-robotoCond text-nav font-bold text-sm cursor-pointer hover:text-accent focus:text-accent"
+            className="font-lora text-nav font-medium tab:text-sm cursor-pointer hover:text-accent focus:text-accent"
             href={`/${locale}/services`}
           >
             ПОСЛУГИ
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <li>
           <Link
-            className="font-robotoCond text-nav font-bold text-sm cursor-pointer hover:text-accent focus:text-accent"
+            className="font-lora text-nav font-medium tab:text-sm cursor-pointer hover:text-accent focus:text-accent"
             href={`/${locale}/contacts`}
           >
             КОНТАКТИ

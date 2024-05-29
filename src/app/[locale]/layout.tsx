@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lora, Mulish, Roboto_Condensed } from "next/font/google";
+import { Lora, Raleway, Roboto_Slab } from "next/font/google";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import "./globals.css";
 
@@ -13,17 +13,16 @@ const lora = Lora({
   display: "swap",
 });
 
-const mulish = Mulish({
+const raleway = Raleway({
   subsets: ["latin"],
   weight: ["300", "400", "500"],
-  variable: "--font-mulish",
+  variable: "--font-raleway",
   display: "swap",
 });
-const robotoCond = Roboto_Condensed({
+const robotoSlab = Roboto_Slab({
   subsets: ["latin"],
-  weight: ["300", "500"],
-  style: ["normal", "italic"],
-  variable: "--font-robotoCond",
+  weight: ["300", "500", "700"],
+  variable: "--font-robotoSlab",
   display: "swap",
 });
 
@@ -43,7 +42,7 @@ export default function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${lora.variable} ${mulish.variable} ${robotoCond.variable}`}
+      className={`${lora.variable} ${raleway.variable} ${robotoSlab.variable}`}
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
