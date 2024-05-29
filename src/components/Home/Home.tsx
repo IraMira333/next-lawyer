@@ -5,7 +5,7 @@ const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <section className="relative px-2 tab:px-5 pt-2 tab:pt-5 pb-[60px] z-0 shadow-hero">
+      <section className="relative px-2 tab:px-5 pt-2 tab:pt-5 pb-[60px] z-1 shadow-hero bg-heroBg tab:min-h-[350px]">
         <Image
           src="https://drive.google.com/uc?export=view&id=10BLyZMPzVFCSKxNchJR3nlVmTiJCO5co"
           alt={t("heroImage")}
@@ -15,11 +15,13 @@ const HomePart = () => {
           priority
         />
         <div className="max-w-[500px] tab:max-w-[1000px] ml-auto mr-auto">
-          <h1 className=" font-lora text-xl leading-[40px] tab:font-medium mb-3 text-center">
-            <span className="block text-accent text-start">{t("lawyer")}</span>
+          <h1 className=" font-lora text-xl leading-[40px] tab:leading-[60px] tab:font-medium mb-3 text-center italic tab:text-left">
+            <span className="block text-accent text-start not-italic font-normal">
+              {t("lawyer")}
+            </span>
             {t("title")}
           </h1>
-          <p className=" leading-6 text-center tab:text-base tab:leading-7 ">
+          <p className=" leading-6 text-center bigmob:text-sm bigmob:leading-6 tab:text-base tab:leading-7 italic tab:text-right">
             {t("description")}
           </p>
         </div>
@@ -54,7 +56,7 @@ const HomePart = () => {
                 <h3 className="font-robotoSlab text-lg text-center my-3">
                   {t("whomBox1Title")}
                 </h3>
-                <ul className="list-square pl-4 marker-square tab:text-sm tab:leading-6">
+                <ul className="list-square pl-4 marker-square bigmob:text-sm bigmob:leading-6">
                   <li>
                     <p>{t("whomBox1Li1")}</p>
                   </li>
@@ -101,7 +103,7 @@ const HomePart = () => {
                 <h3 className="font-robotoSlab text-lg text-center my-3">
                   {t("whomBox3Title")}{" "}
                 </h3>
-                <ul className="list-square pl-4 marker-square tab:text-sm tab:leading-6">
+                <ul className="list-square pl-4 marker-square bigmob:text-sm bigmob:leading-6">
                   <li>
                     <p>{t("whomBox3Li1")}</p>
                   </li>
@@ -143,7 +145,7 @@ const HomePart = () => {
                   <h4 className="font-robotoSlab text-base text-start my-2 tab:ml-4">
                     {t("whomBox4Li1")}
                   </h4>
-                  <p className="text-justify tab:text-sm tab:leading-6">
+                  <p className="text-justify bigmob:text-sm bigmob:leading-6">
                     {t("whomBox4Li1P1")}
                   </p>
                 </li>
@@ -151,7 +153,7 @@ const HomePart = () => {
                   <h4 className="font-robotoSlab text-base text-start my-2 tab:ml-4">
                     {t("whomBox4Li2")}
                   </h4>
-                  <p className="text-justify tab:text-sm tab:leading-6">
+                  <p className="text-justify bigmob:text-sm bigmob:leading-6">
                     {t("whomBox4Li2P1")}
                   </p>
                 </li>
@@ -161,7 +163,7 @@ const HomePart = () => {
               <h3 className="font-robotoSlab text-lg text-center my-3">
                 {t("whomBox4Title2")}
               </h3>
-              <p className="text-justify tab:text-sm tab:leading-6">
+              <p className="text-justify bigmob:text-sm bigmob:leading-6">
                 {t("whomBox4Li3")}
               </p>
             </li>
