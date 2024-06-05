@@ -24,7 +24,11 @@ export default function LanguageSwitcher() {
         <li key={curLocale}>
           <Link
             href={redirectedPathName(curLocale)}
-            className={curLocale === locale ? "text-accent" : "text-nav"}
+            className={
+              curLocale === locale
+                ? "text-accent hover:text-accent  transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]"
+                : "text-nav hover:text-accent  transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]"
+            }
           >
             {curLocale}
           </Link>

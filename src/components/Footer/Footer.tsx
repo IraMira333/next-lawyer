@@ -22,26 +22,26 @@ const Footer = () => {
         <Menu className="text-white " />
       </ul>
       <ul className="text-white mb-10 tab:flex tab:gap-4 justify-center pc:mb-[35px] pc:text-base">
-        <li className="flex gap-2 items-center mb-2 justify-center">
+        <li className="flex gap-2 items-center mb-2 justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
           <div className="w-6 h-6 flex justify-center items-center">
-            <IconMap className="text-white " />
+            <IconMap className=" " />
           </div>
           <a href="https://maps.app.goo.gl/6VUmP4aH14mykUke7">
             Україна, Київ вул. Деревлянська, 13
           </a>
         </li>
 
-        <li className="flex gap-2 items-center mb-2 justify-center">
+        <li className="flex gap-2 items-center mb-2 justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
           <div className="w-6 h-6 flex justify-center items-center">
-            <IconMail className="text-white " />
+            <IconMail className="" />
           </div>
           <a href="mailto:antonio.kurzwell@gmail.com" className="">
             antonio.kurzwell@gmail.com
           </a>
         </li>
-        <li className="flex gap-2 items-center justify-center">
+        <li className="flex gap-2 items-center justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
           <div className="w-6 h-6 flex justify-center items-center">
-            <IconPhone className="text-white " />
+            <IconPhone className="" />
           </div>
           <a href="tel:+380930324874" className="">
             +38 (093) 032-48-74

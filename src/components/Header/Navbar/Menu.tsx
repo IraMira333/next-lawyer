@@ -7,7 +7,7 @@ const Menu = ({ className }: { className: string }) => {
     <>
       <li>
         <Link
-          className={`font-lora  font-medium tab:text-sm cursor-pointer hover:text-accent focus:text-accent ${className}`}
+          className={`font-lora font-medium cursor-pointer hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)] ${className}`}
           href={`/${locale}/services`}
         >
           ПОСЛУГИ
@@ -16,7 +16,7 @@ const Menu = ({ className }: { className: string }) => {
 
       <li>
         <Link
-          className={`font-lora  font-medium tab:text-sm cursor-pointer hover:text-accent focus:text-accent ${className}`}
+          className={`font-lora font-medium cursor-pointer hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)] ${className}`}
           href={`/${locale}/contacts`}
         >
           КОНТАКТИ
