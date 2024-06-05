@@ -5,58 +5,48 @@ const HomePart = () => {
   const t = useTranslations("Home");
   return (
     <>
-      <section className="relative px-2 tab:px-5 pt-2 tab:pt-5 pb-[60px] z-1 shadow-hero bg-heroBg tab:min-h-[350px]">
+      <section className="relative bg-accentBg">
         <Image
-          src="https://drive.google.com/uc?export=view&id=10BLyZMPzVFCSKxNchJR3nlVmTiJCO5co"
+          src="https://drive.google.com/uc?export=view&id=1nU-GhAzB-1NfuYQpGd_ydPsQYBfQGTZ4"
           alt={t("heroImage")}
-          fill
-          sizes="100vw"
-          className="mb-8 object-cover z-[-1] "
+          width={5184}
+          height={3456}
+          className=" w-full h-full "
           priority
         />
-        <div className="max-w-[500px] tab:max-w-[1000px] ml-auto mr-auto">
-          <h1 className=" font-lora text-xl leading-[40px] tab:leading-[60px] tab:font-medium mb-3 text-center italic tab:text-left">
-            <span className="block text-accent text-start not-italic font-normal">
-              {t("lawyer")}
-            </span>
-            {t("title")}
+        <div className="py-10 px-4 ml-auto mr-auto">
+          <h1 className="font-lora text-accent text-3xl font-semibold mb-3 text-center ">
+            {t("lawyer1")} <br />
+            {t("lawyer2")}
           </h1>
-          <p className=" leading-6 text-center bigmob:leading-6 tab:text-base tab:leading-7 italic tab:text-right">
+          <h2 className="font-lora text-base italic font-medium text-center mb-3">
+            {t("title")}
+          </h2>
+          <p className="text-center text-sm tab:text-base tab:leading-7 tab:text-right">
             {t("description")}
           </p>
         </div>
       </section>
-      <div className="">
-        <Image
-          src="/choosing-career-types-of-lawyers.jpg"
-          alt="Lawyer Photo"
-          width={250}
-          height={143}
-          // width={700}
-          // height={400}
-          className="relative -mt-11 mb-5 mx-auto"
-        />
-      </div>
 
-      <section className="px-2 pt-9 pb-[60px]">
-        <h2 className="font-lora text-accent text-center mb-5 text-lg tab:text-xl font-medium">
+      <section className="px-4 py-10 ">
+        <h2 className="font-lora text-accent text-center mb-5 text-[28px] leading-8 tab:text-xl font-medium">
           {t("whomTitle")}
         </h2>
         <ul>
           <li>
-            <div className="min-w-[300px] min-h-[320px] max-w-[500px] mx-auto border rounded-[10px] overflow-hidden p-[10px] pb-5 mb-6 shadow-card">
+            <div className="min-w-[288px] min-h-[320px] max-w-[500px] mx-auto border border-accent rounded-lg overflow-hidden p-4">
               <Image
                 src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
                 alt="picture"
-                width={218}
-                height={212}
-                className="w-[218px] h-[212px] flex object-cover mx-auto"
+                width={1000}
+                height={1500}
+                className="w-full h-[191px] flex object-cover "
               />
               <div>
-                <h3 className="font-robotoSlab text-lg text-center my-3">
+                <h3 className="text-base leading-[21px] font-semibold my-4">
                   {t("whomBox1Title")}
                 </h3>
-                <ul className="list-square pl-4 marker-square bigmob:leading-6">
+                <ul className="pl-4 ">
                   <li>
                     <p>{t("whomBox1Li1")}</p>
                   </li>
