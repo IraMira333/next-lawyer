@@ -5,16 +5,9 @@
   --primary-text-color: rgb(51, 51, 51);
   --nav-text-color: rgb(49, 49, 49);
   --accent-text-color: rgb(255, 122, 0);
-  --accent-bgcolor: rgb(245, 247, 250);
-  --primary-bgcolor: rgb(255, 255, 255);
+  --accent-bgcolor: #f5f5f5;
+  --primary-bgcolor: #fcfcfc;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --accent-bgcolor: rgb(245, 247, 250);
-    --primary-bgcolor: rgb(51, 51, 51);
-  }
-} */
 
 * {
   box-sizing: border-box;
@@ -58,4 +51,11 @@ ul {
 }
 .marker-square li::marker {
   color: var(--accent-text-color);
+}
+
+.googleMapHeight {
+  height: 225px;
+  @media screen and (min-width: 768px) {
+    height: 176px;
+  }
 }
