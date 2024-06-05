@@ -15,6 +15,7 @@ const Contacts = () => {
         width={6240}
         height={4160}
         className=" w-full h-full "
+        priority
       />
       <div
         className="tab:absolute bg-primary top-8 left-5 pc:top-[100px] pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
