@@ -21,7 +21,7 @@ const HomePart = () => {
             </span>
             {t("title")}
           </h1>
-          <p className=" leading-6 text-center bigmob:text-sm bigmob:leading-6 tab:text-base tab:leading-7 italic tab:text-right">
+          <p className=" leading-6 text-center bigmob:leading-6 tab:text-base tab:leading-7 italic tab:text-right">
             {t("description")}
           </p>
         </div>
@@ -56,7 +56,7 @@ const HomePart = () => {
                 <h3 className="font-robotoSlab text-lg text-center my-3">
                   {t("whomBox1Title")}
                 </h3>
-                <ul className="list-square pl-4 marker-square bigmob:text-sm bigmob:leading-6">
+                <ul className="list-square pl-4 marker-square bigmob:leading-6">
                   <li>
                     <p>{t("whomBox1Li1")}</p>
                   </li>
@@ -103,7 +103,7 @@ const HomePart = () => {
                 <h3 className="font-robotoSlab text-lg text-center my-3">
                   {t("whomBox3Title")}{" "}
                 </h3>
-                <ul className="list-square pl-4 marker-square bigmob:text-sm bigmob:leading-6">
+                <ul className="list-square pl-4 marker-square bigmob:leading-6">
                   <li>
                     <p>{t("whomBox3Li1")}</p>
                   </li>
@@ -145,7 +145,7 @@ const HomePart = () => {
                   <h4 className="font-robotoSlab text-base text-start my-2 tab:ml-4">
                     {t("whomBox4Li1")}
                   </h4>
-                  <p className="text-justify bigmob:text-sm bigmob:leading-6">
+                  <p className="text-justify bigmob:leading-6">
                     {t("whomBox4Li1P1")}
                   </p>
                 </li>
@@ -153,7 +153,7 @@ const HomePart = () => {
                   <h4 className="font-robotoSlab text-base text-start my-2 tab:ml-4">
                     {t("whomBox4Li2")}
                   </h4>
-                  <p className="text-justify bigmob:text-sm bigmob:leading-6">
+                  <p className="text-justify bigmob:leading-6">
                     {t("whomBox4Li2P1")}
                   </p>
                 </li>
@@ -163,7 +163,7 @@ const HomePart = () => {
               <h3 className="font-robotoSlab text-lg text-center my-3">
                 {t("whomBox4Title2")}
               </h3>
-              <p className="text-justify bigmob:text-sm bigmob:leading-6">
+              <p className="text-justify bigmob:leading-6">
                 {t("whomBox4Li3")}
               </p>
             </li>
@@ -190,7 +190,7 @@ const HomePart = () => {
             />
           </div>
           <div>
-            <div className="mt-3 text-justify bigmob:text-sm tab:text-base font-light">
+            <div className="mt-3 text-justify tab:text-base font-light">
               <p className="indent-6">{t("whyP1")}</p>
               <p className="indent-6">{t("whyP2")}</p>
               <p className="indent-6">{t("whyP3")}</p>
