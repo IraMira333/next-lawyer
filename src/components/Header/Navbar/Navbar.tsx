@@ -6,6 +6,7 @@ import { useLocale } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
 import { MenuButtonBurger } from "../Sidebar/MenuButtonBurger";
 import MobileMenu from "./MobileMenu";
+import Menu from "./Menu";
 
 const Navbar = () => {
   const [isHeaderMenuOpened, setIsHeaderMenuOpened] = useState(false);
@@ -31,23 +32,7 @@ const Navbar = () => {
         setIsHeaderMenuOpened={setIsHeaderMenuOpened}
       />
       <ul className="hidden bigmob:flex gap-3">
-        <li>
-          <Link
-            className="font-lora text-nav font-medium tab:text-sm cursor-pointer hover:text-accent focus:text-accent"
-            href={`/${locale}/services`}
-          >
-            ПОСЛУГИ
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            className="font-lora text-nav font-medium tab:text-sm cursor-pointer hover:text-accent focus:text-accent"
-            href={`/${locale}/contacts`}
-          >
-            КОНТАКТИ
-          </Link>
-        </li>
+        <Menu />
         <li>
           <LanguageSwitcher />
         </li>
