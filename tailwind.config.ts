@@ -27,6 +27,7 @@ const config: Config = {
         accentBg: "var(--accent-bgcolor)",
         primary: "var(--primary-bgcolor)",
         heroBg: " rgba(245, 247, 250, 0.7)",
+        footer: "#262626",
       },
       fontFamily: {
         raleway: ["var(--font-raleway)"],
