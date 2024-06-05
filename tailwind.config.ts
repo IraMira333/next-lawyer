@@ -44,6 +44,9 @@ const config: Config = {
         hero: "rgba(0, 0, 0, 0.6) 0px 4px 8px 0px",
         card: "rgb(171, 169, 167) 0 4px 4px 4px",
       },
+      backgroundImage: {
+        accentGradient: "linear-gradient(to bottom, #FF9430 0%, #FF5C00 100%)",
+      },
     },
   },
   plugins: [],
