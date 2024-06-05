@@ -1,8 +1,12 @@
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { SquareSmall } from "../shared/SquareSmall";
+import { ButtonDetails } from "../shared/ButtonDetails";
 
 const HomePart = () => {
   const t = useTranslations("Home");
+  const locale = useLocale();
+
   return (
     <>
       <section className="relative bg-accentBg">
@@ -33,82 +37,112 @@ const HomePart = () => {
           {t("whomTitle")}
         </h2>
         <ul>
-          <li>
-            <div className="min-w-[288px] min-h-[320px] max-w-[500px] mx-auto border border-accent rounded-lg overflow-hidden p-4">
+          <li className="min-w-[288px] min-h-[320px] max-w-[500px] mx-auto border border-accent rounded-lg overflow-hidden p-4 mb-4">
+            <div className="max-w-[338px] mx-auto rounded overflow-hidden">
               <Image
                 src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
                 alt="picture"
                 width={1000}
                 height={1500}
-                className="w-full h-[191px] flex object-cover "
+                className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
               />
-              <div>
-                <h3 className="text-base leading-[21px] font-semibold my-4">
-                  {t("whomBox1Title")}
-                </h3>
-                <ul className="pl-4 ">
-                  <li>
-                    <p>{t("whomBox1Li1")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox1Li2")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox1Li3")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox1Li4")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox1Li5")}</p>
-                  </li>
-                </ul>
-              </div>
             </div>
-          </li>
-          <li>
-            <div className="min-w-[300px] min-h-[320px] max-w-[500px] mx-auto border rounded-[10px] overflow-hidden p-[10px] pb-5 mb-6 shadow-card">
-              <Image
-                src="https://drive.google.com/uc?export=view&id=1IqNfGR28avp-RAPWZpA9eKU-oOtjKK9D"
-                alt="picture"
-                width={218}
-                height={212}
-                className="flex object-cover w-[218px] h-[212px] mx-auto"
-              />
-              <h3 className="font-robotoSlab text-lg text-center my-3 ">
-                {t("whomBox2Title")}
+            <div>
+              <h3 className="text-base leading-[21px] font-semibold my-4">
+                {t("whomBox1Title")}
               </h3>
+              <ul className="mb-4">
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>
+                  <p>{t("whomBox1Li1")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>
+                  <p>{t("whomBox1Li2")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>
+                  <p>{t("whomBox1Li3")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>
+                  <p>{t("whomBox1Li4")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>
+                  <p>{t("whomBox1Li5")}</p>
+                </li>
+              </ul>
             </div>
+            <ButtonDetails url={`/${locale}/services`} />
           </li>
-          <li>
-            <div className="min-w-[300px] min-h-[320px] max-w-[500px] mx-auto border rounded-[10px] overflow-hidden p-[10px] pb-5 mb-6 shadow-card">
+          <li className="min-w-[288px] min-h-[320px] max-w-[500px] mx-auto border border-accent rounded-lg overflow-hidden p-4 mb-4">
+            <div className="max-w-[338px] mx-auto rounded overflow-hidden">
               <Image
-                src="https://drive.google.com/uc?export=view&id=1MPAY2L7nUrptE6boiesM4iKHNZmpnWQY"
+                src="https://drive.google.com/uc?export=view&id=1vO0di27-lFh5lmZddB3MpAfQV7zmjxFf"
                 alt="picture"
-                width={218}
-                height={212}
-                className="flex object-cover w-[218px] h-[212px] mx-auto"
+                width={3584}
+                height={5376}
+                className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
               />
-              <div>
-                <h3 className="font-robotoSlab text-lg text-center my-3">
-                  {t("whomBox3Title")}{" "}
-                </h3>
-                <ul className="list-square pl-4 marker-square bigmob:leading-6">
-                  <li>
-                    <p>{t("whomBox3Li1")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox3Li2")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox3Li3")}</p>
-                  </li>
-                  <li>
-                    <p>{t("whomBox3Li4")}</p>
-                  </li>
-                </ul>
-              </div>
             </div>
+            <h3 className="text-base leading-[21px] font-semibold my-4">
+              {t("whomBox2Title")}
+            </h3>
+            <ButtonDetails url={`/${locale}/services`} />
+          </li>
+          <li className="min-w-[288px] min-h-[320px] max-w-[500px] mx-auto border border-accent rounded-lg overflow-hidden p-4">
+            <div className="max-w-[338px] mx-auto rounded overflow-hidden">
+              <Image
+                src="https://drive.google.com/uc?export=view&id=1RN9lVZyaPzGeRay-2W_GOt_Bf0YH29Lq"
+                alt="picture"
+                width={1250}
+                height={827}
+                className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
+              />
+            </div>
+            <div>
+              <h3 className="text-base leading-[21px] font-semibold my-4">
+                {t("whomBox3Title")}
+              </h3>
+              <ul className="mb-4">
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>{" "}
+                  <p>{t("whomBox3Li1")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>{" "}
+                  <p>{t("whomBox3Li2")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>{" "}
+                  <p>{t("whomBox3Li3")}</p>
+                </li>
+                <li className="flex gap-2 text-start">
+                  <div className="mt-2">
+                    <SquareSmall />
+                  </div>{" "}
+                  <p>{t("whomBox3Li4")}</p>
+                </li>
+              </ul>
+            </div>
+            <ButtonDetails url={`/${locale}/services`} />
           </li>
         </ul>
       </section>
