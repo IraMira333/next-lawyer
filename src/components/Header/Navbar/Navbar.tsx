@@ -32,7 +32,7 @@ const Navbar = () => {
         setIsHeaderMenuOpened={setIsHeaderMenuOpened}
       />
       <ul className="hidden bigmob:flex gap-3">
-        <Menu />
+        <Menu className="text-nav" />
         <li>
           <LanguageSwitcher />
         </li>
