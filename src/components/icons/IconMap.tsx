@@ -1,6 +1,6 @@
-import { IconProps } from "./iconProps.interface";
+import { ClassNameProps } from "../../../types/iconProps.interface";
 
-export const IconMap = ({ className }: IconProps) => {
+export const IconMap = ({ className }: ClassNameProps) => {
   return (
     <svg
       width="19"
