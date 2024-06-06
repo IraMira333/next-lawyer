@@ -19,7 +19,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <ul className="flex gap-2 font-lora">
+    <ul className="flex gap-2 tab:gap-3 tab:text-base pc:text-lg font-lora ml-5">
       {locales.map((curLocale) => (
         <li key={curLocale}>
           <Link

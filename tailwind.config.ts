@@ -17,7 +17,7 @@ const config: Config = {
         height: "height",
       },
       screens: {
-        bigmob: "400px",
+        bigmob: "520px",
         tab: "768px",
         pc: "1280px",
         desk: "1536px",
