@@ -21,7 +21,7 @@ const MobileMenu = ({
 
   return (
     <nav
-      className={`absolute top-[65px] left-0 z-10 w-[100vw] overflow-hidden transition-height duration-[600ms] ease-out
+      className={`absolute top-[83px] left-0 z-10 w-[100vw] overflow-hidden transition-height duration-[600ms] ease-out
       
            bg-accentBg ${isHeaderMenuOpened ? openedStyles : closedStyles}`}
     >
