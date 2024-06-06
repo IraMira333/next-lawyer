@@ -31,7 +31,7 @@ const Navbar = () => {
         isHeaderMenuOpened={isHeaderMenuOpened}
         setIsHeaderMenuOpened={setIsHeaderMenuOpened}
       />
-      <ul className="hidden bigmob:flex gap-3">
+      <ul className="hidden bigmob:flex gap-3 tab:gap-4 pc:gap-5">
         <Menu className="text-nav" />
         <li>
           <LanguageSwitcher />

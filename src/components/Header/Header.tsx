@@ -6,7 +6,7 @@ import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
   return (
-    <header className=" flex justify-between items-center gap-3 px-3 py-2 bigmob:py-3 bigmob:px-5 border-b border-[#e1e1e1]">
+    <header className=" flex justify-between items-center gap-3 px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
       <Link href="/">
         <Image
           src="/logoFullDark.svg"
