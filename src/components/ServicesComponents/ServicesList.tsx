@@ -15,6 +15,11 @@ export const ServicesList = () => {
           className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
         />
       </div>
+      <div className="flex ">
+        <span className="font-lora text-accent text-[26px] leading-8 ml-auto">
+          01
+        </span>
+      </div>
       <div className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
         <Image
           src="https://drive.google.com/uc?export=view&id=1vO0di27-lFh5lmZddB3MpAfQV7zmjxFf"
