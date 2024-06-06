@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { SquareBig } from "../shared/squareBig";
+import { SquareBig } from "../shared/SquareBig";
 import { useTranslations } from "next-intl";
 
 export const WhyWe = () => {
