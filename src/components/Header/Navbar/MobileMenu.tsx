@@ -29,7 +29,7 @@ const MobileMenu = ({
         <li className="mt-2 flex items-center">
           <AiOutlineSend size={12} color="orange" />
           <Link
-            className="font-lora ml-1 text-nav font-medium text-sm cursor-pointer hover:text-accent focus:text-accent"
+            className="font-lora ml-1 text-nav font-medium cursor-pointer hover:text-accent focus:text-accent"
             href={`/${locale}`}
             onClick={() => setIsHeaderMenuOpened(false)}
           >
@@ -39,7 +39,7 @@ const MobileMenu = ({
         <li className="mt-2 flex items-center">
           <AiOutlineSend size={12} color="orange" />
           <Link
-            className="font-lora ml-1  text-nav font-medium text-sm cursor-pointer hover:text-accent focus:text-accent"
+            className="font-lora ml-1  text-nav font-medium cursor-pointer hover:text-accent focus:text-accent"
             href={`/${locale}/services`}
             onClick={() => setIsHeaderMenuOpened(false)}
           >
@@ -50,7 +50,7 @@ const MobileMenu = ({
         <li className="mt-2 flex items-center">
           <AiOutlineSend size={12} color="orange" />
           <Link
-            className="font-lora ml-1 text-nav font-medium text-sm cursor-pointer hover:text-accent focus:text-accent"
+            className="font-lora ml-1 text-nav font-medium cursor-pointer hover:text-accent focus:text-accent"
             href={`/${locale}/contacts`}
             onClick={() => setIsHeaderMenuOpened(false)}
           >
