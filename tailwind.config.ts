@@ -38,6 +38,7 @@ const config: Config = {
         primary: "var(--primary-text-color)",
         nav: "var(--nav-text-color)",
         accent: "var(--accent-text-color)",
+        light: "#F5F5F5",
       },
       boxShadow: {
         custom: "rgba(0, 0, 0, 0.12) 0px 0px 8px 4px inset",
