@@ -204,6 +204,9 @@ export const ServicesList = () => {
           несподіванок.
         </p>
       </div>
+      <div className="flex justify-end tab:items-end ">
+        <SquareBig />
+      </div>
     </section>
   );
 };
