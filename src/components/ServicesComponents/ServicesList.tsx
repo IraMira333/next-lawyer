@@ -11,7 +11,10 @@ export const ServicesList = () => {
       <h2 className="font-lora text-accent text-center mb-5 pc:mb-10 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
         Ми допомагаємо
       </h2>
-      <div className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] mb-2">
+      <div
+        id="solutions01"
+        className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] mb-2"
+      >
         <Image
           src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
           alt="picture"
@@ -26,10 +29,7 @@ export const ServicesList = () => {
         </span>
       </div>
       <div>
-        <h3
-          id="solutions01"
-          className="text-base leading-[21px] tab:text-lg font-semibold mb-3"
-        >
+        <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
           {t("whomBox1Title")}
         </h3>
         <ul className="mb-4 tab:text-base tab:leading-[21px]">
@@ -94,7 +94,10 @@ export const ServicesList = () => {
       <div className="flex justify-end tab:items-end mb-10">
         <SquareBig />
       </div>
-      <div className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] mb-2">
+      <div
+        id="solutions02"
+        className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] mb-2"
+      >
         <Image
           src="https://drive.google.com/uc?export=view&id=1vO0di27-lFh5lmZddB3MpAfQV7zmjxFf"
           alt="picture"
@@ -155,7 +158,10 @@ export const ServicesList = () => {
         <SquareBig />
       </div>
 
-      <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] mb-2">
+      <div
+        id="solutions03"
+        className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] mb-2"
+      >
         <Image
           src="https://drive.google.com/uc?export=view&id=1RN9lVZyaPzGeRay-2W_GOt_Bf0YH29Lq"
           alt="picture"
@@ -170,10 +176,7 @@ export const ServicesList = () => {
         </span>
       </div>
       <div>
-        <h3
-          id="solutions03"
-          className="text-base leading-[21px] tab:text-lg font-semibold my-4"
-        >
+        <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
           {t("whomBox3Title")}
         </h3>
         <ul className="mb-4 tab:text-base tab:leading-[21px]">
