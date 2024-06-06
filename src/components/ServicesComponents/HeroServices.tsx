@@ -12,7 +12,7 @@ export const HeroServices = () => {
         className="absolute top-0 left-0 h-[100px] object-cover z-[-1]"
       />
       <h2 className="font-lora text-3xl text-light font-semibold ml-4 my-auto">
-        Мої послуги
+        Наші послуги
       </h2>
     </section>
   );
