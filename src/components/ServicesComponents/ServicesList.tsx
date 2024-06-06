@@ -26,7 +26,10 @@ export const ServicesList = () => {
         </span>
       </div>
       <div>
-        <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
+        <h3
+          id="solutions01"
+          className="text-base leading-[21px] tab:text-lg font-semibold mb-3"
+        >
           {t("whomBox1Title")}
         </h3>
         <ul className="mb-4 tab:text-base tab:leading-[21px]">
@@ -106,7 +109,10 @@ export const ServicesList = () => {
         </span>
       </div>
       <div>
-        <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
+        <h3
+          id="solutions02"
+          className="text-base leading-[21px] tab:text-lg font-semibold mb-3"
+        >
           Особам, які потребують захисника в зв’язку з притягненням до
           адміністративної відповідальності за порушення міграційного
           законодавства
@@ -164,7 +170,10 @@ export const ServicesList = () => {
         </span>
       </div>
       <div>
-        <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
+        <h3
+          id="solutions03"
+          className="text-base leading-[21px] tab:text-lg font-semibold my-4"
+        >
           {t("whomBox3Title")}
         </h3>
         <ul className="mb-4 tab:text-base tab:leading-[21px]">

@@ -61,7 +61,7 @@ export const WhenYouNeedOurHelp = () => {
             </ul>
           </div>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
-            <ButtonDetails url={`/${locale}/services`} />
+            <ButtonDetails url={`/${locale}/services#solutions01`} />
           </div>
         </li>
         <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 mb-4 pc:p-5 pc:mb-5">
@@ -78,7 +78,7 @@ export const WhenYouNeedOurHelp = () => {
             {t("whomBox2Title")}
           </h3>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
-            <ButtonDetails url={`/${locale}/services`} />
+            <ButtonDetails url={`/${locale}/services#solutions02`} />
           </div>
         </li>
         <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 pc:p-5 pc:mb-5">
@@ -123,7 +123,7 @@ export const WhenYouNeedOurHelp = () => {
             </ul>
           </div>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
-            <ButtonDetails url={`/${locale}/services`} />
+            <ButtonDetails url={`/${locale}/services#solutions03`} />
           </div>
         </li>
       </ul>
