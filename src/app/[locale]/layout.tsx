@@ -72,6 +72,13 @@ export default function LocaleLayout({
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="title" property="og:title" content="Migration Lawyers" />
+        <meta name="type" property="og:type" content="website" />
+        <meta
+          name="image"
+          property="og:image"
+          content="/imageForSharing.jpeg"
+        />
       </head>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
