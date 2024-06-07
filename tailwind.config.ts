@@ -48,6 +48,10 @@ const config: Config = {
       backgroundImage: {
         accentGradient: "linear-gradient(to bottom, #FF9430 0%, #FF5C00 100%)",
       },
+      width: {
+        tabAdditionalServices: "calc(50% - 8px)",
+        pcAdditionalServices: "calc(33% - 11px)",
+      },
     },
   },
   plugins: [],
