@@ -2,7 +2,7 @@ import { IconArrow } from "../icons/IconArrow";
 
 export const ButtonDetails = ({ url }: { url: string }) => {
   return (
-    <a href={url} target="_blank" className="">
+    <a href={url} className="">
       <button
         aria-label="details button"
         type="button"
