@@ -51,6 +51,7 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     openGraph: {
+      title: t("title"),
       description: t("description"),
       type: "website",
     },
@@ -72,8 +73,6 @@ export default function LocaleLayout({
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="title" property="og:title" content="Migration Lawyers" />
-        <meta name="type" property="og:type" content="website" />
         <meta
           name="image"
           property="og:image"
