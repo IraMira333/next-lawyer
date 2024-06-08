@@ -35,6 +35,9 @@ export const ServicesList = () => {
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
               {t("whomBox1Title")}
             </h3>
+            <h4 className="mb-4 tab:text-base tab:leading-[21px]">
+              {t("whomBox1AfterTitle")}
+            </h4>
             <ul className="mb-4 tab:text-base tab:leading-[21px]">
               <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
@@ -110,40 +113,53 @@ export const ServicesList = () => {
           </div>
           <div>
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
-              Особам, які потребують захисника в зв’язку з притягненням до
-              адміністративної відповідальності за порушення міграційного
-              законодавства
+              {t("whomBox2Title")}
             </h3>
             <ul className="mb-4 tab:text-base tab:leading-[21px]">
               <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
                 </div>
-                <p>
-                  Для осіб, які притягуються до відповідальності за ст.ст. 202,
-                  203, 203(1), 204, 204(1), 205, 206(1) Кодексу України про
-                  адміністративні правопорушення.
-                </p>
+                <p>{t("whomBox2Li1")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li2")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li3")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li4")}</p>
               </li>
             </ul>
 
-            <p className="mb-4 tab:text-base">
-              Так, порушення законодавства трапляється. Наслідки, на перший
-              погляд, незначних порушень у сфері міграційного законодавства,
-              крім штрафу, в подальшому можуть призвести до суттєвих життєвих
-              незручностей чи стати на заваді реалізації ваших прав.
-            </p>
+            <p className="mb-4 tab:text-base">{t("whomBox2P1")}</p>
             <p className="tab:text-base">
-              Якщо вас було викликано для складання протоколу про
-              адміністративне правопорушення чи затримано працівниками
-              правоохоронних органів на вулиці, за першої можливості зв'яжіться
-              з нами за телефоном{" "}
+              {t("whomBox2P2")}
               <span>
                 <a
                   href="tel:+380930324874"
                   className=" cursor-pointer text-accent font-semibold"
                 >
                   +38 (093) 032-48-74
+                </a>
+              </span>
+              {t("whomBox2P2or")}
+              <span>
+                <a
+                  href="tel:+380633650465"
+                  className=" cursor-pointer text-accent font-semibold"
+                >
+                  +38 (063) 365-04-65
                 </a>
               </span>
             </p>
@@ -179,7 +195,7 @@ export const ServicesList = () => {
             </span>
           </div>
           <div>
-            <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
+            <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
               {t("whomBox3Title")}
             </h3>
             <ul className="mb-4 tab:text-base tab:leading-[21px]">
