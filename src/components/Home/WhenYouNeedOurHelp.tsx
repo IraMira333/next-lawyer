@@ -27,7 +27,7 @@ export const WhenYouNeedOurHelp = () => {
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
               {t("whomBox1Title")}
             </h3>
-            <ul className="mb-4 tab:text-base tab:leading-[21px]">
+            <ul className="mb-4 tab:text-base ">
               <li className="flex gap-2 text-start">
                 <div className="mt-2">
                   <SquareSmall />
@@ -83,35 +83,37 @@ export const WhenYouNeedOurHelp = () => {
               className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
             />
           </div>
-          <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
-            {t("whomBox2Title")}
-          </h3>
-          <ul className="mb-4 tab:text-base tab:leading-[21px]">
-            <li className="flex gap-2 text-start">
-              <div className="mt-2">
-                <SquareSmall />
-              </div>
-              <p>{t("whomBox2Li1")}</p>
-            </li>
-            <li className="flex gap-2 text-start">
-              <div className="mt-2">
-                <SquareSmall />
-              </div>
-              <p>{t("whomBox2Li2")}</p>
-            </li>
-            <li className="flex gap-2 text-start">
-              <div className="mt-2">
-                <SquareSmall />
-              </div>
-              <p>{t("whomBox2Li3")}</p>
-            </li>
-            <li className="flex gap-2 text-start">
-              <div className="mt-2">
-                <SquareSmall />
-              </div>
-              <p>{t("whomBox2Li4")}</p>
-            </li>
-          </ul>
+          <div>
+            <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
+              {t("whomBox2Title")}
+            </h3>
+            <ul className="mb-4 tab:text-base ">
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li1")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li2")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li3")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox2Li4")}</p>
+              </li>
+            </ul>
+          </div>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
             <ButtonDetails
               text={t("detailsButton")}
@@ -133,7 +135,7 @@ export const WhenYouNeedOurHelp = () => {
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
               {t("whomBox3Title")}
             </h3>
-            <ul className="mb-4 tab:text-base tab:leading-[21px]">
+            <ul className="mb-4 tab:text-base ">
               <li className="flex gap-2 text-start">
                 <div className="mt-2">
                   <SquareSmall />

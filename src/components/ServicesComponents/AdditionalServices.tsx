@@ -10,7 +10,7 @@ export const AdditionalServices = () => {
         Також ви можете звернутись до нас, якщо вам необхідно отримати:
       </p>
       <ul className="min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] tab:flex tab:flex-wrap tab:gap-4 justify-center pc:max-w-[1800px]">
-        <li className="tab:relative tab:w-tabAdditionalServices pc:w-pcAdditionalServices border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 pc:mb-5">
+        {/* <li className="tab:relative tab:w-tabAdditionalServices pc:w-pcAdditionalServices border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 pc:mb-5">
           <h3 className="text-base leading-[21px] tab:text-lg font-semibold">
             Консультацію чи повний правовий супровід з питань імміграції та
             проживання
@@ -39,8 +39,8 @@ export const AdditionalServices = () => {
               <p>продовження строку перебування </p>
             </li>
           </ul>
-        </li>
-        <li className="tab:relative tab:w-tabAdditionalServices pc:w-pcAdditionalServices border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 pc:mb-5">
+        </li> */}
+        {/* <li className="tab:relative tab:w-tabAdditionalServices pc:w-pcAdditionalServices border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 pc:mb-5">
           <h3 className="text-base leading-[21px] tab:text-lg font-semibold">
             Консультацію чи повний правовий супровід з питань громадянства
             України
@@ -64,11 +64,11 @@ export const AdditionalServices = () => {
               </p>
             </li>
           </ul>
-        </li>
-        <li className="tab:relative tab:w-tabAdditionalServices pc:w-pcAdditionalServices border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 pc:mb-5">
+        </li> */}
+        <li className="tab:relative border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 pc:mb-5">
           <h3 className="text-base leading-[21px] tab:text-lg font-semibold">
             Консультацію чи правову допомогу у зв'язку з прийняттям рішення
-            припинити громадянство України
+            припинити громадянство
           </h3>
           <div className="h-[2px] w-full bg-accent "></div>
           <ul className="tab:text-base tab:leading-[21px]  mt-4">
@@ -83,6 +83,16 @@ export const AdditionalServices = () => {
                 <SquareSmall />
               </div>
               <p>втрата громадянства України</p>
+            </li>
+            <li className="flex gap-2 text-start mb-2">
+              <div className="mt-2">
+                <SquareSmall />
+              </div>
+              <p>
+                оформлення документів про вихід з попереднього громадянства чи
+                доведення обставин наявності у особи незалежної від неї причини
+                неможливості вийти з такого громадянства
+              </p>
             </li>
           </ul>
         </li>

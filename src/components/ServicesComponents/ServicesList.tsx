@@ -35,9 +35,11 @@ export const ServicesList = () => {
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
               {t("whomBox1Title")}
             </h3>
-            <h4 className="mb-4 tab:text-base tab:leading-[21px]">
+            <p className="mb-4 tab:text-base">{t("whomBox1P1")}</p>
+
+            <p className="mb-4 tab:text-base tab:leading-[21px]">
               {t("whomBox1AfterTitle")}
-            </h4>
+            </p>
             <ul className="mb-4 tab:text-base tab:leading-[21px]">
               <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
@@ -76,7 +78,6 @@ export const ServicesList = () => {
                 <p>{t("whomBox1Li6")}</p>
               </li>
             </ul>
-            <p className="mb-4 tab:text-base">{t("whomBox1P1")}</p>
             <p className="mb-4 tab:text-base">{t("whomBox1P2")}</p>
             <p className="mb-4 tab:text-base">{t("whomBox1P3")}</p>
             <p className="tab:text-base">{t("whomBox1P4")}</p>
@@ -225,14 +226,7 @@ export const ServicesList = () => {
               </li>
             </ul>
 
-            <p className="tab:text-base">
-              Разом з вами визначимо підстави для звернення, підготуємо
-              необхідні документи, а також надамо супровід для особистої подачі
-              до територіального органу (підрозділу) міграційної служби. Можливо
-              тільки здогадуватись, чому за присутності поруч з клієнтом
-              досвідченого адвоката, трапляється мінімальна кількість відмов чи
-              неприємних несподіванок.
-            </p>
+            <p className="tab:text-base">{t("whomBox3P1")}</p>
           </div>
           <div className="tab:flex tab:flex-col tab:justify-between">
             <div className="hidden tab:flex ">
