@@ -16,7 +16,7 @@ export const CitizenshipServices = () => {
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold">
               {t("whomBox4Title1")}
             </h3>
-            <div className="h-[2px] w-full bg-accent -mt-1 tab:w-[80%]"></div>
+            <div className="h-[2px] w-full bg-accent  tab:w-[80%]"></div>
 
             <ul className="mt-[23px] mb-6 tab:mb-0 pc:w-[80%]">
               <li className="mb-4">
@@ -52,7 +52,7 @@ export const CitizenshipServices = () => {
               <h3 className="text-base leading-[21px] tab:text-lg font-semibold">
                 {t("whomBox4Title2")}
               </h3>
-              <div className="h-[2px] w-full bg-accent -mt-1 tab:w-[90%]"></div>
+              <div className="h-[2px] w-full bg-accent tab:w-[90%]"></div>
               <p className=" leading-[18px] mt-3 tab:text-base mb-[22px] pc:w-[80%]">
                 {t("whomBox4Li3")}
               </p>

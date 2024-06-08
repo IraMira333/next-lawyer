@@ -158,6 +158,12 @@ export const WhenYouNeedOurHelp = () => {
                 </div>{" "}
                 <p>{t("whomBox3Li4")}</p>
               </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox3Li5")}</p>
+              </li>
             </ul>
           </div>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
