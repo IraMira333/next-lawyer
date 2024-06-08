@@ -1,25 +1,27 @@
 import Link from "next/link";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Menu = ({ className }: { className: string }) => {
   const locale = useLocale();
+  const t = useTranslations("Menu");
+
   return (
     <>
       <li>
         <Link
-          className={`font-lora font-medium tab:text-base pc:text-lg cursor-pointer hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)] ${className}`}
+          className={`font-lora font-medium tab:text-base pc:text-lg cursor-pointer hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)] uppercase ${className}`}
           href={`/${locale}/services`}
         >
-          ПОСЛУГИ
+          {t("services")}
         </Link>
       </li>
 
       <li>
         <Link
-          className={`font-lora font-medium tab:text-base pc:text-lg cursor-pointer hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)] ${className}`}
+          className={`font-lora font-medium tab:text-base pc:text-lg cursor-pointer hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)] uppercase ${className}`}
           href={`/${locale}/contacts`}
         >
-          КОНТАКТИ
+          {t("contacts")}
         </Link>
       </li>
     </>

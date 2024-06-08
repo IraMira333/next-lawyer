@@ -58,10 +58,19 @@ export const WhenYouNeedOurHelp = () => {
                 </div>
                 <p>{t("whomBox1Li5")}</p>
               </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox1Li6")}</p>
+              </li>
             </ul>
           </div>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
-            <ButtonDetails url={`/${locale}/services#solutions01`} />
+            <ButtonDetails
+              text={t("detailsButton")}
+              url={`/${locale}/services#solutions01`}
+            />
           </div>
         </li>
         <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 mb-4 pc:p-5 pc:mb-5">
@@ -77,8 +86,37 @@ export const WhenYouNeedOurHelp = () => {
           <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
             {t("whomBox2Title")}
           </h3>
+          <ul className="mb-4 tab:text-base tab:leading-[21px]">
+            <li className="flex gap-2 text-start">
+              <div className="mt-2">
+                <SquareSmall />
+              </div>
+              <p>{t("whomBox2Li1")}</p>
+            </li>
+            <li className="flex gap-2 text-start">
+              <div className="mt-2">
+                <SquareSmall />
+              </div>
+              <p>{t("whomBox2Li2")}</p>
+            </li>
+            <li className="flex gap-2 text-start">
+              <div className="mt-2">
+                <SquareSmall />
+              </div>
+              <p>{t("whomBox2Li3")}</p>
+            </li>
+            <li className="flex gap-2 text-start">
+              <div className="mt-2">
+                <SquareSmall />
+              </div>
+              <p>{t("whomBox2Li4")}</p>
+            </li>
+          </ul>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
-            <ButtonDetails url={`/${locale}/services#solutions02`} />
+            <ButtonDetails
+              text={t("detailsButton")}
+              url={`/${locale}/services#solutions02`}
+            />
           </div>
         </li>
         <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 pc:p-5 pc:mb-5">
@@ -123,7 +161,10 @@ export const WhenYouNeedOurHelp = () => {
             </ul>
           </div>
           <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
-            <ButtonDetails url={`/${locale}/services#solutions03`} />
+            <ButtonDetails
+              text={t("detailsButton")}
+              url={`/${locale}/services#solutions03`}
+            />
           </div>
         </li>
       </ul>

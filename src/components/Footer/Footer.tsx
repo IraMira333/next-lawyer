@@ -4,8 +4,11 @@ import Menu from "../Header/Navbar/Menu";
 import { IconMail } from "../icons/IconMail";
 import { IconMap } from "../icons/IconMap";
 import { IconPhone } from "../icons/IconPhone";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("Footer");
+
   return (
     <footer className=" bg-footer pt-[60px] tab:pt-10 tab:pb-[43px] pb-[65px] border-t border-[#e1e1e1] px-4 flex-[0_0_auto]">
       <Link href="/">
@@ -26,9 +29,7 @@ const Footer = () => {
           <div className="w-6 h-6 flex justify-center items-center">
             <IconMap className=" " />
           </div>
-          <a href="https://maps.app.goo.gl/6VUmP4aH14mykUke7">
-            Україна, Київ вул. Деревлянська, 13
-          </a>
+          <a href="https://maps.app.goo.gl/6VUmP4aH14mykUke7">{t("address")}</a>
         </li>
 
         <li className="flex gap-2 items-center mb-2 justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
@@ -49,7 +50,7 @@ const Footer = () => {
         </li>
       </ul>
       <p className="text-white text-xs flex justify-center">
-        &#169; 2024 Всі права захищені
+        &#169; 2024 {t("copyright")}
       </p>
     </footer>
   );

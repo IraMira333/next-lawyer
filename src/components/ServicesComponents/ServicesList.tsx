@@ -4,12 +4,12 @@ import { useTranslations } from "next-intl";
 import { SquareBig } from "../shared/SquareBig";
 
 export const ServicesList = () => {
-  const t = useTranslations("Home");
+  const t = useTranslations("Services");
 
   return (
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px]">
       <h2 className="font-lora text-accent text-center mb-5 pc:mb-10 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
-        Ми допомогаємо
+        {t("titleServicesList")}
       </h2>
       <ul className="min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
         <li className="tab:flex tab:gap-4 pc:gap-[62px] tab:mb-10 pc:mb-[60px] tab:relative">
@@ -67,31 +67,10 @@ export const ServicesList = () => {
                 <p>{t("whomBox1Li5")}</p>
               </li>
             </ul>
-            <p className="mb-4 tab:text-base">
-              На протязі років, в галузі державного управління змінилось багато
-              що, але явища не ефективності чиновницьких рішень і бюрократії,
-              виконання безглуздих вказівок керівництва є сталими.
-            </p>
-            <p className="mb-4 tab:text-base">
-              Як правило, керівники державних територіальних органів і
-              підрозділів міграційної служби України не розуміють викладені у
-              заявах аргументовані доводи та пояснення. Їм байдуже щодо тяжкості
-              наслідків, що настають для окремої людини за результатом прийнятих
-              ними необгрунтованих рішень. Єдиним доводом у суперечці було та
-              залишається рішення суду, яким встановлено їх протиправну
-              поведінку з перспективою подальшої персональної відповідальності.
-            </p>
-            <p className="mb-4 tab:text-base">
-              На даний час, в нашому адвокатському архіві десятки судових рішень
-              з різних питань, якими було визнано протиправними рішення
-              посадових осіб ДМС України та зобов'язано вчинити визначені судом
-              дії спрямовані на поновлення прав осіб за захистом яких ми
-              звертались.
-            </p>
-            <p className="tab:text-base">
-              Ми володіємо актуальною судовою практикою в галузі міграційного
-              права і постійно вдосконалюємо її.
-            </p>
+            <p className="mb-4 tab:text-base">{t("whomBox1P1")}</p>
+            <p className="mb-4 tab:text-base">{t("whomBox1P2")}</p>
+            <p className="mb-4 tab:text-base">{t("whomBox1P3")}</p>
+            <p className="tab:text-base">{t("whomBox1P4")}</p>
           </div>
           <div className="tab:flex tab:flex-col tab:justify-between">
             <div className="hidden tab:flex ">
