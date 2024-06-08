@@ -60,11 +60,17 @@ export const ServicesList = () => {
                 </div>
                 <p>{t("whomBox1Li4")}</p>
               </li>
-              <li className="flex gap-2 text-start">
+              <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
                 </div>
                 <p>{t("whomBox1Li5")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox1Li6")}</p>
               </li>
             </ul>
             <p className="mb-4 tab:text-base">{t("whomBox1P1")}</p>
