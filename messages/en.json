@@ -3,6 +3,12 @@
     "title": "Migration Lawyers",
     "description": "Migration lawyers Antony Kurtz and Dmytro Kovalenko together with their team protect the violated rights of foreign citizens, stateless persons and citizens of Ukraine in relations with the State Migration Service of Ukraine and other law enforcement agencies of Ukraine"
   },
+  "Menu": {
+    "main": "Головна",
+    "services": "Послуги",
+    "contacts": "Контакти"
+  },
+
   "Home": {
     "lawyer": "Migration Lawyers",
     "title": "PROTECTION OF THE RIGHTS OF CITIZENS IN THE STATE MIGRATION SERVICE",
