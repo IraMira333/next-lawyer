@@ -80,7 +80,8 @@ export const ServicesList = () => {
             </ul>
             <p className="mb-4 tab:text-base">{t("whomBox1P2")}</p>
             <p className="mb-4 tab:text-base">{t("whomBox1P3")}</p>
-            <p className="tab:text-base">{t("whomBox1P4")}</p>
+            <p className="mb-4 tab:text-base">{t("whomBox1P4")}</p>
+            <p className="tab:text-base">{t("whomBox1P5")}</p>
           </div>
           <div className="tab:flex tab:flex-col tab:justify-between">
             <div className="hidden tab:flex ">
