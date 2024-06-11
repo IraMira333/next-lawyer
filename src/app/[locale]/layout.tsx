@@ -39,7 +39,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "Site" });
 
   return {
-    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+    metadataBase: new URL("https://protection.in.ua"),
     alternates: {
       canonical: "/",
       languages: {
