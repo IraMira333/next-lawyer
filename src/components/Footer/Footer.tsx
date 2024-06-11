@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Menu from "../Header/Navbar/Menu";
-import { IconMail } from "../icons/IconMail";
-import { IconMap } from "../icons/IconMap";
 import { IconPhone } from "../icons/IconPhone";
 import { useTranslations } from "next-intl";
 
