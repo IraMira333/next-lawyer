@@ -3,11 +3,14 @@ import Image from "next/image";
 import styles from "./Header.module.scss";
 import Link from "next/link";
 import Navbar from "./Navbar/Navbar";
+import { useLocale } from "next-intl";
 
 const Header = () => {
+  const locale = useLocale();
+
   return (
     <header className=" flex justify-between items-center gap-3 px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
-      <Link href="/">
+      <Link href={`/${locale}`}>
         <Image
           src="/logoFullDark.svg"
           alt="AKLawyer Logo"

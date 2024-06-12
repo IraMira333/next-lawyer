@@ -2,14 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import Menu from "../Header/Navbar/Menu";
 import { IconPhone } from "../icons/IconPhone";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Footer = () => {
   const t = useTranslations("Footer");
+  const locale = useLocale();
 
   return (
     <footer className=" bg-footer pt-[60px] tab:pt-10 tab:pb-[43px] pb-[65px] border-t border-[#e1e1e1] px-4 flex-[0_0_auto]">
-      <Link href="/">
+      <Link href={`/${locale}`}>
         <Image
           src="/logoFullLight.svg"
           alt="AKLawyer Logo"
