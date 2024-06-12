@@ -201,19 +201,19 @@ export const ServicesList = () => {
               {t("whomBox3Title")}
             </h3>
             <ul className="mb-4 tab:text-base tab:leading-[21px]">
-              <li className="flex gap-2 text-start">
+              <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
                 </div>{" "}
                 <p>{t("whomBox3Li1")}</p>
               </li>
-              <li className="flex gap-2 text-start">
+              <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
                 </div>{" "}
                 <p>{t("whomBox3Li2")}</p>
               </li>
-              <li className="flex gap-2 text-start">
+              <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
                 </div>{" "}
