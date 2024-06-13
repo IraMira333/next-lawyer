@@ -6,7 +6,10 @@ export const AdditionalServices = () => {
 
   return (
     <section className="bg-accentBg px-4 py-10 tab:px-5 pc:px-[38px] pc:py-[60px]">
-      <h2 className="font-lora text-accent text-center mb-5 pc:mb-4 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
+      <h2
+        id="termination"
+        className="font-lora text-accent text-center mb-5 pc:mb-4 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase"
+      >
         {t("additionalServicesTitle")}
       </h2>
       <p className="leading-[18px] text-center mb-5 tab:text-base pc:mb-10">
