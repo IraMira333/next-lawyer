@@ -9,7 +9,7 @@ const Header = () => {
   const locale = useLocale();
 
   return (
-    <header className=" flex justify-between items-center gap-3 px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
+    <header className=" flex justify-between items-center gap-5 px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
       <Link href={`/${locale}`}>
         <Image
           src="/logoFullDark.svg"
