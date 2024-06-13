@@ -40,16 +40,6 @@ const MobileMenu = ({
           <AiOutlineSend size={12} color="orange" />
           <Link
             className="font-lora ml-1  text-nav font-medium cursor-pointer hover:text-accent focus:text-accent uppercase"
-            href={`/${locale}/termination`}
-            onClick={() => setIsHeaderMenuOpened(false)}
-          >
-            {t("termination")}
-          </Link>
-        </li>
-        <li className="mt-2 flex items-center">
-          <AiOutlineSend size={12} color="orange" />
-          <Link
-            className="font-lora ml-1  text-nav font-medium cursor-pointer hover:text-accent focus:text-accent uppercase"
             href={`/${locale}/services`}
             onClick={() => setIsHeaderMenuOpened(false)}
           >
