@@ -66,7 +66,7 @@ export const WhenYouNeedOurHelp = () => {
               </li>
             </ul>
           </div>
-          <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
+          <div className="tab:absolute top-4 right-[22px] pc:top-auto pc:bottom-4">
             <ButtonDetails
               text={t("detailsButton")}
               url={`/${locale}/services#solutions01`}
@@ -74,7 +74,7 @@ export const WhenYouNeedOurHelp = () => {
           </div>
         </li>
         <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 mb-4 pc:p-5 pc:mb-5">
-          <div className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
+          <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1vO0di27-lFh5lmZddB3MpAfQV7zmjxFf"
               alt="picture"
@@ -114,7 +114,7 @@ export const WhenYouNeedOurHelp = () => {
               </li>
             </ul>
           </div>
-          <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
+          <div className="tab:absolute top-4 right-[22px] pc:top-auto pc:bottom-4">
             <ButtonDetails
               text={t("detailsButton")}
               url={`/${locale}/services#solutions02`}
@@ -168,7 +168,7 @@ export const WhenYouNeedOurHelp = () => {
               </li>
             </ul>
           </div>
-          <div className="tab:absolute top-4 right-[22px] pc:static pc:mt-auto pc:ml-5 pc:mr-1">
+          <div className="tab:absolute top-4 right-[22px] pc:top-auto pc:bottom-4">
             <ButtonDetails
               text={t("detailsButton")}
               url={`/${locale}/services#solutions03`}
