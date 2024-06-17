@@ -164,6 +164,7 @@ export const ServicesList = () => {
                   +38 (063) 365-04-65
                 </a>
               </span>
+              {t("whomBox2P22")}
             </p>
           </div>
           <div className="tab:flex tab:flex-col tab:justify-between">
