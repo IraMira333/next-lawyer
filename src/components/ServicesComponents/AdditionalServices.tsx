@@ -43,7 +43,7 @@ export const AdditionalServices = () => {
               {t("additionalServicesList1Title")}
             </h3>
             <div className="h-[2px] w-full bg-accent "></div>
-            <ul className="tab:leading-[21px]  mt-4">
+            <ul className="mt-4">
               <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
@@ -75,7 +75,7 @@ export const AdditionalServices = () => {
               {t("additionalServicesList2Title")}
             </h3>
             <div className="h-[2px] w-full bg-accent "></div>
-            <ul className="tab:leading-[21px]  mt-4">
+            <ul className="mt-4">
               <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
