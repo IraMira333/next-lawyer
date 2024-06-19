@@ -14,7 +14,7 @@ export const WhenYouNeedOurHelp = () => {
       </h2>
       <ul className="min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
         <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 mb-4 pc:p-5 pc:mb-5">
-          <div className="max-w-[338px] mx-auto rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
+          <div className="max-w-[338px] mx-auto pc:mx-0  rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
               alt="picture"
