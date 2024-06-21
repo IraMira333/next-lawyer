@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [isHeaderMenuOpened]);
   return (
     <>
-      <div className="bigmob:hidden">
+      <div className="tab:hidden">
         <MenuButtonBurger
           isHeaderMenuOpened={isHeaderMenuOpened}
           toggleHeaderMenuOpen={toggleHeaderMenuOpen}
@@ -27,7 +27,7 @@ const Navbar = () => {
         isHeaderMenuOpened={isHeaderMenuOpened}
         setIsHeaderMenuOpened={setIsHeaderMenuOpened}
       />
-      <ul className="hidden bigmob:flex gap-3 tab:gap-4 pc:gap-5">
+      <ul className="hidden tab:flex gap-3 tab:gap-4 pc:gap-5">
         <Menu className="text-nav" />
         <li>
           <LanguageSwitcher />
