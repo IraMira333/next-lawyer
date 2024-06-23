@@ -1,50 +1,124 @@
-export type legislationType = {
+export type DataType = {
   id: string;
-  legislationTitle: string;
   link: string;
-  category: string;
+  categoryName: "citizenship" | "immigration" | "status" | "citizensRights";
+};
+
+export type LawDataTranslation = {
+  legislationTitle: string;
+};
+
+export type LegislationType = {
+  data: DataType;
+  ua: LawDataTranslation;
+  en: LawDataTranslation;
+  ru: LawDataTranslation;
 };
 const generateId = (): string => {
   return "_" + Math.random().toString(36).substring(2, 9);
 };
 
-export const legislationData: legislationType[] = [
+export const legislationData: LegislationType[] = [
   {
-    id: generateId(),
-    legislationTitle: "Європейська Конвенція про громадянство 1997 року",
-    link: "https://zakon.rada.gov.ua/laws/show/994_004#Text",
-    category: "Громадянство",
+    data: {
+      id: generateId(),
+      link: "https://zakon.rada.gov.ua/laws/show/994_004#Text",
+      categoryName: "citizenship",
+    },
+    ua: {
+      legislationTitle: "Європейська Конвенція про громадянство 1997 року",
+    },
+    en: {
+      legislationTitle: "Європейська Конвенція про громадянство 1997 року",
+    },
+    ru: {
+      legislationTitle: "Європейська Конвенція про громадянство 1997 року",
+    },
   },
   {
-    id: generateId(),
-    legislationTitle: "Закон України «Про громадянство України»",
-    link: "https://zakon.rada.gov.ua/laws/show/2235-14#Text",
-    category: "Громадянство",
+    data: {
+      id: generateId(),
+      link: "https://zakon.rada.gov.ua/laws/show/2235-14#Text",
+      categoryName: "citizenship",
+    },
+    ua: {
+      legislationTitle: "Закон України «Про громадянство України»",
+    },
+    en: {
+      legislationTitle: "Закон України «Про громадянство України»",
+    },
+    ru: {
+      legislationTitle: "Закон України «Про громадянство України»",
+    },
   },
   {
-    id: generateId(),
-    legislationTitle: "Закон України «Про громадянство України» 1991 рік",
-    link: "https://zakon.rada.gov.ua/laws/show/1636-12#Text",
-    category: "Імміграція",
+    data: {
+      id: generateId(),
+      link: "https://zakon.rada.gov.ua/laws/show/1636-12#Text",
+      categoryName: "immigration",
+    },
+    ua: {
+      legislationTitle: "Закон України «Про громадянство України» 1991 рік",
+    },
+    en: {
+      legislationTitle: "Закон України «Про громадянство України» 1991 рік",
+    },
+    ru: {
+      legislationTitle: "Закон України «Про громадянство України» 1991 рік",
+    },
   },
   {
-    id: generateId(),
-    legislationTitle: "Закон України «Про імміграцію»",
-    link: "https://zakon.rada.gov.ua/laws/show/2491-14#Text",
-    category: "Імміграція",
+    data: {
+      id: generateId(),
+      link: "https://zakon.rada.gov.ua/laws/show/2491-14#Text",
+      categoryName: "immigration",
+    },
+    ua: {
+      legislationTitle: "Закон України «Про імміграцію»",
+    },
+    en: {
+      legislationTitle: "Закон України «Про імміграцію»",
+    },
+    ru: {
+      legislationTitle: "Закон України «Про імміграцію»",
+    },
   },
   {
-    id: generateId(),
-    legislationTitle:
-      "Закон України «Про правовий статус іноземців та осіб без громадянства»",
-    link: "https://zakon.rada.gov.ua/laws/show/3773-17#Text",
-    category: "Правовий статус іноземців",
+    data: {
+      id: generateId(),
+      link: "https://zakon.rada.gov.ua/laws/show/3773-17#Text",
+      categoryName: "status",
+    },
+    ua: {
+      legislationTitle:
+        "Закон України «Про правовий статус іноземців та осіб без громадянства»",
+    },
+    en: {
+      legislationTitle:
+        "Закон України «Про правовий статус іноземців та осіб без громадянства»",
+    },
+    ru: {
+      legislationTitle:
+        "Закон України «Про правовий статус іноземців та осіб без громадянства»",
+    },
   },
   {
-    id: generateId(),
-    legislationTitle:
-      "Закон України «Про свободу пересування та вільний вибір місця проживання в Україні»",
-    link: "https://zakon.rada.gov.ua/laws/show/1382-15#Text",
-    category: "Права громадян",
+    data: {
+      id: generateId(),
+      link: "https://zakon.rada.gov.ua/laws/show/1382-15#Text",
+      categoryName: "citizensRights",
+    },
+    ua: {
+      legislationTitle:
+        "Закон України «Про свободу пересування та вільний вибір місця проживання в Україні»",
+    },
+    en: {
+      legislationTitle:
+        "Закон України «Про свободу пересування та вільний вибір місця проживання в Україні»",
+    },
+    ru: {
+      legislationTitle:
+        "Закон України «Про свободу пересування та вільний вибір місця проживання в Україні»",
+    },
   },
 ];
