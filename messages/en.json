@@ -6,7 +6,8 @@
   "Menu": {
     "main": "Main",
     "services": "Servises",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "legislation": "legislation"
   },
   "Footer": {
     "copyright": "All rights reserved",
@@ -116,5 +117,8 @@
     "additionalServicesP5": "Together with you, we will plan the sequence of joint actions, determine and prepare the list of documents that would be expedient to use, and if necessary, ensure the personal presence of lawyers.",
     "additionalServicesTitle3": "PLEASE NOTE",
     "additionalServicesP6": "An individual who has renounced or lost Ukrainian citizenship in the established manner is not deprived of the opportunity to use the right to restore it in accordance with the established procedure."
+  },
+  "Legislation": {
+    "title": "legislation"
   }
 }
