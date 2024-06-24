@@ -4,9 +4,11 @@ import { AiOutlineSend } from "react-icons/ai";
 
 const Menu = ({
   className,
+  classNameIcon,
   onClick,
 }: {
   className: string;
+  classNameIcon?: string;
   onClick?: () => void;
 }) => {
   const locale = useLocale();
@@ -17,7 +19,7 @@ const Menu = ({
   return (
     <>
       <li className="mt-2 tab:mt-0 flex items-center">
-        <div className="tab:hidden">
+        <div className={`tab:hidden ${classNameIcon}`}>
           <AiOutlineSend size={12} color="orange" />
         </div>
         <Link
@@ -29,7 +31,7 @@ const Menu = ({
         </Link>
       </li>
       <li className="mt-2 tab:mt-0 flex items-center">
-        <div className="tab:hidden">
+        <div className={`tab:hidden ${classNameIcon}`}>
           <AiOutlineSend size={12} color="orange" />
         </div>
         <Link
@@ -42,7 +44,7 @@ const Menu = ({
       </li>
 
       <li className="mt-2 tab:mt-0 flex items-center">
-        <div className="tab:hidden">
+        <div className={`tab:hidden ${classNameIcon}`}>
           <AiOutlineSend size={12} color="orange" />
         </div>
         <Link

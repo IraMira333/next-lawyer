@@ -23,7 +23,7 @@ const Contacts = () => {
         />
       </div>
       <div
-        className="tab:absolute bg-primary top-8 left-5  pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
+        className="max-w-[600px] mx-auto tab:absolute bg-primary top-8 left-5  pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
       tab:min-w-[364px] pc:min-w-[634px] tab:w-[48%] pc:w-[46%] pc:py-10 "
       >
         <h2 className="font-lora text-[28px] tab:text-3xl leading-8 font-medium uppercase text-accent text-center mb-4 pc:mb-[30px] pc:text-[40px]">
