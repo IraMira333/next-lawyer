@@ -1,11 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import Select from "react-select";
 import { LawItem } from "./LawItem";
 import { categoryNames } from "@/mockedData/categoryNameData";
 import { LocaleType } from "../../../types/LocaleType";
 import { legislationData } from "@/mockedData/legislation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 export const Legislation = () => {
   const t = useTranslations("Legislation");
@@ -15,6 +16,13 @@ export const Legislation = () => {
     value: category.categoryName,
     label: category[locale as LocaleType],
   }));
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get("category") || "all";
+    setSelectedCategory(categoryFromUrl);
+  }, [searchParams]);
 
   const customStyles = {
     control: (provided: any) => ({
@@ -77,9 +85,11 @@ export const Legislation = () => {
         <Select
           styles={customStyles}
           value={options.find((option) => option.value === selectedCategory)}
-          onChange={(selectedOption) =>
-            setSelectedCategory(selectedOption?.value || "all")
-          }
+          onChange={(selectedOption) => {
+            const newCategory = selectedOption?.value || "all";
+            setSelectedCategory(newCategory);
+            router.push(`/${locale}/legislation?category=${newCategory}`);
+          }}
           options={options}
           isSearchable={false}
         />
