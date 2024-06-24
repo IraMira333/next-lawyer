@@ -14,14 +14,11 @@ export type LegislationType = {
   en: LawDataTranslation;
   ru: LawDataTranslation;
 };
-const generateId = (): string => {
-  return "_" + Math.random().toString(36).substring(2, 9);
-};
 
 export const legislationData: LegislationType[] = [
   {
     data: {
-      id: generateId(),
+      id: "01",
       link: "https://zakon.rada.gov.ua/laws/show/994_004#Text",
       categoryName: "citizenship",
     },
@@ -37,7 +34,7 @@ export const legislationData: LegislationType[] = [
   },
   {
     data: {
-      id: generateId(),
+      id: "02",
       link: "https://zakon.rada.gov.ua/laws/show/2235-14#Text",
       categoryName: "citizenship",
     },
@@ -53,7 +50,7 @@ export const legislationData: LegislationType[] = [
   },
   {
     data: {
-      id: generateId(),
+      id: "03",
       link: "https://zakon.rada.gov.ua/laws/show/1636-12#Text",
       categoryName: "immigration",
     },
@@ -69,7 +66,7 @@ export const legislationData: LegislationType[] = [
   },
   {
     data: {
-      id: generateId(),
+      id: "04",
       link: "https://zakon.rada.gov.ua/laws/show/2491-14#Text",
       categoryName: "immigration",
     },
@@ -85,7 +82,7 @@ export const legislationData: LegislationType[] = [
   },
   {
     data: {
-      id: generateId(),
+      id: "05",
       link: "https://zakon.rada.gov.ua/laws/show/3773-17#Text",
       categoryName: "status",
     },
@@ -104,7 +101,7 @@ export const legislationData: LegislationType[] = [
   },
   {
     data: {
-      id: generateId(),
+      id: "06",
       link: "https://zakon.rada.gov.ua/laws/show/1382-15#Text",
       categoryName: "citizensRights",
     },
