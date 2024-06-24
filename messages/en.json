@@ -120,6 +120,7 @@
   },
   "Legislation": {
     "title": "legislation",
-    "description": "On this page, you can find links to the current legislation of Ukraine in the field of migration law."
+    "description": "On this page, you can find links to the current legislation of Ukraine in the field of migration law.",
+    "filtering": "Filter by category"
   }
 }

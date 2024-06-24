@@ -80,7 +80,7 @@ export const Legislation = () => {
       <p className="mb-4 tab:text-base text-center">{t("description")}</p>
       <div className="tab:flex gap-4 mb-4 justify-center items-center">
         <h3 className="text-base leading-[21px] tab:text-lg font-semibold ">
-          Фільтрувати по категоріям
+          {t("filtering")}
         </h3>
         <Select
           styles={customStyles}
