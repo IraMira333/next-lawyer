@@ -1,106 +1,11 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { useLocale, useTranslations } from "next-intl";
-import Select from "react-select";
-import { LawItem } from "./LawItem";
-import { categoryNames } from "@/mockedData/categoryNameData";
-import { LocaleType } from "../../../types/LocaleType";
-import { legislationData } from "@/mockedData/legislation";
-import { useRouter, useSearchParams } from "next/navigation";
+import { HeroLegislation } from "./HeroLegislation";
+import { LegislationList } from "./LegislationList";
 
 export const Legislation = () => {
-  const t = useTranslations("Legislation");
-  const locale = useLocale();
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const options = categoryNames.map((category) => ({
-    value: category.categoryName,
-    label: category[locale as LocaleType],
-  }));
-  const router = useRouter();
-  const searchParams = useSearchParams();
-
-  useEffect(() => {
-    const categoryFromUrl = searchParams.get("category") || "all";
-    setSelectedCategory(categoryFromUrl);
-  }, [searchParams]);
-
-  const customStyles = {
-    control: (provided: any) => ({
-      ...provided,
-      width: "300px",
-      borderColor: "var(--nav-text-color)",
-      "&:hover": { borderColor: "var(--accent-text-color)" },
-      boxShadow: "none",
-      paddingRight: "10px",
-      borderRadius: "none",
-      backgroundColor: "var(--accent-bgcolor:)",
-    }),
-    menu: (provided: any) => ({
-      ...provided,
-      backgroundColor: "white",
-      zIndex: 9999,
-    }),
-    option: (provided: any, state: any) => ({
-      ...provided,
-      backgroundColor: state.isSelected ? "var(--accent-text-color)" : "white",
-      color: state.isSelected ? "white" : "var(--nav-text-color)",
-      "&:hover": {
-        backgroundColor: "var(--options-accent-color)",
-        color: "var(--nav-text-color)",
-      },
-    }),
-    dropdownIndicator: (provided: any, state: any) => ({
-      ...provided,
-      color:
-        state.isFocused || state.selectProps.menuIsOpen
-          ? "var(--accent-text-color)"
-          : "var(--nav-text-color)",
-      transition: "all .2s ease",
-      transform: state.selectProps.menuIsOpen ? "rotate(180deg)" : null,
-      "&:hover": {
-        color: "var(--accent-text-color)",
-      },
-    }),
-  };
-
-  const filteredData =
-    selectedCategory === "all"
-      ? legislationData
-      : legislationData.filter(
-          (item) => item.data.categoryName === selectedCategory
-        );
-
   return (
-    <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px]">
-      <div className="min-w-[288px] max-w-[600px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
-        <h2 className="font-lora text-accent text-center mb-5 pc:mb-4 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
-          {t("title")}
-        </h2>
-        <p className="mb-4 tab:text-base text-center">{t("description")}</p>
-        <div className="tab:flex gap-4 mb-4 justify-center items-center">
-          <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-4 tab:mb-0">
-            {t("filtering")}
-          </h3>
-          <Select
-            styles={customStyles}
-            value={options.find((option) => option.value === selectedCategory)}
-            onChange={(selectedOption) => {
-              const newCategory = selectedOption?.value || "all";
-              setSelectedCategory(newCategory);
-              router.push(`/${locale}/legislation?category=${newCategory}`);
-            }}
-            options={options}
-            isSearchable={false}
-          />
-        </div>
-        <ul>
-          {filteredData.map((item) => (
-            <li key={item.data.id} className="flex gap-2 text-start mb-2">
-              <LawItem item={item} />
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
+    <>
+      <HeroLegislation />
+      <LegislationList />
+    </>
   );
 };
