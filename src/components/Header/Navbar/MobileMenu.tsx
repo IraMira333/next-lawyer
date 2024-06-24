@@ -23,10 +23,9 @@ const MobileMenu = ({
   return (
     <nav
       className={`absolute top-[83px] left-0 z-10 w-[100vw] overflow-hidden transition-height duration-[600ms] ease-out
-      
            bg-accentBg ${isHeaderMenuOpened ? openedStyles : closedStyles}`}
     >
-      <ul className="p-6">
+      <ul className="p-6 min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
         <li className="mt-2 flex items-center">
           <AiOutlineSend size={12} color="orange" />
           <Link
@@ -37,7 +36,7 @@ const MobileMenu = ({
             {t("main")}
           </Link>
         </li>
-        <Menu className="ml-1" />
+        <Menu className="ml-1" onClick={() => setIsHeaderMenuOpened(false)} />
         <li className="ml-4 mt-2">
           <LanguageSwitcher />
         </li>

@@ -2,7 +2,13 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { AiOutlineSend } from "react-icons/ai";
 
-const Menu = ({ className }: { className: string }) => {
+const Menu = ({
+  className,
+  onClick,
+}: {
+  className: string;
+  onClick?: () => void;
+}) => {
   const locale = useLocale();
   const t = useTranslations("Menu");
   const navTextStyle =
@@ -17,6 +23,7 @@ const Menu = ({ className }: { className: string }) => {
         <Link
           className={`${navTextStyle} ${className}`}
           href={`/${locale}/services`}
+          onClick={onClick}
         >
           {t("services")}
         </Link>
@@ -28,6 +35,7 @@ const Menu = ({ className }: { className: string }) => {
         <Link
           className={`${navTextStyle} ${className}`}
           href={`/${locale}/legislation`}
+          onClick={onClick}
         >
           {t("legislation")}
         </Link>
@@ -40,6 +48,7 @@ const Menu = ({ className }: { className: string }) => {
         <Link
           className={`${navTextStyle} ${className}`}
           href={`/${locale}/contacts`}
+          onClick={onClick}
         >
           {t("contacts")}
         </Link>
