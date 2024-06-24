@@ -74,33 +74,35 @@ export const Legislation = () => {
 
   return (
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px]">
-      <h2 className="font-lora text-accent text-center mb-5 pc:mb-4 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
-        {t("title")}
-      </h2>
-      <p className="mb-4 tab:text-base text-center">{t("description")}</p>
-      <div className="tab:flex gap-4 mb-4 justify-center items-center">
-        <h3 className="text-base leading-[21px] tab:text-lg font-semibold ">
-          {t("filtering")}
-        </h3>
-        <Select
-          styles={customStyles}
-          value={options.find((option) => option.value === selectedCategory)}
-          onChange={(selectedOption) => {
-            const newCategory = selectedOption?.value || "all";
-            setSelectedCategory(newCategory);
-            router.push(`/${locale}/legislation?category=${newCategory}`);
-          }}
-          options={options}
-          isSearchable={false}
-        />
+      <div className="min-w-[288px] max-w-[600px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
+        <h2 className="font-lora text-accent text-center mb-5 pc:mb-4 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
+          {t("title")}
+        </h2>
+        <p className="mb-4 tab:text-base text-center">{t("description")}</p>
+        <div className="tab:flex gap-4 mb-4 justify-center items-center">
+          <h3 className="text-base leading-[21px] tab:text-lg font-semibold ">
+            {t("filtering")}
+          </h3>
+          <Select
+            styles={customStyles}
+            value={options.find((option) => option.value === selectedCategory)}
+            onChange={(selectedOption) => {
+              const newCategory = selectedOption?.value || "all";
+              setSelectedCategory(newCategory);
+              router.push(`/${locale}/legislation?category=${newCategory}`);
+            }}
+            options={options}
+            isSearchable={false}
+          />
+        </div>
+        <ul>
+          {filteredData.map((item) => (
+            <li key={item.data.id} className="flex gap-2 text-start mb-2">
+              <LawItem item={item} />
+            </li>
+          ))}
+        </ul>
       </div>
-      <ul>
-        {filteredData.map((item) => (
-          <li key={item.data.id} className="flex gap-2 text-start mb-2">
-            <LawItem item={item} />
-          </li>
-        ))}
-      </ul>
     </section>
   );
 };
