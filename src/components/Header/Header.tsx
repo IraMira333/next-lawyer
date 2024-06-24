@@ -9,21 +9,23 @@ const Header = () => {
   const locale = useLocale();
 
   return (
-    <header className=" flex justify-between items-center gap-5 px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
-      <Link href={`/${locale}`}>
-        <Image
-          src="/logoFullDark.svg"
-          alt="AKLawyer Logo"
-          width={520}
-          height={80}
-          priority
-          className="w-[200px] h-auto tab:w-[300px]"
-        />
-      </Link>
+    <header className="  px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
+      <div className="flex justify-between items-center gap-5 min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
+        <Link href={`/${locale}`}>
+          <Image
+            src="/logoFullDark.svg"
+            alt="AKLawyer Logo"
+            width={520}
+            height={80}
+            priority
+            className="w-[200px] h-auto tab:w-[300px]"
+          />
+        </Link>
 
-      <nav className="flex justify-end items-center text-nav">
-        <Navbar />
-      </nav>
+        <nav className="flex justify-end items-center text-nav">
+          <Navbar />
+        </nav>
+      </div>
     </header>
   );
 };
