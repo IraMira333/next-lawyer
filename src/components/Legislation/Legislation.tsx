@@ -42,9 +42,7 @@ export const Legislation = () => {
     }),
     option: (provided: any, state: any) => ({
       ...provided,
-      backgroundColor: state.isSelected
-        ? "var(--options-accent-color)"
-        : "white",
+      backgroundColor: state.isSelected ? "var(--accent-text-color)" : "white",
       color: state.isSelected ? "white" : "var(--nav-text-color)",
       "&:hover": {
         backgroundColor: "var(--options-accent-color)",
