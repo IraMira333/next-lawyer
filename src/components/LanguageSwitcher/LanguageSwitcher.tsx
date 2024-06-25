@@ -3,7 +3,6 @@ import { useLocale } from "next-intl";
 import { locales } from "../../i18n";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import styles from "./LanguageSwitcher.module.scss";
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
