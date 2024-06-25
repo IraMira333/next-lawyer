@@ -5,14 +5,14 @@ export const HeroLegislation = () => {
   const t = useTranslations("Legislation");
 
   return (
-    <section className="relative bg-accentBg pc:bg-primary">
+    <section className="relative bg-accentBg pc:bg-primary ">
       <div className="tab:flex flex-row-reverse">
         <Image
           src="https://drive.google.com/uc?export=view&id=1uc2Px8XXZXiyFJNrx8Sz3LGcmghr9Ons"
           alt="Picture from the courtroom"
           width={5376}
           height={3584}
-          className=" w-full h-full tab:w-[50%] pc:w-[86%] tab:h-auto object-cover"
+          className=" w-full h-full tab:w-[50%] pc:w-[86%] max-h-[300px] pc:max-h-[500px] tab:h-auto object-cover"
           priority
         />
         <div className="pc:absolute pc:right-[55%] pc:top-[30%] py-10 px-4 ml-auto tab:px-5 tab:py-[45px] pc:py-[88px] pc:px-[38px] tab:my-auto tab:max-w-[450px] pc:max-w-[533px]  pc:max-h-[600px] pc:bg-accentBg">

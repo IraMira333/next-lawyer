@@ -12,7 +12,7 @@ export const Hero = () => {
           alt="A picture with a Globe"
           width={5184}
           height={3456}
-          className=" w-full h-full tab:w-[50%] pc:w-[86%] tab:h-auto object-cover"
+          className=" w-full h-full max-h-[400px] pc:max-h-full tab:w-[50%] pc:w-[86%] tab:h-auto object-cover"
           priority
         />
         <div className="pc:absolute pc:right-[55%] py-10 px-4 ml-auto tab:px-5 tab:py-[45px] pc:py-[88px] pc:px-[38px] tab:my-auto tab:max-w-[450px] pc:max-w-[533px]  pc:max-h-[600px] pc:bg-accentBg">
