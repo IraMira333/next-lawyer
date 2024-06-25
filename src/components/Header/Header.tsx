@@ -1,9 +1,7 @@
-import { useState } from "react";
 import Image from "next/image";
-import styles from "./Header.module.scss";
 import Link from "next/link";
-import Navbar from "./Navbar/Navbar";
 import { useLocale } from "next-intl";
+import Navbar from "./Navbar";
 
 const Header = () => {
   const locale = useLocale();

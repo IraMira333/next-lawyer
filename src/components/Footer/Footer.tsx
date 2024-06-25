@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import Menu from "../Header/Navbar/Menu";
-import { IconPhone } from "../icons/IconPhone";
 import { useLocale, useTranslations } from "next-intl";
+import { IconPhone } from "../icons/IconPhone";
+import Menu from "../shared/Menu";
 
 const Footer = () => {
   const t = useTranslations("Footer");

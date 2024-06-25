@@ -2,7 +2,7 @@ import Link from "next/link";
 import { AiOutlineSend } from "react-icons/ai";
 import { useLocale, useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
-import Menu from "./Menu";
+import Menu from "../shared/Menu";
 
 const openedStyles = "h-80";
 const closedStyles = "h-0";

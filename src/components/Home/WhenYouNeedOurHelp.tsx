@@ -1,7 +1,7 @@
 import Image from "next/image";
+import { useLocale, useTranslations } from "next-intl";
 import { SquareSmall } from "../shared/SquareSmall";
 import { ButtonDetails } from "../shared/ButtonDetails";
-import { useLocale, useTranslations } from "next-intl";
 
 export const WhenYouNeedOurHelp = () => {
   const t = useTranslations("Home");

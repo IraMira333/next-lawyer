@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
-import { MenuButtonBurger } from "../Sidebar/MenuButtonBurger";
 import MobileMenu from "./MobileMenu";
-import Menu from "./Menu";
+import Menu from "../shared/Menu";
+import { MenuButtonBurger } from "./MenuButtonBurger";
 
 const Navbar = () => {
   const [isHeaderMenuOpened, setIsHeaderMenuOpened] = useState(false);

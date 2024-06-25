@@ -2,11 +2,11 @@
 import React, { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import Select from "react-select";
+import { useRouter, useSearchParams } from "next/navigation";
 import { LawItem } from "./LawItem";
 import { categoryNames } from "@/mockedData/categoryNameData";
 import { LocaleType } from "../../../types/LocaleType";
 import { legislationData } from "@/mockedData/legislation";
-import { useRouter, useSearchParams } from "next/navigation";
 
 export const LegislationList = () => {
   const t = useTranslations("Legislation");

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { SquareSmall } from "../shared/SquareSmall";
 import { useTranslations } from "next-intl";
+import { SquareSmall } from "../shared/SquareSmall";
 import { SquareBig } from "../shared/SquareBig";
 
 export const ServicesList = () => {

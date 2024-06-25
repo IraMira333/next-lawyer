@@ -1,9 +1,9 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { IconMap } from "../icons/IconMap";
 import { IconMail } from "../icons/IconMail";
 import { IconPhone } from "../icons/IconPhone";
-import Image from "next/image";
-import { useTranslations } from "next-intl";
 
 const KEY = process.env.NEXT_PUBLIC_MAPAPIKEY;
 
