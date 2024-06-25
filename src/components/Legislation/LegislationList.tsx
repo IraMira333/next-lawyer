@@ -7,7 +7,6 @@ import { categoryNames } from "@/mockedData/categoryNameData";
 import { LocaleType } from "../../../types/LocaleType";
 import { legislationData } from "@/mockedData/legislation";
 import { useRouter, useSearchParams } from "next/navigation";
-import { HeroLegislation } from "./HeroLegislation";
 
 export const LegislationList = () => {
   const t = useTranslations("Legislation");
@@ -75,7 +74,10 @@ export const LegislationList = () => {
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px]">
       <div className="min-w-[288px] max-w-[600px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
         <div className="tab:flex gap-4 mb-4 justify-center items-center">
-          <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-4 tab:mb-0">
+          <h3
+            id="category"
+            className="text-base leading-[21px] tab:text-lg font-semibold mb-4 tab:mb-0"
+          >
             {t("filtering")}
           </h3>
           <Select
@@ -84,7 +86,9 @@ export const LegislationList = () => {
             onChange={(selectedOption) => {
               const newCategory = selectedOption?.value || "all";
               setSelectedCategory(newCategory);
-              router.push(`/${locale}/legislation?category=${newCategory}`);
+              router.push(
+                `/${locale}/legislation?category=${newCategory}#category`
+              );
             }}
             options={options}
             isSearchable={false}
