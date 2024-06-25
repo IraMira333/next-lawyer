@@ -81,6 +81,7 @@ export const LegislationList = () => {
             {t("filtering")}
           </h3>
           <Select
+            instanceId="select-1"
             styles={customStyles}
             value={options.find((option) => option.value === selectedCategory)}
             onChange={(selectedOption) => {
