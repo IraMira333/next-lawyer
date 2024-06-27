@@ -31,10 +31,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Європейська Конвенція про громадянство 1997 року",
     },
     en: {
-      legislationTitle: "Європейська Конвенція про громадянство 1997 року",
+      legislationTitle: "European Convention on Nationality, 1997",
     },
     ru: {
-      legislationTitle: "Європейська Конвенція про громадянство 1997 року",
+      legislationTitle: "Европейская Конвенция о гражданстве 1997 года",
     },
   },
   {
@@ -47,10 +47,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Закон України «Про громадянство України»",
     },
     en: {
-      legislationTitle: "Закон України «Про громадянство України»",
+      legislationTitle: "Law of Ukraine «On Citizenship of Ukraine»»",
     },
     ru: {
-      legislationTitle: "Закон України «Про громадянство України»",
+      legislationTitle: "Закон Украины «О гражданстве Украины»",
     },
   },
   {
@@ -63,10 +63,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Закон України «Про громадянство України» 1991 рік",
     },
     en: {
-      legislationTitle: "Закон України «Про громадянство України» 1991 рік",
+      legislationTitle: "Law of Ukraine «On Citizenship of Ukraine» 1991",
     },
     ru: {
-      legislationTitle: "Закон України «Про громадянство України» 1991 рік",
+      legislationTitle: "Закон Украины «О гражданстве Украины» 1991 года",
     },
   },
   {
@@ -79,10 +79,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Закон України «Про імміграцію»",
     },
     en: {
-      legislationTitle: "Закон України «Про імміграцію»",
+      legislationTitle: "Law of Ukraine «On Immigration»",
     },
     ru: {
-      legislationTitle: "Закон України «Про імміграцію»",
+      legislationTitle: "Закон Украины «Об иммиграции»",
     },
   },
   {
@@ -97,11 +97,11 @@ export const legislationData: LegislationType[] = [
     },
     en: {
       legislationTitle:
-        "Закон України «Про правовий статус іноземців та осіб без громадянства»",
+        "Law of Ukraine «On the Legal Status of Foreigners and Stateless Persons»",
     },
     ru: {
       legislationTitle:
-        "Закон України «Про правовий статус іноземців та осіб без громадянства»",
+        "Закон Украины «О правовом статусе иностранцев и лиц без гражданства»",
     },
   },
   {
@@ -116,11 +116,11 @@ export const legislationData: LegislationType[] = [
     },
     en: {
       legislationTitle:
-        "Закон України «Про свободу пересування та вільний вибір місця проживання в Україні»",
+        "Law of Ukraine «On Freedom of Movement and Free Choice of Place of Residence in Ukraine»",
     },
     ru: {
       legislationTitle:
-        "Закон України «Про свободу пересування та вільний вибір місця проживання в Україні»",
+        "Закон Украины «О свободе передвижения и свободном выборе места проживания в Украине»",
     },
   },
   {
@@ -134,10 +134,12 @@ export const legislationData: LegislationType[] = [
         "Закон України «Про порядок виїзду з України і в'їзду в Україну громадян України»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Law of Ukraine «On the Procedure for Departure from Ukraine and Entry into Ukraine by Citizens of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Закон Украины «О порядке выезда из Украины и въезда в Украину граждан Украины»",
     },
   },
   {
@@ -150,10 +152,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Закон України «Про прикордонний контроль» ",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle: "Law of Ukraine «On Border Control»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle: "Закон Украины «О пограничном контроле»",
     },
   },
   {
@@ -167,10 +169,12 @@ export const legislationData: LegislationType[] = [
         "Закон України «Про біженців та осіб, які потребують додаткового або тимчасового захисту»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Law of Ukraine «On Refugees and Persons in Need of Additional or Temporary Protection»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Закон Украины «О беженцах и лицах, нуждающихся в дополнительной или временной защите»",
     },
   },
   {
@@ -183,10 +187,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Сімейний кодекс України ",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle: "Family Code of Ukraine",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle: "Семейный кодекс Украины",
     },
   },
   {
@@ -200,10 +204,12 @@ export const legislationData: LegislationType[] = [
         "Указ Президента України «Порядок провадження за заявами і поданнями з питань громадянства України та виконання прийнятих рішень» ",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Decree of the President of Ukraine «Procedure for Consideration of Applications and Submissions on Citizenship of Ukraine and Execution of Adopted Decisions»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Указ Президента Украины «Порядок производства по заявлениям и представлениям по вопросам гражданства Украины и исполнения принятых решений»",
     },
   },
   {
@@ -216,10 +222,10 @@ export const legislationData: LegislationType[] = [
       legislationTitle: "Закон України «Про зайнятість населення»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle: "Law of Ukraine «On Employment of Population»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle: "Закон Украины «О занятости населения»",
     },
   },
   {
@@ -233,10 +239,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Про затвердження порядку оформлення, видачі, обміну, пересилання, вилучення, повернення державі, визнання недійсним та знищення паспорта громадянина України» ",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «On Approval of the Procedure for the Issuance, Exchange, Sending, Withdrawal, Return to the State, Recognition as Invalid and Destruction of the Passport of a Citizen of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Об утверждении порядка оформления, выдачи, обмена, пересылки, изъятия, возврата государству, признания недействительным и уничтожения паспорта гражданина Украины»",
     },
   },
   {
@@ -250,10 +258,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок декларування та реєстрації місця проживання (перебування)»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Declaring and Registering the Place of Residence (Stay)»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок декларирования и регистрации места жительства (пребывания)»",
     },
   },
   {
@@ -267,10 +277,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок оформлення, видачі, обміну, скасування, пересилання, вилучення, повернення державі, визнання недійсною та знищення посвідки на тимчасове проживання»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for the Issuance, Exchange, Cancellation, Sending, Withdrawal, Return to the State, Recognition as Invalid and Destruction of the Temporary Residence Permit»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок оформления, выдачи, обмена, аннулирования, пересылки, изъятия, возврата государству, признания недействительным и уничтожения вида на временное жительство»",
     },
   },
   {
@@ -284,10 +296,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок оформлення, видачі, обміну, скасування, пересилання, вилучення, повернення державі, визнання недійсною та знищення посвідки на постійне проживання»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for the Issuance, Exchange, Cancellation, Sending, Withdrawal, Return to the State, Recognition as Invalid and Destruction of the Permanent Residence Permit»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок оформления, выдачи, обмена, аннулирования, пересылки, изъятия, возврата государству, признания недействительным и уничтожения вида на постоянное жительство»",
     },
   },
   {
@@ -301,10 +315,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок провадження за заявами про надання дозволу на імміграцію і поданнями про його скасування та виконання прийнятих рішень»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Consideration of Applications for Immigration Permits and Submissions for Their Cancellation and Execution of Adopted Decisions»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок рассмотрения заявлений о предоставлении разрешения на иммиграцию и представлений о его отмене и выполнения принятых решений»",
     },
   },
   {
@@ -318,10 +334,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Правила оформлення віз для в’їзду в Україну і транзитного проїзду через її територію»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Rules for Issuing Visas for Entry into Ukraine and Transit through Its Territory»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Правила оформления виз для въезда в Украину и транзитного проезда через ее территорию»",
     },
   },
   {
@@ -335,10 +353,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок оформлення, видачі, обміну, пересилання, вилучення, повернення державі, визнання недійсним та знищення паспорта громадянина України для виїзду за кордон»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «On Approval of the Procedure for the Issuance, Exchange, Sending, Withdrawal, Return to the State, Recognition as Invalid and Destruction of the Passport of a Citizen of Ukraine for Traveling Abroad»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок оформления, выдачи, обмена, пересылки, изъятия, возврата государству, признания недействительным и уничтожения паспорта гражданина Украины для выезда за границу»",
     },
   },
   {
@@ -352,10 +372,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Правила оформлення і видачі тимчасового посвідчення громадянина України»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Rules for Issuing Temporary Certificates of Citizenship of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Правила оформления и выдачи временного удостоверения гражданина Украины»",
     },
   },
   {
@@ -369,10 +391,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок продовження строку перебування та тимчасового проживання, продовження та скорочення строку тимчасового перебування іноземців та осіб без громадянства на території України»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Extending the Period of Stay and Temporary Residence, Extension and Reduction of the Period of Temporary Stay of Foreigners and Stateless Persons on the Territory of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок продления срока пребывания и временного проживания, продления и сокращения срока временного пребывания иностранцев и лиц без гражданства на территории Украины»",
     },
   },
   {
@@ -386,10 +410,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Правила перетинання державного кордону громадянами України»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Rules for Crossing the State Border by Citizens of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Правила пересечения государственной границы гражданами Украины»",
     },
   },
   {
@@ -403,10 +429,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок підтвердження достатнього фінансового забезпечення іноземців та осіб без громадянства для в’їзду в Україну, перебування на території України, транзитного проїзду через територію України і виїзду за її межі та визначення розміру такого забезпечення»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Confirming Sufficient Financial Security for Foreigners and Stateless Persons to Enter Ukraine, Stay on the Territory of Ukraine, Transit through the Territory of Ukraine and Exit Beyond Its Borders, and Determining the Amount of Such Security»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок подтверждения достаточного финансового обеспечения иностранцев и лиц без гражданства для въезда в Украину, пребывания на территории Украины, транзитного проезда через территорию Украины и выезда за ее пределы и определения размера такого обеспечения»",
     },
   },
   {
@@ -420,10 +448,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Про затвердження технічного опису, зразка бланка, форм заяв для отримання, внесення змін та продовження строку дії дозволу на застосування праці іноземців та осіб без громадянства в Україні»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «On Approval of the Technical Description, Sample Form, Application Forms for Obtaining, Amending and Extending the Validity of the Permit for the Employment of Foreigners and Stateless Persons in Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Об утверждении технического описания, образца бланка, форм заявлений для получения, внесения изменений и продления срока действия разрешения на применение труда иностранцев и лиц без гражданства в Украине»",
     },
   },
   {
@@ -437,10 +467,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок оформлення та видачі посвідчення особи на повернення в Україну»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Issuance of Identity Documents for Returning to Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок оформления и выдачи удостоверения личности на возвращение в Украину»",
     },
   },
   {
@@ -454,10 +486,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок розгляду заяв про визнання особою без громадянства»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Considering Applications for Recognition as Stateless Persons»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок рассмотрения заявлений о признании лицом без гражданства»",
     },
   },
   {
@@ -471,10 +505,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «Порядок ведення обліку громадян України, які проживають за межами України»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Maintaining Records of Ukrainian Citizens Residing Abroad»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок ведения учета граждан Украины, которые проживают за пределами Украины»",
     },
   },
   {
@@ -488,10 +524,12 @@ export const legislationData: LegislationType[] = [
         "Постанова ВРУ «Положення про паспорт громадянина України» ",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Verkhovna Rada of Ukraine «Regulations on the Passport of a Citizen of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление ВРУ «Положение о паспорте гражданина Украины»",
     },
   },
   {
@@ -505,10 +543,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС України «Про затвердження зразків документів, які подаються для встановлення належності до громадянства України, прийняття до громадянства України, оформлення набуття громадянства України, припинення громадянства України, скасування рішень про оформлення набуття громадянства України, та журналів обліку»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «On Approval of Samples of Documents Submitted for Establishing Citizenship of Ukraine, Admission to Citizenship of Ukraine, Issuance of Citizenship of Ukraine, Termination of Citizenship of Ukraine, Cancellation of Decisions on Issuance of Citizenship of Ukraine, and Registration Journals»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД Украины «Об утверждении образцов документов, которые подаются для установления принадлежности к гражданству Украины, принятия в гражданство Украины, оформления приобретения гражданства Украины, прекращения гражданства Украины, отмены решений об оформлении приобретения гражданства Украины, и журналов учета»",
     },
   },
   {
@@ -522,10 +562,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС України «Інструкція про примусове повернення і примусове видворення з України іноземців та осіб без громадянства»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «Instruction on Forced Return and Forced Expulsion from Ukraine of Foreigners and Stateless Persons»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД Украины «Инструкция о принудительном возвращении и принудительном выдворении из Украины иностранцев и лиц без гражданства»",
     },
   },
   {
@@ -539,10 +581,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС України «Про затвердження Вимог до організації роботи з оформлення віз для в’їзду в Україну і транзитного проїзду через її територію 30.10.2017»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «On Approval of the Requirements for Organizing the Work of Issuing Visas for Entry into Ukraine and Transit through Its Territory of October 30, 2017»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД Украины «Об утверждении Требований к организации работы по оформлению виз для въезда в Украину и транзитного проезда через ее территорию от 30.10.2017»",
     },
   },
   {
@@ -556,10 +600,12 @@ export const legislationData: LegislationType[] = [
         "Наказ ДПСУ «Інструкція з організації здійснення перевірки документів громадян України, іноземців та осіб без громадянства, які перетинають державний кордон» ",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the State Border Guard Service of Ukraine «Instruction on Organizing the Verification of Documents of Ukrainian Citizens, Foreigners, and Stateless Persons Crossing the State Border»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ ГПСУ «Инструкция по организации проверки документов граждан Украины, иностранцев и лиц без гражданства, пересекающих государственную границу»",
     },
   },
   {
@@ -573,10 +619,12 @@ export const legislationData: LegislationType[] = [
         "Наказ ДПСУ «Інструкція про порядок прийняття органами охорони державного кордону Державної прикордонної служби України рішень про заборону в’їзду в Україну іноземцям та особам без громадянства»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the State Border Guard Service of Ukraine «Instruction on the Procedure for Making Decisions by the State Border Guard Service of Ukraine on the Prohibition of Entry into Ukraine for Foreigners and Stateless Persons»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ ГПСУ «Инструкция о порядке принятия органами охраны государственной границы Государственной пограничной службы Украины решений о запрете въезда в Украину иностранцам и лицам без гражданства»",
     },
   },
   {
@@ -590,10 +638,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС України «Про затвердження Порядку провадження за заявами про оформлення документів для виїзду громадян України за кордон на постійне проживання»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «On Approval of the Procedure for Processing Applications for Documents for Citizens of Ukraine to Travel Abroad for Permanent Residence»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД Украины «Об утверждении Порядка рассмотрения заявлений об оформлении документов для выезда граждан Украины за границу на постоянное проживание»",
     },
   },
   {
@@ -607,10 +657,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС України «Про затвердження порядку обчислення строку тимчасового перебування в Україні іноземців, які є громадянами держав з безвізовим порядком в’їзду»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «On Approval of the Procedure for Calculating the Period of Temporary Stay in Ukraine for Foreigners Who Are Citizens of Visa-Free Entry Countries»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД Украины «Об утверждении порядка исчисления срока временного пребывания в Украине иностранцев, являющихся гражданами государств с безвизовым порядком въезда»",
     },
   },
   {
@@ -624,10 +676,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС України «ТИМЧАСОВИЙ ПОРЯДОК оформлення і видачі паспорта громадянина України»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «Temporary Procedure for Issuing and Issuing Passports of a Citizen of Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД Украины «Временный порядок оформления и выдачи паспорта гражданина Украины»",
     },
   },
   {
@@ -641,10 +695,12 @@ export const legislationData: LegislationType[] = [
         "Постанова КМУ «ПОРЯДОК надання Державній прикордонній службі та виконання нею доручень уповноважених державних органів щодо осіб, які перетинають державний кордон»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Resolution of the Cabinet of Ministers of Ukraine «Procedure for Providing and Implementing Instructions by the State Border Guard Service Regarding Persons Crossing the State Border»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Постановление КМУ «Порядок предоставления Государственной пограничной службе и выполнения ею поручений уполномоченных государственных органов в отношении лиц, пересекающих государственную границу»",
     },
   },
   {
@@ -658,10 +714,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС «Про затвердження Порядку дій уповноважених службових осіб Державної прикордонної служби України в разі виявлення в пунктах пропуску через державний кордон України та контрольних пунктах в’їзду на тимчасово окуповану територію України та виїзду з неї осіб, стосовно яких надано доручення, та порядку взаємодії органів охорони державного кордону з уповноваженими державними органами, які надали доручення»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «On Approval of the Procedure for the Actions of Authorized Officers of the State Border Guard Service of Ukraine in Case of Detection of Persons Subject to Instructions at Border Crossing Points through the State Border of Ukraine and Control Points for Entry to and Exit from Temporarily Occupied Territory of Ukraine and Interaction with Authorized State Bodies That Provided Instructions»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД «Об утверждении Порядка действий уполномоченных служебных лиц Государственной пограничной службы Украины в случае выявления в пунктах пропуска через государственную границу Украины и контрольных пунктах въезда на временно оккупированную территорию Украины и выезда с нее лиц, в отношении которых предоставлено поручение, и порядка взаимодействия органов охраны государственной границы с уполномоченными государственными органами, которые предоставили поручение»",
     },
   },
   {
@@ -675,10 +733,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС «Порядок проведення підрозділами органів охорони державного кордону Державної прикордонної служби України процедури здійснення контролю другої лінії іноземців та осіб без громадянства під час в’їзду в Україну»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «Procedure for the Second Line Control of Foreigners and Stateless Persons by Units of the State Border Guard Service of Ukraine during Entry into Ukraine»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД «Порядок проведения подразделениями органов охраны государственной границы Государственной пограничной службы Украины процедуры осуществления контроля второй линии иностранцев и лиц без гражданства при въезде в Украину»",
     },
   },
   {
@@ -692,10 +752,12 @@ export const legislationData: LegislationType[] = [
         "Наказ МВС «Правила розгляду заяв та оформлення документів, необхідних для вирішення питання про визнання біженцем або особою, яка потребує додаткового захисту, втрату і позбавлення статусу біженця та додаткового захисту і скасування рішення про визнання особи біженцем або особою, яка потребує додаткового захисту»",
     },
     en: {
-      legislationTitle: "",
+      legislationTitle:
+        "Order of the Ministry of Internal Affairs of Ukraine «Rules for Considering Applications and Issuing Documents Necessary for Resolving Issues of Recognizing a Person as a Refugee or a Person in Need of Additional Protection, Losing and Depriving Refugee Status and Additional Protection, and Canceling Decisions on Recognizing a Person as a Refugee or a Person in Need of Additional Protection»",
     },
     ru: {
-      legislationTitle: "",
+      legislationTitle:
+        "Приказ МВД «Правила рассмотрения заявлений и оформления документов, необходимых для решения вопроса о признании беженцем или лицом, нуждающимся в дополнительной защите, утраты и лишения статуса беженца и дополнительной защиты и отмены решения о признании лица беженцем или лицом, нуждающимся в дополнительной защите»",
     },
   },
 ];
