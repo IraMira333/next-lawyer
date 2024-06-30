@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://protection.in.ua
+
 # Sitemaps
 Sitemap: https://protection.in.ua/sitemap.xml
