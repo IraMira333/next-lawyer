@@ -122,5 +122,9 @@
     "title": "legislation",
     "description": "On this page, you can find links to the current legislation of Ukraine in the field of migration law.",
     "filtering": "Choose a category"
+  },
+  "Page404": {
+    "notFound": "Page not found",
+    "tryMore": "Go back or try a different link"
   }
 }
