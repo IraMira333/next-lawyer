@@ -15,8 +15,8 @@ export default function NotFound() {
       <Image
         src="/notFoundPicture.png"
         alt="NotFound"
-        width={300}
-        height={300}
+        width={2000}
+        height={2000}
         priority
         className="mx-auto min-w-[300px] h-auto w-[60%]"
       />
