@@ -175,6 +175,54 @@ export const WhenYouNeedOurHelp = () => {
             />
           </div>
         </li>
+        <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 mb-4 pc:p-5 pc:mb-5">
+          <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
+            <Image
+              src="https://drive.google.com/uc?export=view&id=1TkjIOmeCUS52k1ssBbHkYT2aYiPT5iBv"
+              alt="picture"
+              width={1920}
+              height={1280}
+              className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
+            />
+          </div>
+          <div>
+            <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
+              {t("whomBox5Title")}
+            </h3>
+            <ul className="mb-4 tab:text-base ">
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox5Li1")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox5Li2")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox5Li3")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox5Li4")}</p>
+              </li>
+            </ul>
+          </div>
+          <div className="tab:absolute top-4 right-[22px] pc:top-auto pc:bottom-4">
+            <ButtonDetails
+              text={t("detailsButton")}
+              url={`/${locale}/services#solutions04`}
+            />
+          </div>
+        </li>
       </ul>
     </section>
   );

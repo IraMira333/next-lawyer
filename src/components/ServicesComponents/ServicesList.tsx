@@ -241,6 +241,78 @@ export const ServicesList = () => {
             </div>
           </div>
         </li>
+        <li className="tab:relative tab:flex tab:flex-row-reverse tab:gap-4 pc:gap-[62px] tab:mb-10 pc:mb-[60px]">
+          <div
+            id="solutions04"
+            className="max-w-[338px] mx-auto rounded tab:rounded-none overflow-hidden 
+            tab:min-w-[169px] tab:max-w-[23%] tab:ml-0 pc:min-w-[391px] pc:max-w-[391px] mb-2 pc:mb-[80px] pc:ml-[55px]"
+          >
+            <Image
+              src="https://drive.google.com/uc?export=view&id=1TkjIOmeCUS52k1ssBbHkYT2aYiPT5iBv"
+              alt="picture"
+              width={1920}
+              height={1280}
+              className="aspect-[256/194] tab:aspect-[169/235] pc:aspect-[391/543] flex object-cover "
+            />
+          </div>
+          <div className="flex tab:hidden">
+            <span className="font-lora text-accent text-[26px] leading-8 ml-auto">
+              04
+            </span>
+          </div>
+          <div>
+            <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3">
+              {t("whomBox4Title")}
+            </h3>
+            <p className="mb-4 tab:text-base">{t("whomBox4P1")}</p>
+            <p className="mb-4 tab:text-base">{t("whomBox4P2")}</p>
+            <ul className="mb-4 tab:text-base tab:leading-[21px]">
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox4Li1")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox4Li2")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox4Li3")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox4Li4")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>
+                <p>{t("whomBox4Li5")}</p>
+              </li>
+            </ul>
+
+            <p className="mb-4 tab:text-base">{t("whomBox4P3")}</p>
+            <p className="tab:text-base">{t("whomBox4P4")}</p>
+          </div>
+          <div className="tab:flex tab:flex-col tab:justify-between">
+            <div className="hidden tab:flex ">
+              <span className="font-lora text-accent text-[40px] leading-[48px] ml-auto">
+                04
+              </span>
+            </div>
+            <div className="flex justify-end tab:absolute tab:right-0 bottom-0 mb-10 tab:m-0">
+              <SquareBig />
+            </div>
+          </div>
+        </li>
       </ul>
     </section>
   );

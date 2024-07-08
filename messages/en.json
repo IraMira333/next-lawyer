@@ -40,6 +40,12 @@
     "whomBox3Li4": "extending the duration of stay in Ukraine;",
     "whomBox3Li5": "obtaining stateless person status.",
 
+    "whomBox5Title": "Restoration of lost civil status documents in Ukraine:",
+    "whomBox5Li1": "obtaining duplicates of birth, marriage, and name change certificates;",
+    "whomBox5Li2": "restoration of civil status records;",
+    "whomBox5Li3": "making additions and changes to civil status records;",
+    "whomBox5Li4": "searching for information in archival institutions and obtaining relevant certificates.",
+
     "detailsButton": "More details",
 
     "whomOtherServicesTitle": "SERVICES REGARDING CITIZENSHIP",
@@ -94,6 +100,17 @@
     "whomBox3Li4": "extend the duration of stay in Ukraine;",
     "whomBox3Li5": "obtain stateless person status.",
     "whomBox3P1": "Together with you, we will determine the grounds for application, prepare the necessary documents, and provide assistance for personal submission to the territorial office (division) of the migration service. It's only natural to speculate why the presence of an experienced lawyer alongside the client results in minimal refusals or unpleasant surprises.",
+
+    "whomBox4Title": "Obtaining documents from civil registration authorities",
+    "whomBox4P1": "Obtaining new or duplicate documents issued by the Civil Registry Office is common nowadays. Often this necessity arises from the loss or damage of documents, but there can be other reasons, such as the need to document the grounds for immigration or citizenship, replacing Soviet-era documents with modern ones, etc.",
+    "whomBox4P2": "Upon your request, we will obtain duplicates of the following documents for you:",
+    "whomBox4Li1": "birth certificate;",
+    "whomBox4Li2": "marriage certificate;",
+    "whomBox4Li3": "death certificate;",
+    "whomBox4Li4": "name change certificate;",
+    "whomBox4Li5": "archival birth certificate.",
+    "whomBox4P3": "In addition to these certificates, you can order an extract from the corresponding civil status record in full or shortened form.",
+    "whomBox4P4": "In the event that the civil status record has not been preserved (or only partially preserved) or contains discrepancies with other personal documents, acting on your behalf, we will take care of making additions, corrections or restoring it.",
 
     "additionalServicesTitle": "Termination of Ukrainian Citizenship",
     "additionalServicesP1": "Ukrainian citizenship is a legal bond between an individual and Ukraine, expressed in their mutual rights and obligations.",
