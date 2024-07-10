@@ -10,7 +10,7 @@ export const CitizenshipServices = () => {
   return (
     <section
       id="services"
-      className="bg-accentBg py-10 px-4 tab:px-5 tab:py-[60px] pc:px-9"
+      className="py-10 px-4 tab:px-5 tab:py-[60px] pc:px-9"
     >
       <div className="max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto">
         <h2 className="font-lora text-accent text-center mb-5 text-[28px] leading-8 tab:text-xl pc:text-[40px] pc:leading-[48px] font-medium">

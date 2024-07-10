@@ -121,7 +121,7 @@ export const WhenYouNeedOurHelp = () => {
             />
           </div>
         </li>
-        <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 pc:p-5 pc:mb-5">
+        <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden mb-4 p-4 pc:p-5 pc:mb-5">
           <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1RN9lVZyaPzGeRay-2W_GOt_Bf0YH29Lq"
@@ -175,7 +175,7 @@ export const WhenYouNeedOurHelp = () => {
             />
           </div>
         </li>
-        <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 mb-4 pc:p-5 pc:mb-5">
+        <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden p-4 pc:p-5 ">
           <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1TkjIOmeCUS52k1ssBbHkYT2aYiPT5iBv"

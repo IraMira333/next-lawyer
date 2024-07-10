@@ -48,6 +48,8 @@
 
     "detailsButton": "More details",
 
+    "accessibility": "Find out how we serve clients from different parts of the world",
+
     "whomOtherServicesTitle": "SERVICES REGARDING CITIZENSHIP",
     "whomBox4Title1": "Renunciation of Ukrainian citizenship: ",
     "whomBox4Li1": "Consultation",
@@ -69,6 +71,7 @@
   },
   "Services": {
     "title": "Our Services",
+    "description": "If you need help with a question not listed below, please let us know. We may be able to assist. We are always looking to fill the gaps and ensure everyone has access to migration law advice.",
     "titleServicesList": "We help",
     "whomBox1Title": "The main direction of our legal activity is the protection of the rights of Ukrainian citizens and foreigners from violations by the State Migration Service of Ukraine.",
     "whomBox1AfterTitle": "The lawsuit statistics of our migration practice indicate that the most common administrative violations currently include cases of the heads of territorial authorities (divisions) of the State Migration Service making the following unjustified decisions:",
@@ -139,6 +142,22 @@
     "title": "legislation",
     "description": "On this page, you can find links to the current legislation of Ukraine in the field of migration law.",
     "filtering": "Choose a category"
+  },
+  "Accessibility": {
+    "title1": "Outside Kyiv and Kyiv region?",
+    "title2": "Or just hate traveling?",
+    "description": "Read on to find out why we're easy to work with!",
+    "sectionTitle1": "We're accessible",
+    "sectionP1": "We get it – attending a law firm in the center of Kyiv in the middle of the day is not always possible. You may live far away, have a disability that makes travel challenging, or you just can't take another day off work. Not to worry. We provide services to clients all around the world. If you are a caregiver and you need to bring a family member along to the office, that’s fine too. We have magazines, age-appropriate colouring books and (sometimes) even ice cream. We are family and senior friendly.",
+    "sectionTitle2": "We're tech savvy... sort of",
+    "sectionLi1": "We can meet with clients using Zoom, Skype and other video technologies",
+    "sectionLi2": "We speak to clients during off hours to accommodate different time zones and work schedules",
+    "sectionLi3": "We accept electronic signatures in our legal aid agreements",
+    "sectionLi4": "We accept payment by electronic transfer and card",
+    "sectionLi5": "We send invoices not only to e-mail, but also to your mailbox",
+    "sectionLi6": "We communicate in a way convenient for you (including SMS)",
+    "sectionLi7": "We send documents to clients using Nova Poshta, e-mail or cloud software",
+    "sectionLi8": "We don't expect you to have the desire to spend time printing out documents"
   },
   "Page404": {
     "notFound": "Page not found",
