@@ -18,18 +18,20 @@ const Contacts = () => {
           alt="A picture with a statuette of the goddess of justice"
           width={6240}
           height={4160}
-          className=" w-full h-full tab:h-[74vh] tab:min-h-[820px] pc:min-h-[964px] object-cover "
+          className=" w-full h-full tab:h-[74vh] tab:min-h-[906px] pc:min-h-[1052px] object-cover "
           priority
         />
       </div>
       <div
-        className="max-w-[500px] mx-auto tab:absolute bg-primary top-8 left-5  pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
-      tab:min-w-[364px] pc:min-w-[634px] tab:w-[48%] pc:w-[46%] pc:py-10 "
+        className="max-w-[500px] mx-auto tab:absolute bg-primary top-8 right-[47%]  pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
+      tab:min-w-[364px] pc:min-w-[634px] tab:w-[48%] pc:w-[46%] pc:py-10 text-center"
       >
         <h2 className="font-lora text-[28px] tab:text-3xl leading-8 font-medium uppercase text-accent text-center mb-4 pc:mb-[30px] pc:text-[40px]">
           {t("title")}
         </h2>
-
+        <h3 className="text-xl tab:text-2xl leading-[21px] font-semibold mb-3">
+          {t("lawyer1")}
+        </h3>
         <ul className="">
           <li className="flex gap-2 mb-3 pc:mb-4 pc:justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
             <div className="w-6 h-6 flex justify-center items-center">
@@ -88,9 +90,11 @@ const Contacts = () => {
             </div>
           </>
         )}
-        <div className="h-[2px] w-full bg-accent mt-3"></div>
-
-        <ul className="mt-7">
+        <div className="h-[2px] w-full bg-accent mt-3 mb-7"></div>
+        <h3 className="text-xl tab:text-2xl leading-[21px] font-semibold mb-3">
+          {t("lawyer2")}
+        </h3>
+        <ul className="mt-2">
           <li className="flex gap-2 mb-3 pc:mb-4 pc:justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
             <div className="w-6 h-6 flex justify-center items-center">
               <IconMap className="" />
