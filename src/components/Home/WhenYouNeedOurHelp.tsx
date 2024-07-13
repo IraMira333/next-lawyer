@@ -133,6 +133,60 @@ export const WhenYouNeedOurHelp = () => {
           </div>
           <div>
             <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
+              {t("whomBox6Title")}
+            </h3>
+            <ul className="mb-4 tab:text-base ">
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox6Li1")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox6Li2")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox6Li3")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox6Li4")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox6Li5")}</p>
+              </li>
+            </ul>
+          </div>
+          <div className="tab:absolute top-4 right-[22px] pc:top-auto pc:bottom-4">
+            <ButtonDetails
+              text={t("detailsButton")}
+              url={`/${locale}/services#solutions03`}
+            />
+          </div>
+        </li>
+        <li className="tab:relative pc:flex pc:gap-4 border border-accent rounded-lg overflow-hidden mb-4 p-4 pc:p-5 pc:mb-5">
+          <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
+            <Image
+              src="https://drive.google.com/uc?export=view&id=1fQ-WDQ1J4RQWncwc9OrTaarknPs0QzM_"
+              alt="picture"
+              width={1000}
+              height={790}
+              className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
+            />
+          </div>
+          <div>
+            <h3 className="text-base leading-[21px] tab:text-lg font-semibold my-4">
               {t("whomBox3Title")}
             </h3>
             <ul className="mb-4 tab:text-base ">
