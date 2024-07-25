@@ -17,6 +17,7 @@
     "lawyer": "Migration Lawyer",
     "title": "Protection of citizens rights in the State Migration Service",
     "description": "Lawyers Antonii Kurts, Dmytro Kovalenko, and Serhiy Kucheryavenko, who are members of the National Association of Advocates of Ukraine's committee on migration law, citizenship, protection from expulsion, and extradition, along with a team of specialists in various fields of law, ensure the protection of the violated rights of foreign citizens, stateless persons, and Ukrainian citizens in relations with the State Migration Service of Ukraine and other law enforcement agencies.",
+    "heroPicture": "An orange globe in the background, a judicial gavel in the foreground",
 
     "whomTitle": "Whom we can help",
     "whomBox1Title": "If you have encountered unlawful actions by the authorities of the State Migration Service of Ukraine in such cases:",
@@ -26,12 +27,14 @@
     "whomBox1Li4": "refusal (delays) in processing temporary residency permits in Ukraine;",
     "whomBox1Li5": "decision on entry ban to Ukraine or forced return (deportation);",
     "whomBox1Li6": "refusal to exchange Ukrainian citizenship passports.",
+    "whomBox1picture": "A lawyer in a suit holds a brown leather bag in his hand",
 
     "whomBox2Title": "For individuals in need of legal representation due to being held accountable for:",
     "whomBox2Li1": "violations of legislation regarding the legal status of foreigners and stateless persons;",
     "whomBox2Li2": "illegal assistance to foreigners or stateless persons in evading departure from Ukraine;",
     "whomBox2Li3": "illegal crossing or attempted illegal crossing of Ukraine's state border;",
     "whomBox2Li4": "failure to fulfill obligations as the receiving party.",
+    "whomBox2picture": "The judicial gavel on the background of the scales of justice and a stack of books",
 
     "whomBox3Title": "For foreigners who intend to apply to the State Migration Service of Ukraine for:",
     "whomBox3Li1": "acquiring Ukrainian citizenship;",
@@ -39,12 +42,14 @@
     "whomBox3Li3": "applying for permanent/temporary residency;",
     "whomBox3Li4": "extending the duration of stay in Ukraine;",
     "whomBox3Li5": "obtaining stateless person status.",
+    "whomBox3picture": "A fence with barbed wire and a sign with the inscription: Let's stop illegal immigration. Obtaining a residence permit",
 
     "whomBox5Title": "Restoration of lost civil status documents in Ukraine:",
     "whomBox5Li1": "obtaining duplicates of birth, marriage, and name change certificates;",
     "whomBox5Li2": "restoration of civil status records;",
     "whomBox5Li3": "making additions and changes to civil status records;",
     "whomBox5Li4": "searching for information in archival institutions and obtaining relevant certificates.",
+    "whomBox5picture": "Hall of the civil status registration authority, where birth, marriage, and name change certificates are obtained",
 
     "whomBox6Title": "Citizens of Ukraine who need assistance in connection with:",
     "whomBox6Li1": "the need to confirm the acquisition of Ukrainian citizenship for a child by birth;",
@@ -52,6 +57,7 @@
     "whomBox6Li3": "returning to Ukraine and deregistration from consular records;",
     "whomBox6Li4": "appealing against the actions (inaction) of diplomatic missions abroad;",
     "whomBox6Li5": "the need to prove non-resident tax status.",
+    "whomBox6picture": "Ukrainian passport, Ukrainian citizenship",
 
     "detailsButton": "More details",
 
@@ -65,14 +71,18 @@
     "whomBox4Li2P1": "For Ukrainian citizens who have made a well-considered decision, are aware of its legal consequences, but still intend to raise the issue of renouncing Ukrainian citizenship or initiate the procedure for its loss, we offer full legal support at all stages of consideration of the submitted petition aimed at achieving the desired result.",
     "whomBox4Title2": "Renunciation of previous citizenship by foreigners who have obtained Ukrainian citizenship:",
     "whomBox4Li3": "Within two years from the moment of acquiring Ukrainian citizenship, a foreigner must provide the migration service with a document confirming the renunciation of previous citizenship. In practice, the procedure for fulfilling such a legal requirement is not sufficiently regulated and is associated with legal and organizational complexities, and in some cases it may be impossible. Therefore, after obtaining a temporary certificate of Ukrainian citizenship, we recommend seeking legal advice to determine an effective, reasonable algorithm of actions, without wasting time and money on collecting unnecessary certificates.",
+    "whomBox4picture": "A family with suitcases at the airport who wants to withdraw from Ukrainian citizenship",
+
     "whyTitle": "Why should you turn to an immigration lawyer?",
     "whyP1": "Individuals who have arrived in Ukraine for the first time and have the opportunity to have unforgettable experiences while visiting state authorities and institutions usually aim to minimize any further interaction with the state and the associated stress.",
     "whyP2": "We have been practicing in the field of migration law for over 15 years. During this time, we have thoroughly studied the mindset, behavior, and working style of officials from the State Migration Service of Ukraine, as well as employees of other law enforcement agencies of Ukraine.",
     "whyP3": "Unfortunately, violations of legislation, corrupt practices, disregard for the rights and freedoms of foreign citizens and Ukrainian citizens occur constantly. Foreigners feel helpless and lost in the face of the arbitrariness of officials of state authorities. Currently, we can no longer calmly observe what is happening in our society.",
-    "whyP4": "- We are confident, we possess the strength and knowledge..."
+    "whyP4": "- We are confident, we possess the strength and knowledge...",
+    "whyPicture": "A man is writing something at an office table, and in the foreground is the inscription: Lawyer."
   },
   "Contacts": {
     "title": "How to contact us",
+    "heroPicture": "A statuette of the goddess of justice and a judge's gavel in the foreground",
     "lawyer1": "Lawyer Antonii Kurts",
     "address1": "Ukraine, Kyiv, Derevlyanska Street, Building 13, Office 303",
     "lawyer2": "Lawyer Dmytro Kovalenko",
@@ -82,6 +92,8 @@
     "title": "Our Services",
     "description": "If you need help with a question not listed below, please let us know. We may be able to assist. We are always looking to fill the gaps and ensure everyone has access to migration law advice.",
     "titleServicesList": "We help",
+    "heroPicture": "Top view over career guidance items for judges",
+
     "whomBox1Title": "The main direction of our legal activity is the protection of the rights of Ukrainian citizens and foreigners from violations by the State Migration Service of Ukraine.",
     "whomBox1AfterTitle": "The lawsuit statistics of our migration practice indicate that the most common administrative violations currently include cases of the heads of territorial authorities (divisions) of the State Migration Service making the following unjustified decisions:",
     "whomBox1Li1": "cancellation of immigration permits and recognition of permanent residency permits as invalid;",
@@ -95,6 +107,8 @@
     "whomBox1P3": "The only argument in disputes with subjects of authoritative powers remains and has been the court decision recognizing the unlawful conduct with the prospect of further personal responsibility of the specific official.",
     "whomBox1P4": "We have enough of such decisions. Almost all of them record the unlawful inaction of heads of territorial authorities of the State Migration Service of Ukraine and oblige certain actions to be taken by the court, aimed at restoring the rights of the individuals we represent.",
     "whomBox1P5": "We are creating relevant judicial doctrine in the field of migration law and constantly improving it.",
+    "whomBox1picture": "A lawyer in a suit holds a brown leather bag in his hand",
+
     "whomBox2Title": "We provide qualified legal protection to citizens in connection with their being held accountable for the following offenses:",
     "whomBox2Li1": "violations of legislation regarding the legal status of foreigners and stateless persons;",
     "whomBox2Li2": "illegal assistance to foreigners or stateless persons in evading departure from Ukraine;",
@@ -104,6 +118,7 @@
     "whomBox2P2": "If you have been summoned to compile a protocol on an administrative offense or detained by law enforcement officers on the street, please contact us by phone ",
     "whomBox2P2or": "  or  ",
     "whomBox2P22": " at your earliest convenience.",
+    "whomBox2picture": "The judicial gavel on the background of the scales of justice and a stack of books",
 
     "whomBox3Title": "You can contact us if you need:",
     "whomBox3Li1": "acquire Ukrainian citizenship;",
@@ -112,6 +127,7 @@
     "whomBox3Li4": "extend the duration of stay in Ukraine;",
     "whomBox3Li5": "obtain stateless person status.",
     "whomBox3P1": "Together with you, we will determine the grounds for application, prepare the necessary documents, and provide assistance for personal submission to the territorial office (division) of the migration service. It's only natural to speculate why the presence of an experienced lawyer alongside the client results in minimal refusals or unpleasant surprises.",
+    "whomBox6picture": "Ukrainian passport, Ukrainian citizenship",
 
     "whomBox4Title": "Obtaining documents from civil registration authorities",
     "whomBox4P1": "Obtaining new or duplicate documents issued by the Civil Registry Office is common nowadays. Often this necessity arises from the loss or damage of documents, but there can be other reasons, such as the need to document the grounds for immigration or citizenship, replacing Soviet-era documents with modern ones, etc.",
@@ -123,6 +139,7 @@
     "whomBox4Li5": "archival birth certificate.",
     "whomBox4P3": "In addition to these certificates, you can order an extract from the corresponding civil status record in full or shortened form.",
     "whomBox4P4": "In the event that the civil status record has not been preserved (or only partially preserved) or contains discrepancies with other personal documents, acting on your behalf, we will take care of making additions, corrections or restoring it.",
+    "whomBox5picture": "Hall of the civil status registration authority, where birth, marriage, and name change certificates are obtained",
 
     "additionalServicesTitle": "Termination of Ukrainian Citizenship",
     "additionalServicesP1": "Ukrainian citizenship is a legal bond between an individual and Ukraine, expressed in their mutual rights and obligations.",
@@ -150,12 +167,14 @@
   "Legislation": {
     "title": "legislation",
     "description": "On this page, you can find links to the current legislation of Ukraine in the field of migration law.",
-    "filtering": "Choose a category"
+    "filtering": "Choose a category",
+    "heroPicture": "Courtroom, view of the lawyer's table and chair"
   },
   "Accessibility": {
     "title1": "Outside Kyiv and Kyiv region?",
     "title2": "Or just hate traveling?",
     "description": "Read on to find out why we're easy to work with!",
+    "heroPicture": "A dark almost black background with several orange lightning-like stripes",
     "sectionTitle1": "We're accessible",
     "sectionP1": "We get it – attending a law firm in the center of Kyiv in the middle of the day is not always possible. You may live far away, have a disability that makes travel challenging, or you just can't take another day off work. Not to worry. We provide services to clients all around the world. If you are a caregiver and you need to bring a family member along to the office, that’s fine too. We have magazines, age-appropriate colouring books and (sometimes) even ice cream. We are family and senior friendly.",
     "sectionTitle2": "We're tech savvy... sort of",

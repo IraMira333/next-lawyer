@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="tab:flex flex-row-reverse">
         <Image
           src="https://drive.google.com/uc?export=view&id=1nU-GhAzB-1NfuYQpGd_ydPsQYBfQGTZ4"
-          alt="A picture with a Globe"
+          alt={t("heroPicture")}
           width={5184}
           height={3456}
           className=" w-full h-full max-h-[400px] pc:max-h-full tab:w-[50%] pc:w-[86%] tab:h-auto object-cover"

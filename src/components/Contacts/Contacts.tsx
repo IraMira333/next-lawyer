@@ -15,7 +15,7 @@ const Contacts = () => {
       <div>
         <Image
           src="https://drive.google.com/uc?export=view&id=13gvMy9nsHl8dGy9myy3PJ_ojrwSiYhtU"
-          alt="A picture with a statuette of the goddess of justice"
+          alt={t("heroPicture")}
           width={6240}
           height={4160}
           className=" w-full h-full tab:h-[74vh] tab:min-h-[906px] pc:min-h-[1052px] object-cover "

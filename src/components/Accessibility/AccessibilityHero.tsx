@@ -11,7 +11,7 @@ export const AccessibilityHero = () => {
     >
       <Image
         src="https://drive.google.com/uc?export=view&id=1PG32LQ07C3wwsQRhJl9igDtzlq0u-vzI"
-        alt="Background picture"
+        alt={t("heroPicture")}
         width={1024}
         height={662}
         priority

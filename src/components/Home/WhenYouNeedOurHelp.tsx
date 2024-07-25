@@ -17,7 +17,7 @@ export const WhenYouNeedOurHelp = () => {
           <div className="max-w-[338px] mx-auto pc:mx-0  rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1TxHoVZ7l8A-1jaaQ7Kk8a876LJoQ8gp0"
-              alt="picture"
+              alt={t("whomBox1picture")}
               width={1000}
               height={1500}
               className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
@@ -77,7 +77,7 @@ export const WhenYouNeedOurHelp = () => {
           <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1vO0di27-lFh5lmZddB3MpAfQV7zmjxFf"
-              alt="picture"
+              alt={t("whomBox2picture")}
               width={3584}
               height={5376}
               className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
@@ -125,7 +125,7 @@ export const WhenYouNeedOurHelp = () => {
           <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1RN9lVZyaPzGeRay-2W_GOt_Bf0YH29Lq"
-              alt="picture"
+              alt={t("whomBox6picture")}
               width={1250}
               height={827}
               className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
@@ -179,7 +179,7 @@ export const WhenYouNeedOurHelp = () => {
           <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1fQ-WDQ1J4RQWncwc9OrTaarknPs0QzM_"
-              alt="picture"
+              alt={t("whomBox3picture")}
               width={1000}
               height={790}
               className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "
@@ -233,7 +233,7 @@ export const WhenYouNeedOurHelp = () => {
           <div className="max-w-[338px] mx-auto pc:mx-0 rounded overflow-hidden tab:ml-0 pc:min-w-[371px] ">
             <Image
               src="https://drive.google.com/uc?export=view&id=1TkjIOmeCUS52k1ssBbHkYT2aYiPT5iBv"
-              alt="picture"
+              alt={t("whomBox5picture")}
               width={1920}
               height={1280}
               className="aspect-[256/194] tab:aspect-[338/256] pc:aspect-[246/196] flex object-cover "

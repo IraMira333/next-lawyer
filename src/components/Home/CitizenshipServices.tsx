@@ -22,7 +22,7 @@ export const CitizenshipServices = () => {
               <div className="max-w-[380px] mb-5 mx-auto h-auto tab:mr-0 tab:min-w-[356px] tab:max-w-full rounded overflow-hidden">
                 <Image
                   src="https://drive.google.com/uc?export=view&id=16EMZ2DM4nXKKzhffY1R5ndEgY0Uqmuyz"
-                  alt="picture"
+                  alt={t("whomBox4picture")}
                   width={2000}
                   height={1350}
                   className=" flex object-cover "

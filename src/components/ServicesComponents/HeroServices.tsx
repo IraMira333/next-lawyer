@@ -8,7 +8,7 @@ export const HeroServices = () => {
     <section className="relative bg-[#0c0c0c7f]  w-full flex px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 ">
       <Image
         src="https://drive.google.com/uc?export=view&id=1aKWhqUuMFl87qiGqPNXpCy5u5Tm4bBcg"
-        alt="Top view over career guidance items for judges"
+        alt={t("heroPicture")}
         width={1024}
         height={662}
         priority
