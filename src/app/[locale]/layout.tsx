@@ -75,6 +75,7 @@ export default function LocaleLayout({
         <link rel="icon" href="/favicon.png" sizes="any" />
         <meta name="image" property="og:image" content="/imageForSharing.jpg" />
         <meta name="twitter:image" content="/imageForSharing.jpg" />
+        <meta name="robots" content="index, follow" />
       </head>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
