@@ -1,10 +1,5 @@
-import type { Metadata } from "next";
 import { Lora, Raleway, Roboto_Slab } from "next/font/google";
-import {
-  NextIntlClientProvider,
-  useMessages,
-  useTranslations,
-} from "next-intl";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 import "./globals.css";
 
 import Footer from "@/components/Footer/Footer";
@@ -41,7 +36,7 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
     alternates: {
-      canonical: "/",
+      canonical: `/${locale}`,
       languages: {
         en: "/en",
         ru: "/ru",
