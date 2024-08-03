@@ -18,9 +18,9 @@ export const AccessibilityHero = () => {
         className="absolute w-full top-0 left-0 h-full object-cover z-[-1]"
       />
       <div className="min-w-[288px] w-[500px] mx-auto tab:w-[900px] pc:w-[1800px] my-auto">
-        <h2 className="font-lora text-3xl text-light tab:text-4xl pc:text-[56px] pc:leading-[60px] font-semibold mb-3 tab:mb-4 pc:mb-9">
+        <h1 className="font-lora text-3xl text-light tab:text-4xl pc:text-[56px] pc:leading-[60px] font-semibold mb-3 tab:mb-4 pc:mb-9">
           {t("title1")} <br /> {t("title2")}
-        </h2>
+        </h1>
         <p className=" text-light text-lg leading-[18px] pc:leading-[21px] text-left">
           {t("description")}
         </p>
