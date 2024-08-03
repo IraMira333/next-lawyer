@@ -13,9 +13,9 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${locale}/services`,
       languages: {
-        en: "/en/services",
-        ru: "/ru/services",
-        ua: "/ua/services",
+        "en-US": "/en/services",
+        "ru-RU": "/ru/services",
+        "uk-UA": "/ua/services",
       },
     },
     title: t("title"),

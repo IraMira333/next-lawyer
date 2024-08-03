@@ -12,9 +12,9 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${locale}/accessibility`,
       languages: {
-        en: "/en/accessibility",
-        ru: "/ru/accessibility",
-        ua: "/ua/accessibility",
+        "en-US": "/en/accessibility",
+        "ru-RU": "/ru/accessibility",
+        "uk-UA": "/ua/accessibility",
       },
     },
     title: t("sectionTitle1"),

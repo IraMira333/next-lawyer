@@ -13,9 +13,9 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${locale}/legislation`,
       languages: {
-        en: "/en/legislation",
-        ru: "/ru/legislation",
-        ua: "/ua/legislation",
+        "en-US": "/en/legislation",
+        "ru-RU": "/ru/legislation",
+        "uk-UA": "/ua/legislation",
       },
     },
     title: t("title"),
