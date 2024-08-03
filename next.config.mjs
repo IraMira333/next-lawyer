@@ -4,15 +4,6 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/ua",
-        permanent: true,
-      },
-    ];
-  },
   async headers() {
     return [
       {
