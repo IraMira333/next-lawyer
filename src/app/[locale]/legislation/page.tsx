@@ -11,7 +11,6 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
     alternates: {
-      canonical: `/${locale}/legislation`,
       languages: {
         "en-US": "/en/legislation",
         "ru-RU": "/ru/legislation",
