@@ -67,7 +67,7 @@ export default function LocaleLayout({
       className={`${lora.variable} ${raleway.variable} ${robotoSlab.variable}`}
     >
       <head>
-        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="image" property="og:image" content="/imageForSharing.jpg" />
         <meta name="twitter:image" content="/imageForSharing.jpg" />
         <meta name="robots" content="index, follow" />
