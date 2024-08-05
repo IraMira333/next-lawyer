@@ -1,6 +1,7 @@
 import { Lora, Raleway, Roboto_Slab } from "next/font/google";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
@@ -77,7 +78,10 @@ export default function LocaleLayout({
           <div className="flex flex-col min-h-[100%]">
             <Header />
 
-            <main className="flex-[1_0_auto]">{children}</main>
+            <main className="flex-[1_0_auto]">
+              {children}
+              <Analytics />
+            </main>
             <Footer />
           </div>
         </body>
