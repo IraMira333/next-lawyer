@@ -11,7 +11,7 @@ const nextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: `script-src 'self' https://maps.googleapis.com https://maps.gstatic.com 'unsafe-inline' 'unsafe-eval'`,
+            value: `default-src 'self'; script-src 'self' https://maps.googleapis.com https://maps.gstatic.com https://va.vercel-scripts.com 'unsafe-inline' 'unsafe-eval'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://api.trusted.com; font-src 'self' https://fonts.gstatic.com; frame-src 'self';`,
           },
           {
             key: "X-Frame-Options",
