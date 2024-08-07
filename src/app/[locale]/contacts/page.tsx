@@ -14,7 +14,7 @@ export async function generateMetadata({
       languages: {
         "en-US": "/en/contacts",
         "ru-RU": "/ru/contacts",
-        "uk-UA": "/contacts",
+        "uk-UA": "/uk/contacts",
       },
     },
     title: t("title"),
