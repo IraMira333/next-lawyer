@@ -1,1 +1,1 @@
-export type LocaleType = "ua" | "en" | "ru";
+export type LocaleType = "uk" | "en" | "ru";
