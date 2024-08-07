@@ -29,7 +29,7 @@ export default function LanguageSwitcher() {
                 : "text-nav hover:text-accent  transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]"
             }
           >
-            {curLocale}
+            {curLocale === "uk" ? "ua" : curLocale}
           </Link>
         </li>
       ))}

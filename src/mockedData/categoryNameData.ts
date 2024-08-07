@@ -1,6 +1,6 @@
 export type СategoryNamesProp = {
   categoryName: string;
-  ua: string;
+  uk: string;
   ru: string;
   en: string;
 };
@@ -8,37 +8,37 @@ export type СategoryNamesProp = {
 export const categoryNames: СategoryNamesProp[] = [
   {
     categoryName: "all",
-    ua: "Всі категорії",
+    uk: "Всі категорії",
     ru: "Все категории",
     en: "All categories",
   },
   {
     categoryName: "citizenship",
-    ua: "Громадянство",
+    uk: "Громадянство",
     ru: "Гражданство",
     en: "Citizenship",
   },
   {
     categoryName: "immigration",
-    ua: "Імміграція",
+    uk: "Імміграція",
     ru: "Иммиграция",
     en: "Immigration",
   },
   {
     categoryName: "status",
-    ua: "Правовий статус іноземців",
+    uk: "Правовий статус іноземців",
     ru: "Правовий статус іноземців",
     en: "Legal status of foreigners",
   },
   {
     categoryName: "citizensRights",
-    ua: "Права громадян",
+    uk: "Права громадян",
     ru: "Права граждан",
     en: "Citizens' rights",
   },
   {
     categoryName: "entryExit",
-    ua: "В'їзд та виїзд з України",
+    uk: "В'їзд та виїзд з України",
     ru: "Въезд и выезд из Украины",
     en: "Entry and exit from Ukraine",
   },
