@@ -33,4 +33,40 @@ export const legislationChangesData: LegislationChangesType[] = [
         "Подача та рассмотрение уже поданных заявлений граждан Российской Федерации относительно приобретения гражданства Украины приостанавливается на срок до 12 месяцев со дня прекращения или отмены военного положения в Украине.",
     },
   },
+  {
+    data: {
+      id: "02",
+      link: "https://itd.rada.gov.ua/billInfo/Bills/Card/40268",
+    },
+    uk: {
+      legislationTitle:
+        "Верховною Радою 1 грудня 2022 року було прийнято Закон «Про зупинення дії та вихід з Конвенції про правову допомогу і правові відносини у цивільних, сімейних і кримінальних справах та Протоколу до Конвенції про правову допомогу і правові відносини у цивільних, сімейних і кримінальних справах від 22 січня 1993 року».",
+    },
+    en: {
+      legislationTitle:
+        "The Verkhovna Rada adopted the Law «On the Suspension of the Operation and Withdrawal from the Convention on Legal Assistance and Legal Relations in Civil, Family, and Criminal Matters, and the Protocol to the Convention on Legal Assistance and Legal Relations in Civil, Family, and Criminal Matters of January 22, 1993» (Draft Law No. 0163) on December 1, 2022.",
+    },
+    ru: {
+      legislationTitle:
+        "Верховной Радой 1 декабря 2022 года был принят Закон «О приостановлении действия и выходе из Конвенции о правовой помощи и правовых отношениях по гражданским, семейным и уголовным делам и Протокола к Конвенции о правовой помощи и правовых отношениях по гражданским, семейным и уголовным делам от 22 января 1993».",
+    },
+  },
+  {
+    data: {
+      id: "03",
+      link: "https://zakon.rada.gov.ua/laws/show/107-2023-п#Text",
+    },
+    uk: {
+      legislationTitle:
+        "Відповідно до Постанови КМУ від 4 лютого 2023 року, №107 «Деякі питання прийняття на території України під час воєнного стану документів, виданих уповноваженими органами іноземних держав» під час воєнного стану та протягом 6 місяців після його припинення або скасування документи, виготовлені або засвідчені на території іноземних держав установою або спеціально на те уповноваженою особою в межах їх компетенції за установленою формою і скріплені гербовою печаткою, приймаються на території України без спеціального посвідчення (консульської легалізації, проставлення апостиля тощо) у разі, коли станом на 24 лютого 2022 р. такі документи приймалися на території України без спеціального посвідчення.",
+    },
+    en: {
+      legislationTitle:
+        "According to the Resolution of the Cabinet of Ministers of Ukraine No. 107 dated February 4, 2023, «Certain Issues Regarding the Acceptance of Documents Issued by Authorized Bodies of Foreign States on the Territory of Ukraine During Martial Law» during martial law and for 6 months after its termination or cancellation, documents that have been issued or certified on the territory of foreign states by an institution or a specially authorized person within their competence in the established form and sealed with an official stamp are accepted on the territory of Ukraine without special certification (consular legalization, apostille, etc.), provided that as of February 24, 2022, such documents were accepted in Ukraine without special certification.",
+    },
+    ru: {
+      legislationTitle:
+        "В соответствии с Постановлением КМУ от 4 февраля 2023 года №107 «Некоторые вопросы принятия на территории Украины во время военного положения документов, выданных уполномоченными органами иностранных государств» во время военного положения и в течение 6 месяцев после его прекращения или отмены документы, изготовленные или заверенные на территории иностранных государств учреждением или специально на то уполномоченным лицом в пределах их компетенции по установленной форме и скрепленные гербовой печатью, принимаются на территории Украины без специального удостоверения (консульской легализации, проставления апостиля и т.п.) в случае, когда по состоянию на 24 февраля 2022 г. такие документы принимались на территории Украины без специального удостоверения.",
+    },
+  },
 ];
