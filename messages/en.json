@@ -169,7 +169,8 @@
     "title": "legislation",
     "description": "On this page, you can find links to the current legislation of Ukraine in the field of migration law.",
     "filtering": "Choose a category",
-    "heroPicture": "Courtroom, view of the lawyer's table and chair"
+    "heroPicture": "Courtroom, view of the lawyer's table and chair",
+    "legislativeChangesTitle": "Attention! Changes in legislation"
   },
   "Accessibility": {
     "title1": "Outside Kyiv and Kyiv region?",
