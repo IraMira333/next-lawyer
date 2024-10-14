@@ -14,7 +14,7 @@ const Contacts = () => {
     <div className="relative  w-full">
       <div>
         <Image
-          src="https://drive.google.com/uc?export=view&id=13gvMy9nsHl8dGy9myy3PJ_ojrwSiYhtU"
+          src="/still-life-with-scales-justice.webp"
           alt={t("heroPicture")}
           width={6240}
           height={4160}

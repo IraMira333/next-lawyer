@@ -7,10 +7,10 @@ export const HeroServices = () => {
   return (
     <section className="relative bg-[#0c0c0c7f]  w-full flex px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 ">
       <Image
-        src="https://drive.google.com/uc?export=view&id=1aKWhqUuMFl87qiGqPNXpCy5u5Tm4bBcg"
+        src="/top-view-career-guidance-items-judges.webp"
         alt={t("heroPicture")}
-        width={1024}
-        height={662}
+        width={3360}
+        height={2240}
         priority
         className="absolute w-full top-0 left-0 h-full object-cover z-[-1]"
       />

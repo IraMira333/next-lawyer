@@ -8,10 +8,10 @@ export const HeroLegislation = () => {
     <section className="relative bg-accentBg pc:bg-primary ">
       <div className="tab:flex flex-row-reverse">
         <Image
-          src="https://drive.google.com/uc?export=view&id=1uc2Px8XXZXiyFJNrx8Sz3LGcmghr9Ons"
+          src="/photorealistic-lawyer-environment.webp"
           alt={t("heroPicture")}
-          width={5376}
-          height={3584}
+          width={2688}
+          height={1792}
           className=" w-full h-full tab:w-[50%] pc:w-[86%] max-h-[300px] pc:max-h-[500px] tab:h-auto object-cover"
           priority
         />

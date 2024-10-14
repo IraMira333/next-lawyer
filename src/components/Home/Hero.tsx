@@ -8,10 +8,10 @@ export const Hero = () => {
     <section className="relative bg-accentBg pc:bg-primary">
       <div className="tab:flex flex-row-reverse">
         <Image
-          src="https://drive.google.com/uc?export=view&id=1nU-GhAzB-1NfuYQpGd_ydPsQYBfQGTZ4"
+          src="/brown-globe-with-gavel-wood-flip.webp"
           alt={t("heroPicture")}
-          width={5184}
-          height={3456}
+          width={4096}
+          height={2731}
           className=" w-full h-full max-h-[400px] pc:max-h-full tab:w-[50%] pc:w-[86%] tab:h-auto object-cover"
           priority
         />
