@@ -39,7 +39,7 @@ export const AdditionalServices = () => {
         <p className="indent-7 mb-4 ">{t("additionalServicesTitle2")}</p>
         <ul className="tab:flex tab:gap-4 tab:mb-5 justify-center">
           <li className="mb-4 tab:mb-0 tab:relative tab:w-tabAdditionalServices border border-accent rounded-lg overflow-hidden p-4 pc:p-5 ">
-            <h3 className="leading-[21px] text-center font-semibold">
+            <h3 className="leading-[21px] text-center font-semibold mb-3">
               {t("additionalServicesList1Title")}
             </h3>
             <div className="h-[2px] w-full bg-accent "></div>
@@ -71,7 +71,7 @@ export const AdditionalServices = () => {
             </ul>
           </li>
           <li className="tab:relative tab:w-tabAdditionalServices  border border-accent rounded-lg overflow-hidden p-4 mb-4 tab:mb-0 pc:p-5 ">
-            <h3 className="leading-[21px] text-center tab:h-[56px] pc:h-auto font-semibold">
+            <h3 className="leading-[21px] text-center tab:h-[42px] pc:h-auto font-semibold mb-3">
               {t("additionalServicesList2Title")}
             </h3>
             <div className="h-[2px] w-full bg-accent "></div>
