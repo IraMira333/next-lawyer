@@ -220,11 +220,23 @@ export const ServicesList = () => {
                 </div>{" "}
                 <p>{t("whomBox3Li3")}</p>
               </li>
-              <li className="flex gap-2 text-start">
+              <li className="flex gap-2 text-start mb-2">
                 <div className="mt-2">
                   <SquareSmall />
                 </div>{" "}
                 <p>{t("whomBox3Li4")}</p>
+              </li>
+              <li className="flex gap-2 text-start mb-2">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox3Li5")}</p>
+              </li>
+              <li className="flex gap-2 text-start">
+                <div className="mt-2">
+                  <SquareSmall />
+                </div>{" "}
+                <p>{t("whomBox3Li6")}</p>
               </li>
             </ul>
 
