@@ -17,6 +17,24 @@ export type LegislationChangesType = {
 export const legislationChangesData: LegislationChangesType[] = [
   {
     data: {
+      id: "04",
+      link: "https://zakon.rada.gov.ua/laws/show/3-2025-п#Text",
+    },
+    uk: {
+      legislationTitle:
+        "Строк дії тимчасового посвідчення громадянина України може бути продовжений на період дії військового стану в Україні +12 місяців. Також продовжується строк для подання документа про припинення іноземного громадянства. ",
+    },
+    en: {
+      legislationTitle:
+        "The validity period of a temporary certificate of a citizen of Ukraine may be extended for the period of martial law in Ukraine +12 months. The deadline for submitting a document on the termination of foreign citizenship is also extended.",
+    },
+    ru: {
+      legislationTitle:
+        "Срок действия временного удостоверения гражданина Украины может быть продлен на период военного положения в Украине +12 месяцев. Также продлевается срок для подачи документа о прекращении иностранного гражданства.",
+    },
+  },
+  {
+    data: {
       id: "01",
       link: "https://zakon.rada.gov.ua/laws/show/3897-20#n111",
     },
