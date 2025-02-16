@@ -1,4 +1,5 @@
 import { AdditionalServices } from "./AdditionalServices";
+import { FreeConsultations } from "./FreeConsultations";
 import { HeroServices } from "./HeroServices";
 import { ServicesList } from "./ServicesList";
 
@@ -8,6 +9,7 @@ export const ServicesPage = () => {
       <HeroServices />
       <ServicesList />
       <AdditionalServices />
+      <FreeConsultations />
     </>
   );
 };
