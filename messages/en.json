@@ -166,7 +166,28 @@
     "additionalServicesP4": "A committee of the National Association of Lawyers of Ukraine on migration law has developed a protocol of representative actions on behalf of Ukrainian citizens who have decided to terminate their Ukrainian citizenship.",
     "additionalServicesP5": "Together with you, we will plan the sequence of joint actions, determine and prepare the list of documents that would be expedient to use, and if necessary, ensure the personal presence of lawyers.",
     "additionalServicesTitle3": "PLEASE NOTE",
-    "additionalServicesP6": "An individual who has renounced or lost Ukrainian citizenship in the established manner is not deprived of the opportunity to use the right to restore it in accordance with the established procedure."
+    "additionalServicesP6": "An individual who has renounced or lost Ukrainian citizenship in the established manner is not deprived of the opportunity to use the right to restore it in accordance with the established procedure.",
+    "freeTitle": "free consultations",
+    "freeText": "Not all legal issues require the paid consultation of a lawyer. To make it easier for you to access the information you need, below are brief answers to the most frequently asked questions that may interest you.",
+    "freeQuestion01": "How can a foreigner obtain a Ukrainian passport?",
+    "freeAnswer01": {
+      "titleList1": "A Ukrainian passport is an official document that confirms a person's Ukrainian citizenship. Ukrainian citizenship can be acquired on the grounds specified by law. Let's consider the main ones:",
+      "item11": "<bold>By birth.</bold> Ukrainian citizenship is acquired in the following cases:",
+      "subItem11": "birth to parents who are Ukrainian citizens;",
+      "subItem12": "birth to at least one parent who is a Ukrainian citizen;",
+      "subItem13": "birth on the territory of Ukraine to foreign nationals or stateless persons (with possible variations in accordance with legislation).",
+      "item12": "<bold>By territorial origin.</bold> This applies to individuals who have a direct relative born on the territory of Ukraine before August 24, 1991.",
+      "item13": "<bold>By naturalization.</bold> This requires continuous residence in Ukraine for two, three, or five years, depending on specific circumstances.",
+      "titleList2": "The law also provides other grounds for acquiring Ukrainian citizenship, including:",
+      "item21": "reinstatement of citizenship;",
+      "item22": "acquiring citizenship due to one or both parents being Ukrainian citizens;",
+      "item23": "and other cases defined by legislation.",
+      "titleList3": "The process of acquiring Ukrainian citizenship is directly linked to the legality of a person’s stay in Ukraine at the time of application, as well as the obligation to renounce foreign citizenship in the prescribed manner.",
+      "textList31": "Depending on the circumstances, Ukraine may consider the following as sufficient proof of renouncing foreign citizenship:",
+      "item31": "a certificate confirming the completion of the renunciation procedure in the country of previous citizenship;",
+      "item32": "a declaration of renunciation or change of citizenship, if provided by law.",
+      "textList32": "Until the renunciation procedure is completed, a person who has acquired Ukrainian citizenship is entitled to use only a temporary certificate of Ukrainian citizenship."
+    }
   },
   "Legislation": {
     "title": "legislation",
