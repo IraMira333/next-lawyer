@@ -187,6 +187,26 @@
       "item31": "a certificate confirming the completion of the renunciation procedure in the country of previous citizenship;",
       "item32": "a declaration of renunciation or change of citizenship, if provided by law.",
       "textList32": "Until the renunciation procedure is completed, a person who has acquired Ukrainian citizenship is entitled to use only a temporary certificate of Ukrainian citizenship."
+    },
+    "freeQuestion02": "How to obtain a residence permit in Ukraine and what is the difference between temporary and permanent residence?",
+    "freeAnswer02": {
+      "item11": "<bold>A residence permit in Ukraine</bold> is an official document confirming the right of foreigners or stateless persons to temporary or permanent residence in Ukraine.",
+      "item12": "<bold>A permanent residence permit</bold> is issued to individuals who have obtained immigration permission to Ukraine. This permission has no expiration date or conditions, and the permit itself must be renewed every 10 years. Immigration permission can be granted to:",
+      "subItem11": "highly qualified specialists;",
+      "subItem12": "spouses of Ukrainian citizens;",
+      "subItem13": "close relatives of Ukrainian citizens;",
+      "subItem14": "investors;",
+      "subItem15": "persons of Ukrainian territorial origin;",
+      "subItem16": "military personnel;",
+      "subItem17": "representatives of other categories defined by law.",
+      "item13": "<bold>A temporary residence permit</bold> is issued for a specified period, depending on the grounds for obtaining it. Below are the most common grounds:",
+      "subItem31": "employment – for the duration of the work permit;",
+      "subItem32": "marriage to a Ukrainian citizen – for 1 year;",
+      "subItem33": "education – for the entire study period.",
+      "text31": "It is worth noting that the rights of foreigners with a temporary residence permit are significantly limited compared to migrants who have obtained the right to permanent residence.",
+      "subTitle3": "Important requirements for obtaining a residence permit:",
+      "item31": "Citizens of countries with a visa regime must obtain a <bold>long-term visa</bold>.",
+      "item32": "Documents for obtaining a residence permit must be submitted <bold>no later than 15 working days</bold> before the end of the allowed stay in Ukraine."
     }
   },
   "Legislation": {
