@@ -45,6 +45,11 @@ const config: Config = {
         hero: "rgba(0, 0, 0, 0.6) 0px 4px 8px 0px",
         card: "rgb(171, 169, 167) 0 4px 4px 4px",
       },
+      height: {
+        lineWithoutHexagonMob: "calc(100% - 12px)",
+        lineWithoutHexagonTab: "calc(100% - 24px)",
+        lineWithoutHexagonPC: "calc(100% - 44px)",
+      },
       backgroundImage: {
         accentGradient: "linear-gradient(to bottom, #FF9430 0%, #FF5C00 100%)",
       },
