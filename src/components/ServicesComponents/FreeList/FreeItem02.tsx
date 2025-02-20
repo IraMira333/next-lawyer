@@ -16,6 +16,7 @@ export const FreeItem02 = () => {
           bold: (chunk) => <span className="font-semibold">{chunk}</span>,
         })}
       </p>
+      <p className="mb-3">{t("item12p")}</p>
       <ul className="mb-6 text-sm tab:text-base tab:leading-[21px]">
         <li className="flex gap-2 text-start mb-2">
           <div className="mt-2">
