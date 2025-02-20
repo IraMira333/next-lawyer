@@ -3,6 +3,7 @@ import { WhenYouNeedOurHelp } from "./WhenYouNeedOurHelp";
 import { CitizenshipServices } from "./CitizenshipServices";
 import { WhyWe } from "./WhyWe";
 import AccessibilitySection from "./AccessibilitySection";
+import { WhatYouGet } from "./WhatYouGet/WhatYouGet";
 
 const HomePart = () => {
   return (
@@ -12,6 +13,7 @@ const HomePart = () => {
       <AccessibilitySection />
       <CitizenshipServices />
       <WhyWe />
+      <WhatYouGet />
     </>
   );
 };
