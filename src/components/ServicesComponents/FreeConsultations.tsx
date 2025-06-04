@@ -3,12 +3,14 @@ import { SquareBig } from "../shared/SquareBig";
 import { SquareSmall } from "../shared/SquareSmall";
 import { FreeItem01 } from "./FreeList/FreeItem01";
 import { FreeItem02 } from "./FreeList/FreeItem02";
+import { FreeItem03 } from "./FreeList/FreeItem03";
 
 export const FreeConsultations = () => {
   const t = useTranslations("Services");
   const freeConsultationsList = [
     { question: t("freeQuestion01"), answer: <FreeItem01 /> },
     { question: t("freeQuestion02"), answer: <FreeItem02 /> },
+    { question: t("freeQuestion03"), answer: <FreeItem03 /> },
   ];
 
   return (

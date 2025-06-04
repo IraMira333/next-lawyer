@@ -79,7 +79,16 @@
     "whyP2": "We have been practicing in the field of migration law for over 15 years. During this time, we have thoroughly studied the mindset, behavior, and working style of officials from the State Migration Service of Ukraine, as well as employees of other law enforcement agencies of Ukraine.",
     "whyP3": "Unfortunately, violations of legislation, corrupt practices, disregard for the rights and freedoms of foreign citizens and Ukrainian citizens occur constantly. Foreigners feel helpless and lost in the face of the arbitrariness of state officials. Currently, we can no longer calmly observe what is happening in our society.",
     "whyP4": "- We are confident, we possess the strength and knowledge...",
-    "whyPicture": "A man is writing something at an office table, and in the foreground is the inscription: Lawyer."
+    "whyPicture": "A man is writing something at an office table, and in the foreground is the inscription: Lawyer.",
+    "whatYouGetTitle": "What You Get When You Consult an Immigration Lawyer",
+    "wygItem1Title": "Interactive Application",
+    "wygItem1Text": "You can contact us via Telegram, WhatsApp, or Viber and send copies of your existing documents. We will review your files and advise you on the best course of action for your case! No complicated forms or paperwork.",
+    "wygItem2Title": "Personalized Document Checklist",
+    "wygItem2Text": "Our team will create a customized checklist of the documents you need, ensuring a complete and accurate application.",
+    "wygItem3Title": "In-Depth Legal Review",
+    "wygItem3Text": "Your case will be reviewed multiple times by experienced lawyers to identify any mistakes and minimize the risk of rejection.",
+    "wygItem4Title": "Legal Representation",
+    "wygItem4Text": "A lawyer will meet you and accompany you during every visit to the immigration office, boosting your confidence."
   },
   "Contacts": {
     "title": "How to contact us",
@@ -169,6 +178,7 @@
     "additionalServicesP6": "An individual who has renounced or lost Ukrainian citizenship in the established manner is not deprived of the opportunity to use the right to restore it in accordance with the established procedure.",
     "freeTitle": "free consultations",
     "freeText": "Not all legal issues require the paid consultation of a lawyer. To make it easier for you to access the information you need, below are brief answers to the most frequently asked questions that may interest you.",
+
     "freeQuestion01": "How can a foreigner obtain a Ukrainian passport?",
     "freeAnswer01": {
       "titleList1": "A Ukrainian passport is an official document confirming a person's Ukrainian citizenship. Ukrainian citizenship can be acquired based on grounds defined by law. Let’s consider the main ones:",
@@ -186,17 +196,7 @@
       "textList31": "Depending on the established procedure for renouncing previous citizenship, as well as confirmed participation in the military defense of the state, Ukraine may recognize the following documents as sufficient proof of renunciation of foreign citizenship:",
       "item31": "a certificate confirming the completion of the citizenship renunciation procedure in the previous country of citizenship;",
       "item32": "a declaration of renunciation or change of citizenship.",
-      "textList32": "Until the process of renouncing foreign citizenship is completed, a person who has acquired Ukrainian citizenship has the right to use only a temporary Ukrainian citizen’s certificate.",
-
-      "whatYouGetTitle": "What You Get When You Consult an Immigration Lawyer",
-      "wygItem1Title": "Interactive Application",
-      "wygItem1Text": "You can contact us via Telegram, WhatsApp, or Viber and send copies of your existing documents. We will review your files and advise you on the best course of action for your case! No complicated forms or paperwork.",
-      "wygItem2Title": "Personalized Document Checklist",
-      "wygItem2Text": "Our team will create a customized checklist of the documents you need, ensuring a complete and accurate application.",
-      "wygItem3Title": "In-Depth Legal Review",
-      "wygItem3Text": "Your case will be reviewed multiple times by experienced lawyers to identify any mistakes and minimize the risk of rejection.",
-      "wygItem4Title": "Legal Representation",
-      "wygItem4Text": "A lawyer will meet you and accompany you during every visit to the immigration office, boosting your confidence."
+      "textList32": "Until the process of renouncing foreign citizenship is completed, a person who has acquired Ukrainian citizenship has the right to use only a temporary Ukrainian citizen’s certificate."
     },
     "freeQuestion02": "How to obtain a residence permit in Ukraine and what is the difference between temporary and permanent residence?",
     "freeAnswer02": {
@@ -218,6 +218,15 @@
       "subTitle3": "Important requirements for obtaining a residence permit:",
       "item31": "Citizens of countries with a visa regime must obtain a <bold>long-term visa</bold>.",
       "item32": "Documents for obtaining a residence permit must be submitted <bold>no later than 15 working days</bold> before the end of the allowed stay in Ukraine."
+    },
+    "freeQuestion03": "Violation of the deadlines for considering applications for admission to citizenship of Ukraine, as well as renunciation of citizenship by the President of Ukraine",
+    "freeAnswer03": {
+      "title": "All that remains is to wait.",
+      "item1": "Indeed, since the beginning of 2020, there has been an almost complete cessation of the issuance of Decrees of the President of Ukraine on citizenship issues, which were previously issued (but not published) approximately once every three months. Cases on admission to citizenship that were positively reviewed by the State Migration Service of Ukraine and the Commission under the President of Ukraine on Citizenship Issues have remained without final consideration by the President for many years.",
+      "item2": "It should be noted that such a stop is not selective according to the country of origin of the applicants or the grounds for acquiring citizenship.",
+      "item3": "At the same time, some individuals have nevertheless been admitted to citizenship on an individual basis in recent years. This may indicate a change in the policy of the Office of the President in the field of citizenship towards its strengthening.",
+      "item4": "Administrative courts, when considering disputes with the Office of the President of Ukraine on citizenship issues, as a rule, refrain from interfering with the discretionary powers of the head of state, leaving the applicants only hope.",
+      "item5": "The Grand Chamber of the Supreme Court concluded that the President of Ukraine’s failure to take action to issue a decree on granting Ukrainian citizenship does not currently have the character of unlawful inaction and cannot be recognized as such."
     }
   },
   "Legislation": {
