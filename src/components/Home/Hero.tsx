@@ -22,7 +22,7 @@ export const Hero = () => {
           <h2 className="font-lora text-base pc:text-xl italic font-medium text-center mb-3 pc:mb-5 tab:text-left">
             {t("title")}
           </h2>
-          <p className="text-center text-sm pc:text-base leading-[18px] pc:leading-[21px] tab:text-left">
+          <p className="text-center text-sm pc:text-base leading-[18px] pc:leading-[21px] tab:text-left max-w-[500px] mx-auto">
             {t("description")}
           </p>
         </div>
