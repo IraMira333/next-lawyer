@@ -1,11 +1,13 @@
 import { Lora, Raleway, Roboto_Slab } from "next/font/google";
-import { NextIntlClientProvider, useMessages } from "next-intl";
+import { NextIntlClientProvider, useMessages, hasLocale } from "next-intl";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -28,10 +30,12 @@ const robotoSlab = Roboto_Slab({
 });
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
   const t = await getTranslations({ locale, namespace: "Site" });
 
   return {
@@ -52,15 +56,21 @@ export async function generateMetadata({
     },
   };
 }
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const messages = useMessages();
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   return (
     <html
       lang={locale}
@@ -72,7 +82,7 @@ export default function LocaleLayout({
         <meta name="twitter:image" content="/imageForSharing.jpg" />
         <meta name="robots" content="index, follow" />
       </head>
-      <NextIntlClientProvider locale={locale} messages={messages}>
+      <NextIntlClientProvider>
         <body>
           <div className="flex flex-col min-h-[100%]">
             <Header />
