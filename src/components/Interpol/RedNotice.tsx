@@ -9,6 +9,7 @@ import { GiInjustice } from "react-icons/gi";
 import { VscBook } from "react-icons/vsc";
 import { GiHandcuffs } from "react-icons/gi";
 import { SquareBig } from "../shared/SquareBig";
+import Image from "next/image";
 
 export const RedNotice = () => {
   const t = useTranslations("Interpol");
@@ -35,10 +36,20 @@ export const RedNotice = () => {
   return (
     <section className="bg-accentBg text-base tab:text-lg px-4 py-10 tab:px-5 pc:px-[38px] pc:py-[60px]">
       <div className="max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] mx-auto">
+        <div className="tab:float-right tab:w-[40%] tab:ml-6 tab:mb-4 tab:mt-4 mb-7 ">
+          <Image
+            src="/red-notice.jpg"
+            alt={t("redTitle")}
+            width={1024}
+            height={536}
+            className="w-full h-auto rounded-md"
+          />
+        </div>
+
         <h2 className="text-lg tab:text-2xl font-semibold mb-1">
           {t("redTitle")}
         </h2>
-        <p className="indent-7 mb-4 ">{t("redText1")}</p>
+        <p className="indent-7 ">{t("redText1")}</p>
         <p className="indent-7 mb-4 ">{t("redText2")}</p>
         <h3 className="text-lg tab:text-2xl font-semibold mb-1">
           {t("titleList2")}

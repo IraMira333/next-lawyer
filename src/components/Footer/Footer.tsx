@@ -17,11 +17,11 @@ const Footer = () => {
           width={520}
           height={80}
           priority
-          className="w-[200px] h-auto tab:w-[300px] mx-auto mb-10 pc:mb-8"
+          className="w-[200px] h-auto tab:w-[300px] mx-auto mb-4 tab:mb-10 pc:mb-8"
         />
       </Link>
-      <ul className="flex gap-3 justify-center mb-4 pc:mb-5">
-        <Menu className="text-white " classNameIcon="hidden" />
+      <ul className="flex flex-col tab:flex-row gap-0 tab:gap-3 justify-center mb-4 pc:mb-5">
+        <Menu className="text-white mx-auto" classNameIcon="hidden" />
       </ul>
       <ul className="text-white mb-10 tab:flex tab:gap-4 justify-center pc:mb-[35px] pc:text-base">
         <li className="flex gap-2 items-center justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
