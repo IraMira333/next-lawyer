@@ -5,7 +5,12 @@ export const InterpolIs = () => {
   const t = useTranslations("Interpol");
   const infoList = [
     { title: t("title1"), text: t("text1") },
-    { title: t("title2"), text: t.rich("text2", { br: () => <br /> }) },
+    {
+      title: t("title2"),
+      text: t.rich("text2", {
+        indent: (chunk) => <span className="block indent-7">{chunk}</span>,
+      }),
+    },
     { title: t("title3"), text: t("text3") },
   ];
   interface Notice {
@@ -31,7 +36,9 @@ export const InterpolIs = () => {
               <h3 className="text-lg tab:text-2xl font-semibold">
                 {item.title}
               </h3>
-              <p className="mt-1 tab:text-lg mb-6 text-justify">{item.text}</p>
+              <p className="mt-1 tab:text-lg mb-6 text-justify indent-7">
+                {item.text}
+              </p>
             </div>
           ))}
           <div className="">
