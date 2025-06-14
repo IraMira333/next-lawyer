@@ -13,7 +13,7 @@ export async function generateMetadata({
       languages: {
         "en-US": "/en/accessibility",
         "ru-RU": "/ru/accessibility",
-        "uk-UA": "/uk/accessibility",
+        "uk-UA": "/accessibility",
       },
     },
     title: t("sectionTitle1"),
