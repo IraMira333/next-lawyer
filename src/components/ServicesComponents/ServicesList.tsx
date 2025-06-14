@@ -156,7 +156,7 @@ export const ServicesList = () => {
               <span>
                 <a
                   href="tel:+380930324874"
-                  className=" cursor-pointer text-accent font-semibold"
+                  className=" cursor-pointer text-accent font-semibold font-lora"
                 >
                   +38 (093) 032-48-74
                 </a>
@@ -165,7 +165,7 @@ export const ServicesList = () => {
               <span>
                 <a
                   href="tel:+380633650465"
-                  className=" cursor-pointer text-accent font-semibold"
+                  className=" cursor-pointer text-accent font-semibold font-lora"
                 >
                   +38 (063) 365-04-65
                 </a>

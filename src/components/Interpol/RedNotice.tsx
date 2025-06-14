@@ -34,7 +34,7 @@ export const RedNotice = () => {
     { icon: <GiHandcuffs />, text: t("item3Text2List3") },
   ];
   return (
-    <section className="bg-accentBg text-base tab:text-lg px-4 py-10 tab:px-5 pc:px-[38px] pc:py-[60px]">
+    <section className="bg-accentBg shadow-inner shadow-accentBgDark text-base tab:text-lg px-4 py-10 tab:px-5 pc:px-[38px] pc:py-[60px]">
       <div className="max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] mx-auto">
         <div className="tab:float-right tab:w-[40%] tab:ml-6 tab:mb-4 tab:mt-4 mb-7 ">
           <Image
@@ -58,7 +58,7 @@ export const RedNotice = () => {
         <ul className="flex flex-col tab:flex-row tab:flex-wrap gap-4 tab:gap-5 pc:gap-8 mb-[37px] tab:mb-[56px] pc:mb-[60px] justify-center mx-auto max-w-[350px] tab:max-w-full">
           {conditions.map((item, index) => (
             <AnimatedCard key={index}>
-              <div className="mb-2 p-4 pc:p-[23px] min-w-[288px] w-full h-auto tab:w-[350px] pc:w-[380px] tab:h-[210px] pc:h-[250px] border border-[#8a8988] rounded-br-2xl rounded-tl-2xl bg-[#d3d3d2] shadow-xl">
+              <div className="mb-2 p-4 pc:p-[23px] min-w-[288px] w-full h-auto tab:w-[350px] pc:w-[380px] tab:h-[210px] pc:h-[250px] border border-accent rounded-br-2xl rounded-tl-2xl bg-accentBgDark shadow-xl">
                 <h5 className="font-semibold tab:h-[56px] mb-2 tab:mb-0">
                   {item.title}
                 </h5>
