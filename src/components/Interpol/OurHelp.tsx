@@ -56,7 +56,7 @@ export const OurHelp = () => {
           {t("whyTitle")}
         </h2>
         <div className="mb-6 pc:mb-10">
-          <ul className="text-base pc:text-lg flex flex-wrap gap-3 tab:justify-center tab:gap-5 pc:gap-x-24 pc:gap-y-10">
+          <ul className="text-base pc:text-lg flex flex-wrap gap-3 tab:justify-center tab:gap-5 pc:gap-x-24 pc:gap-y-10 desk:gap-x-32 desk:gap-y-12 max-w-[1200px] mx-auto">
             {whyList.map((item) => (
               <li
                 key={item.text}
