@@ -14,7 +14,7 @@ export async function generateMetadata({
       languages: {
         "en-US": "/en/legislation",
         "ru-RU": "/ru/legislation",
-        "uk-UA": "/uk/legislation",
+        "uk-UA": "/legislation",
       },
     },
     title: t("title"),
