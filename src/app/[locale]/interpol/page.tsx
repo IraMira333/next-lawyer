@@ -18,10 +18,10 @@ export async function generateMetadata({
       },
     },
     title: t("title"),
-    description: t("description"),
+    description: t("descriptionSite"),
     openGraph: {
       title: t("title"),
-      description: t("description"),
+      description: t("descriptionSite"),
       type: "website",
     },
   };
