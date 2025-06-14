@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className="relative bg-accentBg pc:bg-primary ">
       <div className="tab:flex flex-row-reverse ">
         <Image
-          src="/interpol-bg.jpg"
+          src="/interpol.jpeg"
           alt={t("heroPicture")}
           width={4000}
           height={2250}

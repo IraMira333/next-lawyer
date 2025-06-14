@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="w-6 h-6 flex justify-center items-center">
             <IconPhone className="" />
           </div>
-          <a href="tel:+380930324874" className="">
+          <a href="tel:+380930324874" className="font-lora">
             +38 (093) 032-48-74
           </a>
         </li>
@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="w-6 h-6 flex justify-center items-center">
             <IconPhone className="" />
           </div>
-          <a href="tel:+380633650465" className="">
+          <a href="tel:+380633650465" className="font-lora">
             +38 (063) 365-04-65
           </a>
         </li>

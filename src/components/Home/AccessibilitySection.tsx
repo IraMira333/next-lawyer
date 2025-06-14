@@ -8,7 +8,7 @@ const AccessibilitySection = () => {
   return (
     <section
       id="accessibility"
-      className="bg-accentBg py-10 px-4 tab:px-5 tab:py-[60px] pc:px-9 "
+      className="bg-accentBg shadow-inner shadow-accentBgDark py-10 px-4 tab:px-5 tab:py-[60px] pc:px-9 "
     >
       <div className="max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto">
         {" "}
