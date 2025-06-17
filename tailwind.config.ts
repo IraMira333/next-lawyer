@@ -31,7 +31,6 @@ const config: Config = {
         accessibilityHero: "#4b4a4a7f",
         modalBg: "#062541",
         servicesHero: "#0c0c0c7f",
-        textInput: "#f8f4f4",
       },
       fontFamily: {
         raleway: ["var(--font-raleway)"],
@@ -46,6 +45,7 @@ const config: Config = {
         light: "#F5F5F5",
         formLight: "#cfcfcf",
         lightBorder: "#e1e1e1",
+        textInput: "#f8f4f4",
       },
       boxShadow: {
         custom: "rgba(0, 0, 0, 0.12) 0px 0px 8px 4px inset",
