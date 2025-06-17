@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Color, SquareSmall } from "../shared/SquareSmall";
-import AccessibilitySection from "../Home/AccessibilitySection";
+import { CTACheck } from "./CTACheck";
 
 export const InterpolIs = () => {
   const t = useTranslations("Interpol");
@@ -29,18 +29,18 @@ export const InterpolIs = () => {
   ];
   return (
     <section className="">
-      <div className="pt-10 px-4 tab:px-5 tab:pt-[60px] pc:px-9 max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto">
+      <div className="pt-10 px-4 tab:px-5 tab:pt-[60px] pc:px-9 max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto pb-12">
         {infoList.map((item, index) => (
-          <div key={index} className="">
+          <div key={index} className="mb-6 last:mb-0">
             <h3 className="text-lg tab:text-2xl font-semibold">{item.title}</h3>
-            <p className="mt-1 tab:text-lg mb-6 text-justify indent-7">
+            <p className="mt-1 tab:text-lg text-justify indent-7">
               {item.text}
             </p>
           </div>
         ))}
       </div>
-      <AccessibilitySection />
-      <div className="pb-10 pt-6 px-4 tab:px-5 tab:pb-[60px] pc:px-9 max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto">
+      <CTACheck />
+      <div className="pb-10 pt-12 px-4 tab:px-5 tab:pb-[60px] pc:px-9 max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto">
         <h3 className="text-lg tab:text-2xl font-semibold">{t("title3")}</h3>
         <p className="mt-1 tab:text-lg mb-6 text-justify indent-7">
           {t("text3")}

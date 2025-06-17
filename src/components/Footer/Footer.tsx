@@ -9,7 +9,7 @@ const Footer = () => {
   const locale = useLocale();
 
   return (
-    <footer className=" bg-footer pt-[60px] tab:pt-10 tab:pb-[43px] pb-[65px] border-t border-[#e1e1e1] px-4 flex-[0_0_auto]">
+    <footer className=" bg-footer pt-[60px] tab:pt-10 tab:pb-[43px] pb-[65px] border-t border-lightBorder px-4 flex-[0_0_auto]">
       <Link href={`/${locale}`}>
         <Image
           src="/logoFullLight.svg"
