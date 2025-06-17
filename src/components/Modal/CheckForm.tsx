@@ -209,7 +209,7 @@ export const CheckForm = ({ notificationHandler }: FormInModalProps) => {
             onChange={(e) =>
               setFormData({ ...formData, message: e.target.value })
             }
-            className={`${inputClass} h-[114px]`}
+            className={`${inputClass} h-[114px] tab:h-auto font-lora`}
           />
           <div className="absolute bottom-0 left-0 w-full h-3 border border-t-0 border-text group-focus:border-title transition-all duration-500 ease-in" />
         </div>
