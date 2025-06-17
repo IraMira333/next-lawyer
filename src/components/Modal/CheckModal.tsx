@@ -44,15 +44,8 @@ export const CheckModal = () => {
         {isSuccess ? (
           <SuccessMessage />
         ) : (
-          <div className=" relative w-[80%] min-w-[288px] h-auto max-w-[800px] mx-auto mt-[170px] pb-[100px]">
+          <div className=" relative w-[80%] min-w-[288px] h-auto max-w-[800px] mx-auto mt-[100px] tab:mt-[120px] pb-[100px]">
             <CheckForm notificationHandler={notificationHandler} />
-            <Image
-              src="/interpolLogo.svg"
-              alt="Interpol icon"
-              width={100}
-              height={100}
-              className="absolute top-[-100px] left-1/2 transform -translate-x-1/2"
-            />
           </div>
         )}
       </Modal>
