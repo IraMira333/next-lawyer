@@ -175,13 +175,18 @@ export const CheckForm = ({ notificationHandler }: FormInModalProps) => {
           />
         </div>
         <div className="tab:flex tab:gap-5 tab:mb-4">
-          <CustomInput
+          <CustomSelect
             id="language"
             value={formData.language}
             placeholder={t("language")}
             onChange={(e) =>
               setFormData({ ...formData, language: e.target.value })
             }
+            options={[
+              { value: "украинский", label: t("uk") },
+              { value: "русский", label: t("ru") },
+              { value: "английский", label: t("en") },
+            ]}
           />
           <CustomSelect
             id="fast"

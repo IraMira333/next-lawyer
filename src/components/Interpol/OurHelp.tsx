@@ -23,12 +23,12 @@ export const OurHelp = () => {
   return (
     <section className="bg-accentBg shadow-inner shadow-accentBgDark text-base tab:text-lg py-10 px-4 tab:px-5 tab:py-[60px] pc:px-9 text-justify">
       <div className="max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] ml-auto mr-auto">
-        <h3 className="text-lg tab:text-2xl font-semibold mb-1 text-accent">
+        <h3 className="text-lg tab:text-2xl desk:text-3xl font-semibold mb-1 text-accent">
           {t("helpTitle")}
         </h3>
 
         <div className="tab:flex tab:items-start tab:justify-between tab:gap-4 pc:gap-9 mb-6">
-          <ul className="tab:w-[50%] pc:w-[45%] text-base pc:text-lg ">
+          <ul className="tab:w-[50%] pc:w-[45%] text-base pc:text-lg desk:text-xl ">
             <li className="mb-4">{t("helpText")}</li>
             {helpList.map((item) => (
               <li key={item} className="flex gap-2  mb-2 text-justify ">
@@ -40,7 +40,7 @@ export const OurHelp = () => {
             ))}
           </ul>
           <div className="pc:flex tab:justify-between pc:flex-col tab:w-[40%] ">
-            <div className=" mx-auto tab:mx-0 tab:min-w-[270px] rounded overflow-hidden mb-4 mt-6 pc:ml-auto">
+            <div className=" mx-auto tab:mx-0 tab:min-w-[270px] rounded overflow-hidden mb-4 mt-6 tab:-mt-8 pc:-mt-7 pc:ml-auto">
               <Image
                 src="/office.jpg"
                 alt={t("whyTitle")}
