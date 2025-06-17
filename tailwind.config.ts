@@ -29,7 +29,7 @@ const config: Config = {
         footer: "#262626",
         accentBgDark: "#e4e4e4",
         accessibilityHero: "#4b4a4a7f",
-        modalBg: "#062541",
+        modalBg: "#313131",
         servicesHero: "#0c0c0c7f",
       },
       fontFamily: {
