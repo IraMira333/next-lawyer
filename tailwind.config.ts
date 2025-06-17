@@ -28,6 +28,9 @@ const config: Config = {
         heroBg: " rgba(245, 247, 250, 0.7)",
         footer: "#262626",
         accentBgDark: "#e4e4e4",
+        accessibilityHero: "#4b4a4a7f",
+        modalBg: "#062541",
+        servicesHero: "#0c0c0c7f",
       },
       fontFamily: {
         raleway: ["var(--font-raleway)"],
@@ -38,12 +41,18 @@ const config: Config = {
         primary: "var(--primary-text-color)",
         nav: "var(--nav-text-color)",
         accent: "var(--accent-text-color)",
+        error: "#FF2B27",
         light: "#F5F5F5",
+        formLight: "#cfcfcf",
+        lightBorder: "#e1e1e1",
+        textInput: "#f8f4f4",
       },
       boxShadow: {
         custom: "rgba(0, 0, 0, 0.12) 0px 0px 8px 4px inset",
         hero: "rgba(0, 0, 0, 0.6) 0px 4px 8px 0px",
         card: "rgb(171, 169, 167) 0 4px 4px 4px",
+        "inner-top-bottom":
+          "inset 0 10px 10px -10px rgb(255,122,0), inset 0 -10px 10px -10px rgb(255,122,0)",
       },
       height: {
         lineWithoutHexagonMob: "calc(100% - 12px)",
@@ -52,6 +61,8 @@ const config: Config = {
       },
       backgroundImage: {
         accentGradient: "linear-gradient(to bottom, #FF9430 0%, #FF5C00 100%)",
+        accentGradientLight:
+          "linear-gradient(to bottom, #FF943033 0%, #FF5C0033 100%)",
       },
       width: {
         tabAdditionalServices: "calc(50% - 8px)",

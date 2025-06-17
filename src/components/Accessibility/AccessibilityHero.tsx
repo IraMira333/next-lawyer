@@ -6,7 +6,7 @@ export const AccessibilityHero = () => {
 
   return (
     <section
-      className="relative bg-[#4b4a4a7f] min-h-[100px] tab:min-h-[240px] tab:aspect-[768/240] tab:max-h-[360px] 
+      className="relative bg-accessibilityHero min-h-[100px] tab:min-h-[240px] tab:aspect-[768/240] tab:max-h-[360px] 
     pc:min-h-[400px] pc:aspect-[1280/400] pc:max-h-[500px] w-full flex px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px]"
     >
       <Image

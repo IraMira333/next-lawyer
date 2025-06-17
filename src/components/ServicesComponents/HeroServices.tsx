@@ -5,7 +5,7 @@ export const HeroServices = () => {
   const t = useTranslations("Services");
 
   return (
-    <section className="relative bg-[#0c0c0c7f]  w-full flex px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 ">
+    <section className="relative bg-servicesHero  w-full flex px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 ">
       <Image
         src="/top-view-career-guidance-items-judges.webp"
         alt={t("heroPicture")}

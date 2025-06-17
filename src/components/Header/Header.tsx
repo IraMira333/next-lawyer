@@ -7,7 +7,7 @@ const Header = () => {
   const locale = useLocale();
 
   return (
-    <header className="  px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-[#e1e1e1]">
+    <header className="  px-4 py-[17px] tab:px-5 tab:py-4 pc:px-10 border-b border-lightBorder">
       <div className="flex justify-between items-center gap-5 min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
         <Link href={`/${locale}`}>
           <Image
