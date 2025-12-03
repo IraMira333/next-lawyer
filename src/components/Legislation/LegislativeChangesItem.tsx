@@ -25,7 +25,7 @@ export const LegislativeChangesItem = ({ item }: { item: LegislationChangesType 
               className="underline ml-2 font-semibold inline-flex items-center gap-1 hover:text-accent focus:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]"
               href={link}
             >
-              {item.data.link.length > 1 ? t("link") + (ind + 1) : t("link")}
+              {item.data.link.length > 1 ? t("link") + " " + (ind + 1) : t("link")}
               <LuExternalLink />
             </a>
           ))}
