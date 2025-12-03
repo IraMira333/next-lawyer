@@ -66,9 +66,7 @@ export const LegislationList = () => {
   const filteredData =
     selectedCategory === "all"
       ? legislationData
-      : legislationData.filter(
-          (item) => item.data.categoryName === selectedCategory
-        );
+      : legislationData.filter((item) => item.data.categoryName === selectedCategory);
 
   return (
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px] tab:text-base">
@@ -87,9 +85,9 @@ export const LegislationList = () => {
             onChange={(selectedOption) => {
               const newCategory = selectedOption?.value || "all";
               setSelectedCategory(newCategory);
-              router.push(
-                `/${locale}/legislation?category=${newCategory}#category`
-              );
+              router.replace(`/${locale}/legislation?category=${newCategory}`, {
+                scroll: false,
+              });
             }}
             options={options}
             isSearchable={false}
