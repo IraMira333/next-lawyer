@@ -2,12 +2,11 @@ import { useLocale } from "next-intl";
 import { LegislationType } from "@/mockedData/legislation";
 import { SquareSmall } from "../shared/SquareSmall";
 import { LocaleType } from "../../../types/LocaleType";
-import { LegislationChangesType } from "@/mockedData/legislationChangesData";
 
 export const LawItem = ({
   item,
 }: {
-  item: LegislationType | LegislationChangesType;
+  item: LegislationType;
 }) => {
   const locale = useLocale();
 

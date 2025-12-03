@@ -1,6 +1,6 @@
 export type DataChangesType = {
   id: string;
-  link: string;
+  link: string[];
 };
 
 export type LawChangesDataTranslation = {
@@ -18,7 +18,7 @@ export const legislationChangesData: LegislationChangesType[] = [
   {
     data: {
       id: "04",
-      link: "https://zakon.rada.gov.ua/laws/show/3-2025-п#Text",
+      link: ["https://zakon.rada.gov.ua/laws/show/3-2025-п#Text"],
     },
     uk: {
       legislationTitle:
@@ -36,7 +36,7 @@ export const legislationChangesData: LegislationChangesType[] = [
   {
     data: {
       id: "01",
-      link: "https://zakon.rada.gov.ua/laws/show/3897-20#n111",
+      link: ["https://zakon.rada.gov.ua/laws/show/3897-20#n111"],
     },
     uk: {
       legislationTitle:
@@ -54,7 +54,7 @@ export const legislationChangesData: LegislationChangesType[] = [
   {
     data: {
       id: "02",
-      link: "https://itd.rada.gov.ua/billInfo/Bills/Card/40268",
+      link: ["https://itd.rada.gov.ua/billInfo/Bills/Card/40268"],
     },
     uk: {
       legislationTitle:
@@ -72,7 +72,7 @@ export const legislationChangesData: LegislationChangesType[] = [
   {
     data: {
       id: "03",
-      link: "https://zakon.rada.gov.ua/laws/show/107-2023-п#Text",
+      link: ["https://zakon.rada.gov.ua/laws/show/107-2023-п#Text"],
     },
     uk: {
       legislationTitle:
@@ -85,6 +85,27 @@ export const legislationChangesData: LegislationChangesType[] = [
     ru: {
       legislationTitle:
         "В соответствии с Постановлением КМУ от 4 февраля 2023 года №107 «Некоторые вопросы принятия на территории Украины во время военного положения документов, выданных уполномоченными органами иностранных государств» во время военного положения и в течение 6 месяцев после его прекращения или отмены документы, изготовленные или заверенные на территории иностранных государств учреждением или специально на то уполномоченным лицом в пределах их компетенции по установленной форме и скрепленные гербовой печатью, принимаются на территории Украины без специального удостоверения (консульской легализации, проставления апостиля и т.п.) в случае, когда по состоянию на 24 февраля 2022 г. такие документы принимались на территории Украины без специального удостоверения.",
+    },
+  },
+  {
+    data: {
+      id: "04",
+      link: [
+        "https://zakon.rada.gov.ua/laws/show/4502-20#Text",
+        "https://www.kmu.gov.ua/npas/pro-zatverdzhennia-pereliku-derzhav-hromadiany-piddani-iakykh-nabuvaiut-hromadianstvo-ukrainy-u-sproshchenomu-poriadku-1412-051125",
+      ],
+    },
+    uk: {
+      legislationTitle:
+        "16 січня 2026 року набудуть чинності зміни до законодавства, які дозволяють громадянам України легально перебувати в іноземному громадянстві, а іноземцям отримувати українське громадянство без процедури припинення попереднього. \nНаразі перелік держав, із якими офіційно дозволене подвійне громадянство, залишається доволі обмеженим: Канада, Федеративна Республіка Німеччина, Республіка Польща, Сполучені Штати Америки та Чеська Республіка.",
+    },
+    en: {
+      legislationTitle:
+        "On January 16, 2026, amendments to the legislation will come into effect, allowing Ukrainian citizens to legally hold foreign citizenship and enabling foreigners to obtain Ukrainian citizenship without having to renounce their previous one. \nCurrently, the list of countries where dual citizenship is officially permitted remains quite limited: Canada, the Federal Republic of Germany, the Republic of Poland, the United States of America, and the Czech Republic",
+    },
+    ru: {
+      legislationTitle:
+        "С 16 января 2026 года вступят в силу изменения в законодательстве, которые позволяют гражданам Украины легально иметь иностранное гражданство, а иностранцам получать украинское гражданство без процедуры отказа от предыдущего. \nВ настоящее время перечень стран, с которыми официально разрешено двойное гражданство, остаётся довольно ограниченным: Канада, Федеративная Республика Германия, Республика Польша, Соединённые Штаты Америки и Чешская Республика.",
     },
   },
 ];
