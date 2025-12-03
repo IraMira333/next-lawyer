@@ -1,6 +1,7 @@
 import { legislationChangesData } from "@/mockedData/legislationChangesData";
 import { useTranslations } from "next-intl";
 import { LawItem } from "./LawItem";
+import { LegislativeChangesItem } from "./LegislativeChangesItem";
 
 export const LegislativeChangesList = () => {
   const t = useTranslations("Legislation");
@@ -8,7 +9,7 @@ export const LegislativeChangesList = () => {
   return (
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px] tab:text-base">
       <div className="min-w-[288px] max-w-[600px] mx-auto tab:max-w-[700px] pc:max-w-full pc:flex pc:gap-12">
-        <div className="pc:w-1/2">
+        <div className="pc:w-3/5">
           <div className="tab:flex gap-4 mb-5  justify-center items-center">
             <h3
               id="category"
@@ -23,12 +24,12 @@ export const LegislativeChangesList = () => {
                 key={item.data.id}
                 className="flex gap-2 text-start mb-2 pc:text-justify"
               >
-                <LawItem item={item} />
+                <LegislativeChangesItem item={item} />
               </li>
             ))}
           </ul>
         </div>
-        <div className=" pc:w-1/2 mt-5 pc:mt-0 border border-accent rounded-lg p-4 pc:p-6 bg-accentBg ">
+        <div className=" pc:w-2/5 mt-5 pc:mt-0 border border-accent rounded-lg p-4 pc:p-6 bg-accentBg ">
           <h3 className=" text-accent text-base leading-[21px] tab:text-lg font-semibold mb-4 text-center pc:text-right ">
             {t("infoTitle")}
           </h3>
