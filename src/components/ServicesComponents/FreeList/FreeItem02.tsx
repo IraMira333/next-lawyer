@@ -2,7 +2,7 @@ import { SquareSmall } from "@/components/shared/SquareSmall";
 import { useTranslations } from "next-intl";
 
 export const FreeItem02 = () => {
-  const t = useTranslations("Services.freeAnswer02");
+  const t = useTranslations("FreeConsultatios.freeAnswer02");
 
   return (
     <div className="tab:border-l tab:border-accent tab:pl-2 pc:pl-4 text-sm tab:text-base tab:leading-[21px]">
@@ -87,9 +87,7 @@ export const FreeItem02 = () => {
         </li>
       </ul>
 
-      <p className="mb-3 text-sm tab:text-base tab:leading-[21px]">
-        {t("text31")}
-      </p>
+      <p className="mb-3 text-sm tab:text-base tab:leading-[21px]">{t("text31")}</p>
       <h3 className="text-sm tab:text-base leading-[21px] pc:text-lg font-semibold mb-3">
         {t("subTitle3")}
       </h3>

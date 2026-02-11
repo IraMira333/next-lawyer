@@ -1,4 +1,5 @@
 import { InterpolPage } from "@/components/Interpol/InterpolPage";
+import { FreeConsultations } from "@/components/ServicesComponents/FreeConsultations";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
@@ -6,15 +7,15 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }) {
-  const t = await getTranslations({ locale, namespace: "Interpol" });
+  const t = await getTranslations({ locale, namespace: "FreeConsultatios" });
 
   return {
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
     alternates: {
       languages: {
-        "en-US": "/en/interpol",
-        "ru-RU": "/ru/interpol",
-        "uk-UA": "/interpol",
+        "en-US": "/en/free-consultations",
+        "ru-RU": "/ru/free-consultations",
+        "uk-UA": "/free-consultations",
       },
     },
     title: t("title"),
@@ -27,6 +28,6 @@ export async function generateMetadata({
   };
 }
 
-export default function Interpol() {
-  return <InterpolPage />;
+export default function FreeConsultationsPage() {
+  return <FreeConsultations />;
 }
