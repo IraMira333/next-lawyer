@@ -7,7 +7,7 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }) {
-  const t = await getTranslations({ locale, namespace: "Interpol" });
+  const t = await getTranslations({ locale, namespace: "FreeConsultatios" });
 
   return {
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
