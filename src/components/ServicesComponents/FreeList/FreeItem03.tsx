@@ -2,7 +2,7 @@ import { SquareSmall } from "@/components/shared/SquareSmall";
 import { useTranslations } from "next-intl";
 
 export const FreeItem03 = () => {
-  const t = useTranslations("Services.freeAnswer03");
+  const t = useTranslations("FreeConsultatios.freeAnswer03");
   const list = [t("item1"), t("item2"), t("item3"), t("item4"), t("item5")];
 
   return (
