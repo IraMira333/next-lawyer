@@ -47,7 +47,7 @@ export type BlockType = {
 
 export const freeConsultationsList: FreeConsultationsListType[] = [
   {
-    id: "freeQuestion04",
+    id: "question04",
     uk: {
       question: "Видворення іноземців з України: що потрібно знати у 2026 році",
       answer: [
@@ -574,7 +574,7 @@ export const freeConsultationsList: FreeConsultationsListType[] = [
     },
   },
   {
-    id: "freeQuestion01",
+    id: "question01",
     uk: {
       question: "Як іноземцю отримати український паспорт",
       answer: [
@@ -724,7 +724,7 @@ export const freeConsultationsList: FreeConsultationsListType[] = [
     },
   },
   {
-    id: "freeQuestion02",
+    id: "question02",
     uk: {
       question:
         "Як отримати посвідку на проживання в Україні та в чому відмінність тимчасової від постійної",
@@ -1015,7 +1015,7 @@ export const freeConsultationsList: FreeConsultationsListType[] = [
     },
   },
   {
-    id: "freeQuestion03",
+    id: "question03",
     uk: {
       question:
         "Порушення строків розгляду заяв про прийняття до громадянства України, а також виходу з громадянства Президентом України",
