@@ -19,7 +19,7 @@ export const WhyWe = () => {
           </div>
           <div className="max-w-[380px] mx-auto tab:mx-0 tab:min-w-[270px] tab:max-w-[34%] rounded overflow-hidden mb-4 pc:ml-auto">
             <Image
-              src="https://drive.google.com/uc?export=view&id=1GmIOtH5AhdDSIgpi71_tFZOQXOEO72wE"
+              src="/ak-second-photo.jpeg"
               alt={t("whyPicture")}
               width={1280}
               height={854}
