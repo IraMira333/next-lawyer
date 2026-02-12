@@ -1,17 +1,13 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { SquareBig } from "../shared/SquareBig";
-import { FreeItem01 } from "./FreeList/FreeItem01";
-import { FreeItem02 } from "./FreeList/FreeItem02";
-import { FreeItem03 } from "./FreeList/FreeItem03";
 import { Link } from "@/i18n/navigation";
+import { FreeItem } from "./FreeItem";
+import { freeConsultationsList } from "../assets/freeConsultationsList";
+import { LocaleType } from "../../../types/LocaleType";
 
 export const FreeConsultations = () => {
   const t = useTranslations("FreeConsultatios");
-  const freeConsultationsList = [
-    { question: t("freeQuestion01"), id: "freeQuestion01", answer: <FreeItem01 /> },
-    { question: t("freeQuestion02"), id: "freeQuestion02", answer: <FreeItem02 /> },
-    { question: t("freeQuestion03"), id: "freeQuestion03", answer: <FreeItem03 /> },
-  ];
+  const locale = useLocale();
 
   return (
     <section className="text-base tab:text-lg px-4 py-10 tab:px-5 pc:px-[38px] pc:py-[60px]">
@@ -19,20 +15,21 @@ export const FreeConsultations = () => {
         <h2 className="font-lora text-accent text-center mb-7 pc:mb-6 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
           {t("title")}
         </h2>
-        <div className="tab:px-6 pc:px-12 mb-8 tab:mb-10 pc:mb-12">
-          <ol className="list-decimal list-outside tab:ml-6 pc:ml-12 ">
-            {freeConsultationsList.map((item) => (
-              <li key={item.id} className="mb-2 ">
-                <Link
-                  href={`/free-consultations#${item.id}`}
-                  className="font-semibold tab:text-xl pc:text-2xl py-2 hover:text-accent hover:underline transition-all duration-300 ease-in-out"
-                >
-                  {item.question}
-                </Link>
-              </li>
-            ))}
-          </ol>
-        </div>
+        <ul className="mb-8 tab:mb-12">
+          {freeConsultationsList.map((item) => (
+            <li
+              key={item.id}
+              className="group mb-2 tab:w-[90%] hover:scale-105 p-2 bg-accentBg transition-all duration-300 ease-in-out border border-accentBg shadow-hero rounded-md odd:ml-3 odd:mr-auto even:ml-auto even:mr-3"
+            >
+              <Link
+                href={`/free-consultations#${item.id}`}
+                className="font-semibold  w-full group-hover:underline transition-all duration-300 ease-in-out"
+              >
+                {item[locale as LocaleType].question}
+              </Link>
+            </li>
+          ))}
+        </ul>
         <ul className="min-w-[288px] max-w-[500px] mx-auto tab:max-w-[900px] pc:max-w-[1800px]">
           {freeConsultationsList.map((item, i) => (
             <li
@@ -45,10 +42,10 @@ export const FreeConsultations = () => {
                     tab:min-w-[247px] tab:max-w-[247px] pc:min-w-[391px] pc:max-w-[391px]  mb-2 "
               >
                 <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3 border-b-[2px] tab:border-b-0 border-accent pb-1">
-                  {item.question}
+                  {item[locale as LocaleType].question}
                 </h3>
               </div>
-              {item.answer}
+              <FreeItem item={item[locale as LocaleType].answer} />
               <div className="tab:flex tab:flex-col tab:justify-between">
                 <div className="flex justify-end tab:absolute tab:right-0 bottom-0 mb-10 tab:m-0">
                   <SquareBig />
