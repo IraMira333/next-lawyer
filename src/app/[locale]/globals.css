@@ -45,3 +45,6 @@ button {
 ul {
   list-style: none;
 }
+ol {
+  list-style: decimal;
+}
