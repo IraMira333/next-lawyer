@@ -49,7 +49,7 @@ const config: Config = {
       },
       boxShadow: {
         custom: "rgba(0, 0, 0, 0.12) 0px 0px 8px 4px inset",
-        hero: "rgba(0, 0, 0, 0.6) 0px 4px 8px 0px",
+        hero: "rgba(0, 0, 0, 0.6) 0px 2px 4px 0px",
         card: "rgb(171, 169, 167) 0 4px 4px 4px",
         "inner-top-bottom":
           "inset 0 10px 10px -10px rgb(255,122,0), inset 0 -10px 10px -10px rgb(255,122,0)",
@@ -61,8 +61,7 @@ const config: Config = {
       },
       backgroundImage: {
         accentGradient: "linear-gradient(to bottom, #FF9430 0%, #FF5C00 100%)",
-        accentGradientLight:
-          "linear-gradient(to bottom, #FF943033 0%, #FF5C0033 100%)",
+        accentGradientLight: "linear-gradient(to bottom, #FF943033 0%, #FF5C0033 100%)",
       },
       width: {
         tabAdditionalServices: "calc(50% - 8px)",

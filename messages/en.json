@@ -103,54 +103,13 @@
   "FreeConsultatios": {
     "title": "Questions for a migration lawyer",
     "descriptionSite": "",
-    "freeQuestion01": "How can a foreigner obtain a Ukrainian passport?",
     "freeAnswer01": {
-      "titleList1": "A Ukrainian passport is an official document confirming a person's Ukrainian citizenship. Ukrainian citizenship can be acquired based on grounds defined by law. Let’s consider the main ones:",
       "item11": "<bold>By birth.</bold> Ukrainian citizenship is acquired in the following cases:",
       "subItem11": "being born to parents who are Ukrainian citizens;",
       "subItem12": "being born to one parent who is a Ukrainian citizen;",
       "subItem13": "being born on the territory of Ukraine to foreigners or stateless persons (with the possibility of other variations in accordance with the law).",
       "item12": "<bold>By territorial origin.</bold> This applies to individuals who have a direct relative (son, daughter, father, mother, grandfather, or grandmother) born on the territory of Ukraine before August 24, 1991.",
-      "item13": "<bold>As a result of naturalization.</bold> This includes marriage to a Ukrainian citizen lasting more than two years or continuous residence in Ukraine for three to five years, depending on specific circumstances. A person seeking Ukrainian citizenship must also meet additional requirements: recognition and compliance with the Constitution and laws of Ukraine, knowledge of Ukrainian history, having a legal source of income, proficiency in the state language, and obtaining an immigration permit to Ukraine.",
-      "titleList2": "The law also provides for other grounds for acquiring Ukrainian citizenship, including:",
-      "item21": "reinstatement of citizenship;",
-      "item22": "acquisition of citizenship due to one or both parents holding Ukrainian citizenship;",
-      "item23": "and other cases defined by law.",
-      "titleList3": "The procedure for acquiring Ukrainian citizenship is directly linked to the legality of a person’s stay in Ukraine at the time of applying for citizenship, as well as the commitment to renounce foreign citizenship in the future.",
-      "textList31": "Depending on the established procedure for renouncing previous citizenship, as well as confirmed participation in the military defense of the state, Ukraine may recognize the following documents as sufficient proof of renunciation of foreign citizenship:",
-      "item31": "a certificate confirming the completion of the citizenship renunciation procedure in the previous country of citizenship;",
-      "item32": "a declaration of renunciation or change of citizenship.",
-      "textList32": "Until the process of renouncing foreign citizenship is completed, a person who has acquired Ukrainian citizenship has the right to use only a temporary Ukrainian citizen’s certificate."
-    },
-    "freeQuestion02": "How to obtain a residence permit in Ukraine and what is the difference between temporary and permanent residence?",
-    "freeAnswer02": {
-      "item11": "<bold>A residence permit in Ukraine</bold> is an official document confirming the right of foreigners or stateless persons to temporary or permanent residence in Ukraine. A residence permit can be either permanent or temporary.",
-      "item12": "<bold>A permanent residence permit</bold> is issued to individuals who have obtained immigration permission to Ukraine and grants them unlimited employment rights along with other benefits. To obtain immigration permission to Ukraine, a foreigner or stateless person must apply to the territorial office (department) of the State Migration Service with the relevant application and a set of documents confirming the grounds for its issuance. The immigration permit has no expiration date or validity conditions, while the residence permit itself must be renewed every 10 years.",
-      "item12p": "Immigration permission can be granted to:",
-      "subItem11": "highly qualified specialists;",
-      "subItem12": "a husband or wife of a Ukrainian citizen or immigrant;",
-      "subItem13": "close relatives of Ukrainian citizens;",
-      "subItem14": "investors;",
-      "subItem15": "persons of Ukrainian territorial origin;",
-      "subItem16": "military personnel;",
-      "subItem17": "representatives of other categories defined by law.",
-      "item13": "<bold>A temporary residence permit</bold> is issued for a specified period, depending on the grounds for obtaining it. Below are the most common grounds:",
-      "subItem31": "employment – for the duration of the work permit;",
-      "subItem32": "marriage to a Ukrainian citizen – for 1 year;",
-      "subItem33": "education – for the entire study period.",
-      "text31": "It is worth noting that the rights of foreigners with a temporary residence permit are significantly limited compared to migrants who have obtained the right to permanent residence.",
-      "subTitle3": "Important requirements for obtaining a residence permit:",
-      "item31": "Citizens of countries with a visa regime must obtain a <bold>long-term visa</bold>.",
-      "item32": "Documents for obtaining a residence permit must be submitted <bold>no later than 15 working days</bold> before the end of the allowed stay in Ukraine."
-    },
-    "freeQuestion03": "Violation of the deadlines for considering applications for admission to citizenship of Ukraine, as well as renunciation of citizenship by the President of Ukraine",
-    "freeAnswer03": {
-      "title": "All that remains is to wait.",
-      "item1": "Indeed, since the beginning of 2020, there has been an almost complete cessation of the issuance of Decrees of the President of Ukraine on citizenship issues, which were previously issued (but not published) approximately once every three months. Cases on admission to citizenship that were positively reviewed by the State Migration Service of Ukraine and the Commission under the President of Ukraine on Citizenship Issues have remained without final consideration by the President for many years.",
-      "item2": "It should be noted that such a stop is not selective according to the country of origin of the applicants or the grounds for acquiring citizenship.",
-      "item3": "At the same time, some individuals have nevertheless been admitted to citizenship on an individual basis in recent years. This may indicate a change in the policy of the Office of the President in the field of citizenship towards its strengthening.",
-      "item4": "Administrative courts, when considering disputes with the Office of the President of Ukraine on citizenship issues, as a rule, refrain from interfering with the discretionary powers of the head of state, leaving the applicants only hope.",
-      "item5": "The Grand Chamber of the Supreme Court concluded that the President of Ukraine’s failure to take action to issue a decree on granting Ukrainian citizenship does not currently have the character of unlawful inaction and cannot be recognized as such."
+      "item13": "<bold>As a result of naturalization.</bold> This includes marriage to a Ukrainian citizen lasting more than two years or continuous residence in Ukraine for three to five years, depending on specific circumstances. A person seeking Ukrainian citizenship must also meet additional requirements: recognition and compliance with the Constitution and laws of Ukraine, knowledge of Ukrainian history, having a legal source of income, proficiency in the state language, and obtaining an immigration permit to Ukraine."
     }
   },
   "Interpol": {
