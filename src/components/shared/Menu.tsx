@@ -7,10 +7,12 @@ const Menu = ({
   className,
   classNameIcon,
   onClick,
+  tab,
 }: {
   className: string;
   classNameIcon?: string;
   onClick?: () => void;
+  tab?: boolean;
 }) => {
   const t = useTranslations("Menu");
   const pathname = usePathname();
@@ -21,6 +23,7 @@ const Menu = ({
     { title: t("interpol"), path: "/interpol" },
     { title: t("services"), path: "/services" },
     { title: t("legislation"), path: "/legislation" },
+    { title: t("answers"), path: "/free-consultations" },
     { title: t("contacts"), path: "/contacts" },
   ];
   return (
@@ -28,8 +31,11 @@ const Menu = ({
       {menuList.map((item) => {
         const isActive = pathname === `${item.path}`;
         return (
-          <li key={item.title} className="mt-2 tab:mt-0 flex items-center">
-            <div className={`tab:hidden ${classNameIcon}`}>
+          <li
+            key={item.title}
+            className={`mt-2 tab:mt-0 flex items-center ${tab ? "tab:mb-4" : ""}`}
+          >
+            <div className={`pc:hidden ${classNameIcon}`}>
               <AiOutlineSend size={12} color="orange" />
             </div>
             <Link

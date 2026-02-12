@@ -8,7 +8,9 @@
     "interpol": "ИНТЕРПОЛ",
     "services": "Услуги",
     "contacts": "Контакты",
-    "legislation": "законодательство"
+    "legislation": "законодательство",
+    "answers": "Ответы",
+    "accessibility": "Доступность"
   },
   "Footer": {
     "copyright": "Все права защищены",

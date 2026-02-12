@@ -8,7 +8,9 @@
     "interpol": "Interpol",
     "services": "Servises",
     "contacts": "Contacts",
-    "legislation": "legislation"
+    "legislation": "legislation",
+    "answers": "Answers",
+    "accessibility": "Accessibility"
   },
   "Footer": {
     "copyright": "All rights reserved",
