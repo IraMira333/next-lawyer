@@ -12,14 +12,11 @@ export const FreeConsultations = () => {
   return (
     <section className="text-base tab:text-lg px-4 py-10 tab:px-5 pc:px-[38px] pc:py-[60px]">
       <div className="max-w-[500px] tab:max-w-[900px] pc:max-w-[1800px] mx-auto">
-        <h2 className="font-lora text-accent text-center mb-7 pc:mb-6 text-[28px] leading-8 tab:text-3xl pc:text-[40px] pc:leading-[48px] font-medium uppercase">
-          {t("title")}
-        </h2>
         <ul className="mb-8 tab:mb-12">
           {freeConsultationsList.map((item) => (
             <li
               key={item.id}
-              className="group mb-2 tab:w-[90%] hover:scale-105 p-2 bg-accentBg transition-all duration-300 ease-in-out border border-accentBg shadow-hero rounded-md odd:ml-3 odd:mr-auto even:ml-auto even:mr-3"
+              className="group mb-2 tab:mb-4 tab:w-[90%] hover:scale-105 p-2 bg-accentBg transition-all duration-300 ease-in-out border border-accentBg shadow-hero rounded-md odd:ml-3 odd:mr-auto even:ml-auto even:mr-3"
             >
               <Link
                 href={`/free-consultations#${item.id}`}

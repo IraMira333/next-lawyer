@@ -103,8 +103,10 @@
     "address2": "Ukraine, Kyiv, Vyacheslava Chernovola Street, Building 27, Office 217"
   },
   "FreeConsultatios": {
-    "title": "Questions for a migration lawyer",
+    "title": "Immigration Lawyer Consultation",
     "descriptionSite": "",
+    "description": "",
+    "heroPicture": "Questions for a migration lawyer",
     "freeAnswer01": {
       "item11": "<bold>By birth.</bold> Ukrainian citizenship is acquired in the following cases:",
       "subItem11": "being born to parents who are Ukrainian citizens;",
