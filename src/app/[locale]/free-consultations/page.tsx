@@ -1,5 +1,6 @@
 import { InterpolPage } from "@/components/Interpol/InterpolPage";
 import { FreeConsultations } from "@/components/ServicesComponents/FreeConsultations";
+import { HeroQuestions } from "@/components/ServicesComponents/HeroQuestions";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
@@ -29,5 +30,10 @@ export async function generateMetadata({
 }
 
 export default function FreeConsultationsPage() {
-  return <FreeConsultations />;
+  return (
+    <>
+      <HeroQuestions />
+      <FreeConsultations />
+    </>
+  );
 }
