@@ -1,12 +1,7 @@
 export type DataType = {
   id: string;
   link: string;
-  categoryName:
-    | "citizenship"
-    | "immigration"
-    | "status"
-    | "citizensRights"
-    | "entryExit";
+  categoryName: "citizenship" | "immigration" | "status" | "citizensRights" | "entryExit";
 };
 
 export type LawDataTranslation = {
@@ -520,16 +515,14 @@ export const legislationData: LegislationType[] = [
       categoryName: "citizenship",
     },
     uk: {
-      legislationTitle:
-        "Постанова ВРУ «Положення про паспорт громадянина України» ",
+      legislationTitle: "Постанова ВРУ «Положення про паспорт громадянина України» ",
     },
     en: {
       legislationTitle:
         "Resolution of the Verkhovna Rada of Ukraine «Regulations on the Passport of a Citizen of Ukraine»",
     },
     ru: {
-      legislationTitle:
-        "Постановление ВРУ «Положение о паспорте гражданина Украины»",
+      legislationTitle: "Постановление ВРУ «Положение о паспорте гражданина Украины»",
     },
   },
   {
@@ -644,6 +637,25 @@ export const legislationData: LegislationType[] = [
     ru: {
       legislationTitle:
         "Приказ МВД Украины «Об утверждении Порядка рассмотрения заявлений об оформлении документов для выезда граждан Украины за границу на постоянное проживание»",
+    },
+  },
+  {
+    data: {
+      id: "41",
+      link: "https://zakon.rada.gov.ua/laws/show/z0077-18#n14",
+      categoryName: "entryExit",
+    },
+    uk: {
+      legislationTitle:
+        "Наказ МЗС «Порядок  провадження в закордонних дипломатичних установах України за заявами про оформлення документів для залишення на постійне проживання за кордоном громадян України, які виїхали за кордон тимчасово».",
+    },
+    en: {
+      legislationTitle:
+        "Приказ МИД «Порядок производства в заграничных дипломатических учреждениях Украины по заявлениям об оформлении документов для оставления на постоянное проживание за границей граждан Украины, выехавших за границу временно».",
+    },
+    ru: {
+      legislationTitle:
+        "Order of the Ministry of Foreign Affairs «Procedure for processing applications for permanent residence abroad by Ukrainian citizens who have temporarily left abroad in foreign diplomatic institutions of Ukraine».",
     },
   },
   {
