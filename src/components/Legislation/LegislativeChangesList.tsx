@@ -5,7 +5,14 @@ import { LegislativeChangesItem } from "./LegislativeChangesItem";
 
 export const LegislativeChangesList = () => {
   const t = useTranslations("Legislation");
-
+  const textList = [
+    t("infoP1"),
+    t("infoP2"),
+    t("infoP3"),
+    t("infoP4"),
+    t("infoP5"),
+    t("infoP6"),
+  ];
   return (
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px] tab:text-base">
       <div className="min-w-[288px] max-w-[600px] mx-auto tab:max-w-[700px] pc:max-w-full pc:flex pc:gap-12">
@@ -34,10 +41,11 @@ export const LegislativeChangesList = () => {
             {t("infoTitle")}
           </h3>
           <div className="tab:text-base leading-[18px] indent-6  pc:text-justify">
-            <p>{t("infoP1")}</p>
-            <p>{t("infoP2")}</p>
-            <p>{t("infoP3")}</p>
-            <p>{t("infoP4")}</p>
+            {textList.map((text, index) => (
+              <p key={index} className="">
+                {text}
+              </p>
+            ))}
           </div>
         </div>
       </div>
