@@ -110,7 +110,7 @@ export const legislationChangesData: LegislationChangesType[] = [
   },
   {
     data: {
-      id: "05",
+      id: "06",
       link: ["https://zakon.rada.gov.ua/laws/show/1232-2022-%D0%BF#Text"],
     },
     uk: {
