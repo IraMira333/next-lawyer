@@ -9,3 +9,5 @@ declare namespace JSX {
   }
 }
 declare module "lite-youtube-embed";
+
+declare module "*.css";
