@@ -20,20 +20,20 @@ export const legislationChangesData: LegislationChangesType[] = [
       id: "05",
       link: [
         "https://zakon.rada.gov.ua/laws/show/4502-20#Text",
-        "https://www.kmu.gov.ua/npas/pro-zatverdzhennia-pereliku-derzhav-hromadiany-piddani-iakykh-nabuvaiut-hromadianstvo-ukrainy-u-sproshchenomu-poriadku-1412-051125",
+        "https://www.kmu.gov.ua/npas/pro-vnesennia-zmin-do-pereliku-derzhav-hromadiany-piddani-iakykh-nabuvaiut-s589080526",
       ],
     },
     uk: {
       legislationTitle:
-        "16 січня 2026 року набудуть чинності зміни до законодавства, які дозволяють громадянам України легально перебувати в іноземному громадянстві, а іноземцям отримувати українське громадянство без процедури припинення попереднього. \nНаразі перелік держав, із якими офіційно дозволене подвійне громадянство, залишається доволі обмеженим: Канада, Федеративна Республіка Німеччина, Республіка Польща, Сполучені Штати Америки та Чеська Республіка.",
+        "16 січня 2026 року набули чинності зміни до законодавства, які дозволяють громадянам України легально перебувати в іноземному громадянстві, а іноземцям отримувати українське громадянство без процедури припинення попереднього. \nНаразі перелік держав, із якими офіційно дозволене подвійне громадянство, є наступним: Австрія, Бельгія, Болгарія, Велика Британія, Греція, Данія, Естонія, Ірландія, Ісландія, Іспанія, Італія, Канада, Кіпр, Латвія, Литва, Люксембург, Мальта, Нідерланди, Німеччина, Норвегія, Польща, Португалія, Румунія, Словаччина, Словенія, США, Угорщина, Фінляндія, Франція, Хорватія, Чехія, Швейцарія, Швеція.",
     },
     en: {
       legislationTitle:
-        "On January 16, 2026, amendments to the legislation will come into effect, allowing Ukrainian citizens to legally hold foreign citizenship and enabling foreigners to obtain Ukrainian citizenship without having to renounce their previous one. \nCurrently, the list of countries where dual citizenship is officially permitted remains quite limited: Canada, the Federal Republic of Germany, the Republic of Poland, the United States of America, and the Czech Republic",
+        "On January 16, 2026, amendments to the legislation came into force, allowing Ukrainian citizens to legally hold foreign citizenship and enabling foreigners to obtain Ukrainian citizenship without having to renounce their previous one. \nCurrently, the list of countries with which dual citizenship is officially permitted includes: Austria, Belgium, Bulgaria, the United Kingdom, Greece, Denmark, Estonia, Ireland, Iceland, Spain, Italy, Canada, Cyprus, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Germany, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, the United States, Hungary, Finland, France, Croatia, the Czech Republic, Switzerland, and Sweden.",
     },
     ru: {
       legislationTitle:
-        "С 16 января 2026 года вступят в силу изменения в законодательстве, которые позволяют гражданам Украины легально иметь иностранное гражданство, а иностранцам получать украинское гражданство без процедуры отказа от предыдущего. \nВ настоящее время перечень стран, с которыми официально разрешено двойное гражданство, остаётся довольно ограниченным: Канада, Федеративная Республика Германия, Республика Польша, Соединённые Штаты Америки и Чешская Республика.",
+        "С 16 января 2026 года вступили в силу изменения в законодательстве, которые позволяют гражданам Украины легально иметь иностранное гражданство, а иностранцам получать украинское гражданство без процедуры отказа от предыдущего. \nВ настоящее время перечень государств, с которыми официально разрешено двойное гражданство, включает: Австрию, Бельгию, Болгарию, Великобританию, Грецию, Данию, Эстонию, Ирландию, Исландию, Испанию, Италию, Канаду, Кипр, Латвию, Литву, Люксембург, Мальту, Нидерланды, Германию, Норвегию, Польшу, Португалию, Румынию, Словакию, Словению, США, Венгрию, Финляндию, Францию, Хорватию, Чехию, Швейцарию и Швецию.",
     },
   },
   {
