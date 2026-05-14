@@ -126,4 +126,22 @@ export const legislationChangesData: LegislationChangesType[] = [
         "Рассмотрение заявлений граждан Российской Федерации о предоставлении разрешения на иммиграцию, оформлении видов на постоянное проживание, оформлении (в том числе вместо утраченных или похищенных) и обмене видов на временное проживание приостановлено.",
     },
   },
+  {
+    data: {
+      id: "07",
+      link: ["https://zakon.rada.gov.ua/laws/show/1202-2022-%D0%BF#Text"],
+    },
+    uk: {
+      legislationTitle:
+        "Продовжено дію посвідок на постійне проживання, крім тих, які оформлені громадянам Російської Федерації, строк дії яких закінчився або які підлягають обміну відповідно до законодавства після 24 лютого 2022 р., а також паспортів громадян України у формі картки, строк дії яких закінчився за 30 днів до 24 лютого 2022 р. та після 24 лютого 2022 р., та паспортів громадянина України зразка 1994 року, до яких не вклеєно фотокартку особи у разі досягнення нею 25- чи 45-річного віку, строк вклеювання до яких настав за 30 днів до 24 лютого 2022 р. та після 24 лютого 2022 р.",
+    },
+    en: {
+      legislationTitle:
+        "The validity of permanent residence permits has been extended, except for those issued to citizens of the Russian Federation, whose validity period has expired or which are subject to exchange in accordance with the legislation after February 24, 2022, as well as passports of citizens of Ukraine in the form of a card, the validity period of which expired 30 days before February 24, 2022 and after February 24, 2022, and passports of citizens of Ukraine of the 1994 model, to which a photograph of a person is not affixed if he or she reaches the age of 25 or 45, the deadline for affixing which has expired 30 days before February 24, 2022 and after February 24, 2022.",
+    },
+    ru: {
+      legislationTitle:
+        "Продлено действие вида на постоянное проживание, кроме того, который оформлен гражданам Российской Федерации, срок действия которого истек или подлежит обмену в соответствии с законодательством после 24 февраля 2022 г., а также паспортов граждан Украины в форме карточки, срок действия которых истек за 30 дней до 24 февраля 2022 г. и после 24 февраля 2022 р., и паспортов гражданина Украины образца 1994 года, в которые не вклеена фотография лица в случае достижения им 25- или 45-летнего возраста, срок вклеивания к которым наступил за 30 дней до 24 февраля 2022 г. и после 24 февраля 2022 г.",
+    },
+  },
 ];
