@@ -1,4 +1,5 @@
 import { FreeItem01 } from "../ServicesComponents/FreeList/FreeItem01";
+import { PhoneEmail } from "../shared/PhoneEmail";
 
 export type FreeConsultationsListType = {
   id: string;
@@ -46,6 +47,180 @@ export type BlockType = {
 };
 
 export const freeConsultationsList: FreeConsultationsListType[] = [
+  {
+    id: "question05",
+    uk: {
+      question: "Якщо перевищено строк перебування в Україні",
+      answer: [
+        {
+          text: [
+            {
+              gap: true,
+              type: "text",
+              text: "Час від часу до мене звертаються іноземці, які через різні життєві обставини перевищили дозволений строк законного перебування в Україні та помилково вважають, що їхня ситуація є безвихідною. Насправді у багатьох випадках це питання може бути врегульоване в правовому полі без необхідності виїзду за межі України.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Якщо строк вашого тимчасового перебування в Україні вже сплив, не варто ігнорувати проблему або відкладати її вирішення. У разі виявлення такого порушення під час перевірки документів працівниками правоохоронних органів, особу можуть доставити до територіального підрозділу Державної міграційної служби України для складання матеріалів про адміністративне правопорушення та прийняття відповідного рішення, зокрема щодо примусового повернення до країни походження.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Чим раніше іноземець розпочне процедуру легалізації свого статусу, тим більше шансів мінімізувати негативні наслідки та уникнути застосування додаткових заходів впливу, таких як примусове повернення або заборона подальшого в'їзду в Україну.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Загальний механізм легалізації статусу іноземця, який порушив правила тимчасового перебування в Україні, не є надмірно складним і, як правило, передбачає кілька послідовних кроків:",
+            },
+            {
+              type: "list",
+              gap: true,
+              list: [
+                "звернення до територіального підрозділу Державної міграційної служби України;",
+                "складання матеріалів про адміністративне правопорушення, пов'язане з порушенням правил перебування на території України;",
+                "сплату адміністративного штрафу в порядку та розмірі, визначених законодавством;",
+                "підготовку документів, що підтверджують наявність підстав для подальшого перебування в Україні (лікування, вагітність і пологи, догляд за хворим членом сім'ї, вимушене перебування на території України у зв'язку з надзвичайними обставинами, оформлення спадщини, наявність підстав для оформлення посвідки на тимчасове або постійне проживання, подання документів для отримання дозволу на імміграцію чи набуття громадянства України, а також інші обставини, що об'єктивно унеможливлюють виїзд іноземця або особи без громадянства);",
+                "подання заяви про продовження строку перебування на території України;",
+                "отримання відповідної відмітки про продовження строку перебування в паспортному документі.",
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Важливо розуміти, що перебування в Україні з порушенням встановлених строків істотно ускладнює реалізацію прав іноземця, створює перешкоди для оформлення документів, отримання адміністративних послуг та, як наслідок, може призвести до додаткових правових ризиків.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Практика свідчить, що до територіального підрозділу Державної міграційної служби України бажано звертатися разом з адвокатом. Це допомагає побудувати конструктивний діалог з посадовими особами, належним чином обґрунтувати свою позицію, звернути увагу на обставини, які мають юридичне значення, та знизити ризик прийняття необґрунтованого рішення про примусове повернення чи заборону в'їзду в Україну.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Я, Курц Антоній, міграційний адвокат, завжди готовий надати кваліфіковану правову допомогу та супроводити вас на всіх етапах легалізації перебування в Україні, захищаючи ваші права та інтереси в органах державної влади та судах.",
+            },
+            { type: "component", gap: true, component: <PhoneEmail /> },
+          ],
+        },
+      ],
+    },
+    ru: {
+      question: "Если превышен срок пребывания в Украине",
+      answer: [
+        {
+          text: [
+            {
+              gap: true,
+              type: "text",
+              text: "Время от времени ко мне обращаются иностранцы, которые в силу различных жизненных обстоятельств превысили разрешённый срок законного пребывания в Украине и ошибочно считают, что их ситуация является безвыходной. На самом деле во многих случаях данный вопрос может быть урегулирован в правовом поле без необходимости выезда за пределы Украины.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Если срок вашего временного пребывания в Украине уже истёк, не стоит игнорировать проблему или откладывать её решение. В случае выявления такого нарушения во время проверки документов сотрудниками правоохранительных органов, лицо может быть доставлено в территориальное подразделение Государственной миграционной службы Украины для оформления материалов об административном правонарушении и принятия соответствующего решения, в том числе о принудительном возвращении в страну происхождения.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Чем раньше иностранец начнёт процедуру легализации своего статуса, тем больше шансов минимизировать негативные последствия и избежать применения дополнительных мер воздействия, таких как принудительное возвращение или запрет дальнейшего въезда в Украину.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Общий механизм легализации статуса иностранца, нарушившего правила временного пребывания в Украине, не является чрезмерно сложным и, как правило, предусматривает несколько последовательных шагов:",
+            },
+            {
+              type: "list",
+              gap: true,
+              list: [
+                "обращение в территориальное подразделение Государственной миграционной службы Украины;",
+                "оформление материалов об административном правонарушении, связанном с нарушением правил пребывания на территории Украины;",
+                "уплату административного штрафа в порядке и размере, предусмотренных законодательством;",
+                "подготовку документов, подтверждающих наличие оснований для дальнейшего пребывания в Украине (лечение, беременность и роды, уход за больным членом семьи, вынужденное пребывание на территории Украины в связи с чрезвычайными обстоятельствами, оформление наследства, наличие оснований для получения вида на временное или постоянное проживание, подача документов для получения разрешения на иммиграцию либо приобретения гражданства Украины, а также иные обстоятельства, объективно препятствующие выезду иностранца или лица без гражданства);",
+                "подачу заявления о продлении срока пребывания на территории Украины;",
+                "получение соответствующей отметки о продлении срока пребывания в паспортном документе.",
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Важно понимать, что пребывание в Украине с нарушением установленных сроков существенно затрудняет реализацию прав иностранца, создаёт препятствия для оформления документов, получения административных услуг и, как следствие, может привести к дополнительным правовым рискам.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Практика показывает, что в территориальное подразделение Государственной миграционной службы Украины желательно обращаться вместе с адвокатом. Это помогает выстроить конструктивный диалог с должностными лицами, надлежащим образом обосновать свою позицию, обратить внимание на обстоятельства, имеющие юридическое значение, а также снизить риск принятия необоснованного решения о принудительном возвращении или запрете въезда в Украину.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Я, Курц Антоний, миграционный адвокат, всегда готов оказать квалифицированную правовую помощь и сопровождать вас на всех этапах легализации пребывания в Украине, защищая ваши права и интересы в государственных органах и судах.",
+            },
+            { type: "component", gap: true, component: <PhoneEmail /> },
+          ],
+        },
+      ],
+    },
+    en: {
+      question: "If You Have Overstayed Your Permitted Period of Stay in Ukraine",
+      answer: [
+        {
+          text: [
+            {
+              gap: true,
+              type: "text",
+              text: "From time to time, foreign nationals contact me after exceeding their permitted period of legal stay in Ukraine due to various life circumstances and mistakenly believing that their situation is hopeless. In reality, in many cases this issue can be resolved through legal procedures without the need to leave Ukraine.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "If your period of temporary stay in Ukraine has already expired, you should not ignore the problem or postpone addressing it. If such a violation is discovered during a document check by law enforcement officers, you may be taken to a territorial office of the State Migration Service of Ukraine for the preparation of administrative offense materials and the adoption of an appropriate decision, including a decision on forced return to your country of origin.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "The sooner a foreign national begins the process of legalizing their status, the greater the chances of minimizing negative consequences and avoiding additional measures such as forced return or a ban on future entry into Ukraine.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "The general procedure for legalizing the status of a foreign national who has violated the rules of temporary stay in Ukraine is not overly complicated and usually includes several consecutive steps:",
+            },
+            {
+              type: "list",
+              gap: true,
+              list: [
+                "applying to a territorial office of the State Migration Service of Ukraine;",
+                "preparation of administrative offense materials related to the violation of the rules of stay in Ukraine;",
+                "payment of an administrative fine in accordance with the procedure and amount established by law;",
+                "preparation of documents confirming the grounds for further stay in Ukraine (medical treatment, pregnancy and childbirth, care for a sick family member, forced stay in Ukraine due to extraordinary circumstances, inheritance matters, eligibility for a temporary or permanent residence permit, submission of documents for an immigration permit or acquisition of Ukrainian citizenship, as well as other circumstances that objectively prevent a foreign national or stateless person from leaving Ukraine);",
+                "submission of an application for an extension of the period of stay in Ukraine;",
+                "obtaining the appropriate endorsement in the passport document confirming the extension of the permitted stay.",
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "It is important to understand that staying in Ukraine in violation of the established time limits significantly complicates the exercise of a foreign national's rights, creates obstacles to obtaining documents and administrative services, and may ultimately result in additional legal risks.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Practice shows that it is advisable to visit the territorial office of the State Migration Service of Ukraine together with an attorney. This helps establish a constructive dialogue with officials, properly substantiate your legal position, draw attention to legally significant circumstances, and reduce the risk of an unfounded decision on forced return or a ban on entry into Ukraine.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "I, Antonii Kurts, an immigration attorney, am always ready to provide qualified legal assistance and support you throughout every stage of legalizing your stay in Ukraine, protecting your rights and interests before government authorities and courts.",
+            },
+            { type: "component", gap: true, component: <PhoneEmail /> },
+          ],
+        },
+      ],
+    },
+  },
   {
     id: "question04",
     uk: {
