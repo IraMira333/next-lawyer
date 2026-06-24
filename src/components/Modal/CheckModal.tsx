@@ -6,10 +6,8 @@ import { Modal } from "./Modal";
 import { SuccessMessage } from "./SuccessMessage";
 import { CheckForm } from "./CheckForm";
 import { SubmitFnType } from "../../../types/modalProps";
-import { IconArrow } from "../icons/IconArrow";
 import { useTranslations } from "next-intl";
 import { FormButton } from "./FormButton";
-import Image from "next/image";
 
 export const CheckModal = () => {
   const [isOpen, setIsOpen] = useState(false);
