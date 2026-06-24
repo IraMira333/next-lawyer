@@ -32,14 +32,14 @@ const Footer = () => {
             +38 (093) 032-48-74
           </a>
         </li>
-        <li className="flex gap-2 items-center justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
+        {/* <li className="flex gap-2 items-center justify-center hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
           <div className="w-6 h-6 flex justify-center items-center">
             <IconPhone className="" />
           </div>
           <a href="tel:+380633650465" className="font-lora">
             +38 (063) 365-04-65
           </a>
-        </li>
+        </li> */}
       </ul>
       <p className="text-white text-xs flex justify-center">
         &#169; 2024 {t("copyright")}

@@ -23,7 +23,7 @@ const Contacts = () => {
         />
       </div>
       <div
-        className="max-w-[500px] mx-auto tab:absolute bg-primary top-8 right-[47%]  pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
+        className="max-w-[500px] mx-auto tab:absolute bg-primary tab:top-1/2 tab:-translate-y-2/3 right-[47%]  pc:left-[38px] py-10 px-4 tab:p-5 tab:rounded-lg 
       tab:min-w-[364px] pc:min-w-[634px] tab:w-[48%] pc:w-[46%] pc:py-10 text-center"
       >
         <h1 className="font-lora text-[28px] tab:text-3xl leading-8 font-medium uppercase text-accent text-center mb-4 pc:mb-[30px] pc:text-[40px]">
@@ -37,10 +37,7 @@ const Contacts = () => {
             <div className="w-6 h-6 flex justify-center items-center">
               <IconMap className="" />
             </div>
-            <a
-              href="https://maps.app.goo.gl/6VUmP4aH14mykUke7"
-              className="font-lora"
-            >
+            <a href="https://maps.app.goo.gl/6VUmP4aH14mykUke7" className="font-lora">
               {t("address1")}
             </a>
           </li>
@@ -93,7 +90,7 @@ const Contacts = () => {
             </div>
           </>
         )}
-        <div className="h-[2px] w-full bg-accent mt-3 mb-7"></div>
+        {/* <div className="h-[2px] w-full bg-accent mt-3 mb-7"></div>
         <h3 className="text-xl tab:text-2xl leading-[21px] font-semibold mb-3">
           {t("lawyer2")}
         </h3>
@@ -148,7 +145,7 @@ const Contacts = () => {
               />
             </div>
           </>
-        )}
+        )} */}
       </div>
     </div>
   );
