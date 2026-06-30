@@ -308,7 +308,9 @@
     "additionalServicesP6": "An individual who has renounced or lost Ukrainian citizenship in the established manner is not deprived of the opportunity to use the right to restore it in accordance with the established procedure.",
     "freeTitle": "free consultations",
     "freeText": "Not all legal issues require the paid consultation of a lawyer. To make it easier for you to access the information you need, below are brief answers to the most frequently asked questions that may interest you.",
-    "freeBtn": "Question list"
+    "freeBtn": "Question list",
+    "lawRequest": "Attorney Request",
+    "lawRequestText": "We will quickly obtain official information and documents for you from a government authority, enterprise, or institution.\nFixed service fee — UAH 2,000."
   },
   "Legislation": {
     "title": "legislation",
