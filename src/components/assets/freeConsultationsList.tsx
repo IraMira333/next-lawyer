@@ -3,6 +3,7 @@ import { PhoneEmail } from "../shared/PhoneEmail";
 
 export type FreeConsultationsListType = {
   id: string;
+  advice?: boolean;
   uk: { question: string; answer: BlockType[] };
   ru: { question: string; answer: BlockType[] };
   en: { question: string; answer: BlockType[] };
@@ -47,6 +48,208 @@ export type BlockType = {
 };
 
 export const freeConsultationsList: FreeConsultationsListType[] = [
+  {
+    id: "question06",
+    advice: true,
+    uk: {
+      question:
+        "Якщо ви плануєте отримати дозвіл на імміграцію та посвідку на постійне проживання в Україні, рекомендую звернути увагу на цю пораду міграційного адвоката",
+      answer: [
+        {
+          text: [
+            {
+              gap: true,
+              type: "text",
+              text: "З власної практики можу сказати, що іноземці досить часто стикаються з необґрунтованими відмовами під час розгляду їхніх заяв міграційною службою. Саме тому я ділюся важливою практичною порадою, яка допоможе уникнути поширеної помилки та значно знизити ризик отримання негативного рішення.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Надалі, протягом періоду розгляду вашої заяви, міграційна служба може перевіряти достовірність поданої інформації. Зокрема, за вказаною адресою проживання в Україні можуть бути проведені відповідні перевірочні заходи з метою встановлення факту вашого проживання за зазначеним місцем.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "На практиці така перевірка зазвичай виглядає досить просто. На запит міграційної служби за вказаною вами адресою може завітати дільничний працівник поліції або інший представник правоохоронних органів. Він може поспілкуватися з власником житла, сусідами чи іншими особами, щоб з'ясувати, чи дійсно ви проживаєте за цією адресою.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "Після цього до міграційної служби надсилається відповідь, у якій зазначається, чи вдалося підтвердити факт проживання заявника за вказаним місцем проживання.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Оскільки проведення таких перевірок не завжди проводяться достатньо ретельно, їх результати нерідко мають формальний характер. Внаслідок цього фактичне проживання іноземця за вказаною адресою не знаходить належного підтвердження, що в окремих випадках стає підставою для відмови у наданні дозволу на імміграцію в Україну.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "На мою думку, територіальні органи Державної міграційної служби нерідко використовують недоліки існуючого механізму перевірки відомостей, повідомлених заявником, з метою зловживань. У результаті окремі рішення про відмову в наданні дозволу на імміграцію ґрунтуються лише на формальній перевірці, якою нібито не було підтвердження проживання особи за адресою.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "З юридичної точки зору, яка доведена нашою практикою, подібні рішення визнаються судами протиправними та успішно скасовуються. Однак проблема полягає в іншому - щоб домогтися справедливості, людині доводиться витрачати значний час на судові процеси. На практиці це може зайняти рік, а інколи й декілька років.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: [
+                { bold: true, value: "Пам'ятайте: " },
+                {
+                  value:
+                    "якщо після шести місяців розгляду документів міграційна служба відмовить вам у наданні дозволу на імміграцію, повторно подати заяву ви зможете лише через рік. Тому не варто недооцінювати значення актуальної адреси проживання, яку ви вказуєте в документах. На практиці саме це питання нерідко стає однією з причин негативного рішення.",
+                },
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Поки ваші документи перебувають на розгляді, раджу не ігнорувати дзвінки з незнайомих номерів і звертати увагу на те, хто намагається вас відвідати.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "У випадку коли з вами зв'язався представник поліції або іншого державного органу та попросив про зустріч чи надання пояснень, не поспішайте відмовлятися. Відкрита та доброзичлива комунікація часто допомагає уникнути непорозумінь і позитивно впливає на результати перевірки відомостей, які ви подали до міграційної служби.",
+            },
+          ],
+        },
+      ],
+    },
+    ru: {
+      question:
+        "Если вы планируете получить разрешение на иммиграцию и вид на постоянное жительство в Украине, рекомендую обратить внимание на этот совет иммиграционного адвоката",
+      answer: [
+        {
+          text: [
+            {
+              gap: true,
+              type: "text",
+              text: "Исходя из собственной практики, могу сказать, что иностранцы довольно часто сталкиваются с необоснованными отказами при рассмотрении их заявлений миграционной службой. Именно поэтому я хочу поделиться важным практическим советом, который поможет избежать распространённой ошибки и значительно снизить риск получения отрицательного решения.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "В дальнейшем, в течение периода рассмотрения вашего заявления, миграционная служба может проверять достоверность предоставленной вами информации. В частности, по указанному вами адресу проживания в Украине могут проводиться соответствующие проверочные мероприятия с целью подтверждения факта вашего проживания по указанному адресу.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "На практике такая проверка обычно выглядит достаточно просто. По запросу миграционной службы по указанному вами адресу может прийти участковый сотрудник полиции или другой представитель правоохранительных органов. Он может пообщаться с владельцем жилья, соседями или другими лицами, чтобы выяснить, действительно ли вы проживаете по этому адресу.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "После этого в миграционную службу направляется ответ, в котором указывается, удалось ли подтвердить факт проживания заявителя по указанному адресу.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Поскольку такие проверки не всегда проводятся достаточно тщательно, их результаты нередко носят формальный характер. Вследствие этого фактическое проживание иностранца по указанному адресу может не получить надлежащего подтверждения, что в отдельных случаях становится основанием для отказа в предоставлении разрешения на иммиграцию в Украину.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "По моему мнению, территориальные органы Государственной миграционной службы нередко используют недостатки существующего механизма проверки сведений, сообщённых заявителем, в целях злоупотреблений. В результате отдельные решения об отказе в предоставлении разрешения на иммиграцию основываются исключительно на формальной проверке, в ходе которой якобы не было подтверждено проживание лица по указанному адресу.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "С юридической точки зрения, что подтверждено нашей практикой, подобные решения признаются судами противоправными и успешно отменяются. Однако проблема заключается в другом — чтобы добиться справедливости, человеку приходится тратить значительное время на судебные разбирательства. На практике это может занять год, а иногда и несколько лет.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: [
+                { bold: true, value: "Помните: " },
+                {
+                  value:
+                    "если после шести месяцев рассмотрения ваших документов миграционная служба откажет вам в предоставлении разрешения на иммиграцию, повторно подать заявление вы сможете только через год. Поэтому не стоит недооценивать значение актуального адреса проживания, который вы указываете в документах. На практике именно этот вопрос нередко становится одной из причин отрицательного решения.",
+                },
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Пока ваши документы находятся на рассмотрении, советую не игнорировать звонки с незнакомых номеров и обращать внимание на то, кто пытается вас посетить.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Если с вами связался представитель полиции или другого государственного органа и попросил о встрече либо предоставлении объяснений, не спешите отказываться. Открытая и доброжелательная коммуникация часто помогает избежать недоразумений и положительно влияет на результаты проверки сведений, которые вы подали в миграционную службу.",
+            },
+          ],
+        },
+      ],
+    },
+    en: {
+      question:
+        "If you are planning to obtain an immigration permit and a permanent residence permit in Ukraine, I recommend paying attention to this advice from an immigration lawyer",
+      answer: [
+        {
+          text: [
+            {
+              gap: true,
+              type: "text",
+              text: "Based on my own experience, I can say that foreigners quite often face unjustified refusals during the consideration of their applications by the migration service. That is why I want to share an important practical piece of advice that will help you avoid a common mistake and significantly reduce the risk of receiving a negative decision.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "During the period in which your application is being processed, the migration service may verify the accuracy of the information you have provided. In particular, verification measures may be carried out at your declared address of residence in Ukraine to confirm that you actually reside there.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "In practice, such verification is usually quite straightforward. At the request of the migration service, a local police officer or another law enforcement representative may visit the address you provided. They may speak with the property owner, neighbors, or other individuals to determine whether you actually live at that address.",
+            },
+            {
+              gap: true,
+              type: "text",
+              text: "After that, a response is sent to the migration service indicating whether the applicant's residence at the declared address has been confirmed.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Since such inspections are not always carried out thoroughly, their results are often rather formal. As a result, the foreigner's actual residence at the declared address may not be properly confirmed, which in some cases becomes the basis for refusing to grant an immigration permit to Ukraine.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "In my opinion, territorial offices of the State Migration Service often take advantage of weaknesses in the existing mechanism for verifying the information provided by applicants. As a result, some decisions refusing to grant an immigration permit are based solely on a formal inspection that allegedly failed to confirm the person's residence at the declared address.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "From a legal standpoint, as confirmed by our practice, such decisions are recognized by the courts as unlawful and are successfully overturned. However, the problem lies elsewhere: to achieve justice, a person has to spend considerable time in court proceedings. In practice, this may take a year or sometimes even several years.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: [
+                { bold: true, value: "Remember: " },
+                {
+                  value:
+                    "if, after six months of processing your documents, the migration service refuses to grant you an immigration permit, you will only be able to submit a new application after one year. Therefore, do not underestimate the importance of providing your actual residential address in your documents. In practice, this issue often becomes one of the reasons for a negative decision.",
+                },
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "While your documents are under review, I advise you not to ignore calls from unknown numbers and to pay attention to anyone attempting to visit you.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "If you are contacted by a police officer or a representative of another state authority who requests a meeting or asks you to provide explanations, do not rush to refuse. Open and cooperative communication often helps avoid misunderstandings and positively influences the outcome of the verification of the information you submitted to the migration service.",
+            },
+          ],
+        },
+      ],
+    },
+  },
   {
     id: "question05",
     uk: {
