@@ -16,12 +16,15 @@ export const FreeConsultations = () => {
           {freeConsultationsList.map((item) => (
             <li
               key={item.id}
-              className="group mb-2 tab:mb-4 tab:w-[90%] hover:scale-105 p-2 bg-accentBg transition-all duration-300 ease-in-out border border-accentBg shadow-hero rounded-md odd:ml-3 odd:mr-auto even:ml-auto even:mr-3"
+              className={`group mb-2 tab:mb-4 tab:w-[90%] hover:scale-105 p-2 ${item.advice ? "bg-accentGradientLight " : "bg-accentBg"} transition-all duration-300 ease-in-out border border-accentBg shadow-hero rounded-md odd:ml-3 odd:mr-auto even:ml-auto even:mr-31`}
             >
               <Link
                 href={`/free-consultations#${item.id}`}
                 className="font-semibold  w-full group-hover:underline transition-all duration-300 ease-in-out"
               >
+                {item.advice && (
+                  <span className="text-accent font-bold mr-2">{t("advice")}</span>
+                )}{" "}
                 {item[locale as LocaleType].question}
               </Link>
             </li>
@@ -39,6 +42,9 @@ export const FreeConsultations = () => {
                     tab:min-w-[247px] tab:max-w-[247px] pc:min-w-[391px] pc:max-w-[391px]  mb-2 "
               >
                 <h3 className="text-base leading-[21px] tab:text-lg font-semibold mb-3 border-b-[2px] tab:border-b-0 border-accent pb-1">
+                  {item.advice && (
+                    <span className="text-accent font-bold mr-2">{t("advice")}</span>
+                  )}
                   {item[locale as LocaleType].question}
                 </h3>
               </div>

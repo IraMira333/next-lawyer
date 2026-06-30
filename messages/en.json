@@ -104,8 +104,9 @@
   },
   "FreeConsultatios": {
     "title": "Immigration Lawyer Consultation",
-    "descriptionSite": "",
+    "descriptionSite": "A lawyer explains how to obtain a residence permit and Ukrainian citizenship. We protect your rights against violations by the State Migration Service.",
     "description": "",
+    "advice": "Advice:",
     "heroPicture": "Questions for a migration lawyer",
     "freeAnswer01": {
       "item11": "<bold>By birth.</bold> Ukrainian citizenship is acquired in the following cases:",
