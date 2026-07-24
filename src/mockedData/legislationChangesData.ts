@@ -17,6 +17,24 @@ export type LegislationChangesType = {
 export const legislationChangesData: LegislationChangesType[] = [
   {
     data: {
+      id: "08",
+      link: ["https://zakon.rada.gov.ua/laws/show/141-2026-%D0%BF#n2"],
+    },
+    uk: {
+      legislationTitle:
+        "Увага іноземцям, які проживають в Україні на підставі посвідки на тимчасове проживання, строк дії якої закінчився після 24 лютого 2022 року! \nДо 5 серпня 2026 року вам необхідно звернутися до територіального підрозділу ДМС України для обміну посвідки. \nЗвертаю увагу, що під час обміну посвідки ви можете не лише продовжити законність свого перебування в Україні, а й змінити підставу її оформлення. Наприклад, замість посвідки, виданої у зв'язку з навчанням, оформити посвідку на підставі шлюбу з громадянином України, працевлаштування чи іншої підстави, якщо така виникла.",
+    },
+    en: {
+      legislationTitle:
+        "Attention, foreign nationals residing in Ukraine on the basis of a temporary residence permit that expired after 24 February 2022! \nYou must apply to a territorial office of the State Migration Service of Ukraine (SMS of Ukraine) by 5 August 2026 to exchange your temporary residence permit. \nPlease note that when exchanging your temporary residence permit, you may not only maintain your lawful stay in Ukraine but also change the legal grounds for your permit. For example, instead of a permit issued for the purpose of study, you may apply for a temporary residence permit based on marriage to a Ukrainian citizen, employment, or another legal ground, if such grounds have arisen.",
+    },
+    ru: {
+      legislationTitle:
+        "Внимание иностранцам, проживающим в Украине на основании вида на временное жительство, срок действия которого истек после 24 февраля 2022 года! \nДо 5 августа 2026 года вам необходимо обратиться в территориальное подразделение ГМС Украины для обмена “посвидки”. \nОбращаю внимание, что при обмене вида на временное жительство вы можете не только продлить законность своего пребывания в Украине, но и изменить основание его оформления. Например, вместо вида на временное жительство, выданного в связи с обучением, оформить вид на временное жительство на основании брака с гражданином Украины, трудоустройства либо по другому законному основанию, если такое основание возникло.",
+    },
+  },
+  {
+    data: {
       id: "05",
       link: [
         "https://zakon.rada.gov.ua/laws/show/4502-20#Text",
