@@ -39,7 +39,7 @@ export const TextTypeRender = ({ data }: { data: TextType[] }) => {
           return (
             <p
               key={i}
-              className={`text-sm tab:text-base tab:leading-[21px] ${
+              className={`text-sm tab:text-base tab:leading-[21px] whitespace-pre-line ${
                 block.gap ? "pc:mb-4 mb-2" : ""
               }`}
             >
@@ -72,7 +72,7 @@ export const TextTypeRender = ({ data }: { data: TextType[] }) => {
               {block.list.map((item, j) => (
                 <li
                   key={j}
-                  className="flex gap-2 text-start mb-2 text-sm tab:text-base tab:leading-[21px]"
+                  className="flex gap-2 text-start whitespace-pre-line mb-2 text-sm tab:text-base tab:leading-[21px]"
                 >
                   <div className="mt-2 shrink-0">
                     <SquareSmall />

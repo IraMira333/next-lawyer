@@ -49,6 +49,168 @@ export type BlockType = {
 
 export const freeConsultationsList: FreeConsultationsListType[] = [
   {
+    id: "question07",
+    uk: {
+      question:
+        "Що робити у разі отримання від міграційної служби рішення про відмову в оформленні дозволу на імміграцію в Україну",
+      answer: [
+        {
+          text: [
+            {
+              type: "text",
+              gap: true,
+              text: "Якщо ви опинилися у такій ситуації, що можу порадити:",
+            },
+            {
+              type: "list",
+              gap: true,
+              list: [
+                [
+                  {
+                    value:
+                      "Зверніться до територіального органу або підрозділу Державної міграційної служби (ДМС), який розглядав вашу заяву, з проханням надати копію відповідного рішення.",
+                  },
+                  { value: "\nВажливо: ", bold: true },
+                  {
+                    value:
+                      "Вам потрібна не просто письмова відповідь чи повідомлення надіслане міграційною службою, а саме копія прийнятого рішення. За можливості вимагайте надати документи, які стали підставою для прийняття міграційною службою такого рішення (наприклад, висновки перевірок, запити тощо). Такі відомості допоможуть здійснити об'єктивний аналіз законності відмови та перспективи її подальшого оскарження.",
+                  },
+                ],
+                [
+                  {
+                    value:
+                      "Якщо після ознайомлення з отриманими документами ви вважаєте відмову в оформленні дозволу на імміграцію необгрунтованою, варто прийняти для себе рішення - оскаржувати такі дії міграційної служби до суду чи, враховуючи “недоліки”, через рік спробувати знову подати документи знов. Позасудова процедура оскарження рішень територіальних органів міграційної служби поки не є ефективною.",
+                  },
+                  {
+                    value:
+                      "\nЗ огляду на завантаженість адміністративних судів, витрати часу і коштів, лише у виняткових обставинах судове оскарження дій міграційної служби є доцільним. ",
+                    bold: true,
+                  },
+                  {
+                    value:
+                      "Нажаль, розуміючи такий стан справ і вразливе становищє іноземців посадовим особам ДМС складно утриматись від порушень.",
+                  },
+                ],
+                [
+                  {
+                    value:
+                      "За потреби оберіть адвоката, який має практичний досвід у міграційних питаннях, та разом із ним розробіть чіткий алгоритм дій, спрямований на усунення причин попередньої відмови та отримання позитивного рішення за результатами повторного розгляду вашої заяви.",
+                  },
+                ],
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    ru: {
+      question:
+        "Что делать в случае получения от миграционной службы решения об отказе в оформлении разрешения на иммиграцию в Украину",
+      answer: [
+        {
+          text: [
+            {
+              type: "text",
+              gap: true,
+              text: "Если вы оказались в такой ситуации, могу посоветовать следующий алгоритм действий:",
+            },
+            {
+              type: "list",
+              gap: true,
+              list: [
+                [
+                  {
+                    value:
+                      "Обратитесь в территориальный орган или подразделение Государственной миграционной службы Украины (ГМС), которое рассматривало ваше заявление, с просьбой предоставить копию соответствующего решения.",
+                  },
+                  { value: "\nВажно: ", bold: true },
+                  {
+                    value:
+                      "Вам необходим не просто письменный ответ или уведомление, направленное миграционной службой, а именно копия принятого решения. По возможности потребуйте предоставить документы, которые стали основанием для принятия миграционной службой такого решения (например, результаты проверок, запросы и т. п.). Эти сведения помогут провести объективный анализ законности отказа и оценить перспективы его дальнейшего обжалования.",
+                  },
+                ],
+                [
+                  {
+                    value:
+                      "Если после ознакомления с полученными документами вы считаете отказ в оформлении разрешения на иммиграцию необоснованным, необходимо принять решение — обжаловать такие действия миграционной службы в судебном порядке или, учитывая выявленные «недостатки», через год попытаться повторно подать документы. В настоящее время внесудебная процедура обжалования решений территориальных органов миграционной службы не всегда является эффективной.",
+                  },
+                  {
+                    value:
+                      "\nС учетом загруженности административных судов, а также затрат времени и средств, судебное обжалование действий миграционной службы в отдельных случаях может быть нецелесообразным. ",
+                    bold: true,
+                  },
+                  {
+                    value:
+                      "К сожалению, понимая такое положение дел и уязвимое положение иностранцев, отдельным должностным лицам ГМС бывает сложно удержаться от нарушений.",
+                  },
+                ],
+                [
+                  {
+                    value:
+                      "При необходимости выберите адвоката, имеющего практический опыт в миграционных вопросах, и вместе с ним разработайте четкий алгоритм действий, направленный на устранение причин предыдущего отказа и получение положительного решения по результатам повторного рассмотрения вашего заявления.",
+                  },
+                ],
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    en: {
+      question:
+        "What to Do If You Receive a Decision from the Migration Service Refusing to Grant You an Immigration Permit in Ukraine",
+      answer: [
+        {
+          text: [
+            {
+              type: "text",
+              gap: true,
+              text: "If you find yourself in such a situation, I recommend following the steps below:",
+            },
+            {
+              type: "list",
+              gap: true,
+              list: [
+                [
+                  {
+                    value:
+                      "Contact the territorial body or department of the State Migration Service of Ukraine (SMS) that reviewed your application and request a copy of the relevant decision.",
+                  },
+                  { value: "\nImportant: ", bold: true },
+                  {
+                    value:
+                      "You need not merely a written response or notification sent by the Migration Service, but specifically a copy of the decision that was issued. If possible, also request the documents that served as the basis for the Migration Service's decision (for example, inspection findings, official inquiries, and other relevant materials). This information will help you objectively assess the lawfulness of the refusal and the prospects of challenging it.",
+                  },
+                ],
+                [
+                  {
+                    value:
+                      "If, after reviewing the documents you have received, you believe that the refusal to grant an immigration permit is unjustified, you should decide whether to challenge the Migration Service's actions in court or, taking into account the identified “shortcomings,” try to submit your documents again after one year. At present, the out-of-court procedure for challenging decisions of territorial bodies of the Migration Service is not always effective.",
+                  },
+                  {
+                    value:
+                      "\nGiven the workload of administrative courts, as well as the time and financial costs involved, challenging the Migration Service's actions in court may be appropriate only in certain circumstances. ",
+                    bold: true,
+                  },
+                  {
+                    value:
+                      "Unfortunately, given the current situation and the vulnerable position of foreign nationals, some SMS officials may find it difficult to refrain from procedural violations.",
+                  },
+                ],
+                [
+                  {
+                    value:
+                      "If necessary, choose a lawyer with practical experience in immigration matters and work together to develop a clear strategy aimed at addressing the reasons for the previous refusal and obtaining a positive decision upon the repeated consideration of your application.",
+                  },
+                ],
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
     id: "question06",
     advice: true,
     uk: {
