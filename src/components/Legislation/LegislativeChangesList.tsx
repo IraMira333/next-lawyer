@@ -1,12 +1,13 @@
 import { legislationChangesData } from "@/mockedData/legislationChangesData";
 import { useTranslations } from "next-intl";
 import { LegislativeChangesItem } from "./LegislativeChangesItem";
-import { Video } from "./Video";
+import { FloatComponent } from "./FloatComponent";
 
 export const LegislativeChangesList = () => {
   const t = useTranslations("Legislation");
   const textList = [t("infoP1"), t("infoP2"), t("infoP3")];
   const textList2 = [t("infoP4"), t("infoP5"), "video", t("infoP6")];
+  const history = [t("historyP1"), t("historyP2")];
   return (
     <section className="px-4 py-10 tab:px-5 tab:py-[60px] pc:px-10 pc:pt-[100px] tab:text-base">
       <div className="min-w-[288px] max-w-[600px] mx-auto tab:max-w-[700px] pc:max-w-full pc:flex pc:gap-12">
@@ -56,6 +57,15 @@ export const LegislativeChangesList = () => {
               //   <Video />
               // </div>
             )}
+            <h3 className="text-accent text-base leading-[21px] tab:text-lg font-semibold my-4 text-center pc:text-right ">
+              {t("historyTitle")}
+            </h3>
+            <FloatComponent
+              src="/historyOfUkraine.jpg"
+              alt={t("history")}
+              textLink={t("link")}
+              text={history}
+            />
           </div>
         </div>
       </div>
