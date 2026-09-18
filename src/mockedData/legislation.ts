@@ -528,7 +528,7 @@ export const legislationData: LegislationType[] = [
   {
     data: {
       id: "29",
-      link: "https://zakon.rada.gov.ua/laws/show/z1549-12#Text",
+      link: "https://zakon.rada.gov.ua/laws/show/z0711-26#Text",
       categoryName: "citizenship",
     },
     uk: {
