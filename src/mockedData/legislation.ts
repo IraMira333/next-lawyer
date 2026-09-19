@@ -651,11 +651,11 @@ export const legislationData: LegislationType[] = [
     },
     en: {
       legislationTitle:
-        "Приказ МИД «Порядок производства в заграничных дипломатических учреждениях Украины по заявлениям об оформлении документов для оставления на постоянное проживание за границей граждан Украины, выехавших за границу временно».",
+        "Order of the Ministry of Foreign Affairs «Procedure for processing applications for permanent residence abroad by Ukrainian citizens who have temporarily left abroad in foreign diplomatic institutions of Ukraine».",
     },
     ru: {
       legislationTitle:
-        "Order of the Ministry of Foreign Affairs «Procedure for processing applications for permanent residence abroad by Ukrainian citizens who have temporarily left abroad in foreign diplomatic institutions of Ukraine».",
+        "Приказ МИД «Порядок производства в заграничных дипломатических учреждениях Украины по заявлениям об оформлении документов для оставления на постоянное проживание за границей граждан Украины, выехавших за границу временно».",
     },
   },
   {
