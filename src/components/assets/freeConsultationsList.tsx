@@ -49,6 +49,201 @@ export type BlockType = {
 
 export const freeConsultationsList: FreeConsultationsListType[] = [
   {
+    id: "question08",
+    uk: {
+      question:
+        "Як громадянам України з тимчасово окупованих територій відновити або отримати український паспорт?",
+      answer: [
+        {
+          text: [
+            {
+              type: "text",
+              gap: true,
+              text: "Однією з суттєвих проблем, з якою стикаються громадяни України, що виїхали з тимчасово окупованих територій і перебувають за кордоном, є оформлення нових українських документів.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Здавалося б, якщо людина має оригінал закордонного паспорта громадянина України, строк дії якого закінчився, чи паспорт зразка 1994 року, свідоцтво про народження або інші офіційні документи, жодних перешкод для отримання нового паспорта бути не повинно.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Але з кожним роком відновлення документів стає все складнішою процедурою. Державні органи України (ДМС, дипломатичні установи) змушені ретельно перевіряти будь-які документи, видані на окупованих у подальшому територіях. Це пов'язано з ризиками підробки, втрати актуальності даних і неможливістю звірити подані відомості про особу та її громадянство з актуальними реєстрами. Відтак документи, оформлені без внесення до електронних баз даних, можуть викликати сумніви й не приймаються як безумовний доказ. Водночас відсутність інформації в електронних реєстрах і неможливість перевірити факт видачі паспорту не означає, що людина втратила громадянство України чи не має права на його повторне отримання.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Як адвокат, я іноді бачу стійке небажання працівників закордонних дипломатичних установ України допомагати людям у відновленні їхніх документів через ймовірну наявність у заявників громадянства держави-агресора. Заявників нерідко відправляють збирати довідки без чіткого пояснення, що саме і де потрібно отримати, а іноді просто відмовляються приймати звернення.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Отже потрібно розуміти, що для отримання нового паспорта необхідно документально підтвердити лише дві ключові обставини:",
+            },
+            {
+              type: "list",
+              numeric: true,
+              gap: true,
+              list: [
+                [
+                  { value: "Перебування в громадянстві України. ", bold: true },
+                  {
+                    value:
+                      "Людина має довести, що вона є громадянином України. Підтвердженням можуть бути, наприклад, свідоцтво про народження на території України, відмітка щодо проживання в Україні станом на 24 серпня 1991 року,  документи про громадянство батьків та інші документи стосовно громадянства.",
+                  },
+                ],
+                [
+                  {
+                    value: "Особу заявника. ",
+                    bold: true,
+                  },
+                  {
+                    value:
+                      "Потрібно довести, що особа, яка звернулася, є саме тією людиною, на яку видавалися документи. Для цього використовують документи з фотографією, архівні довідки, дипломи про освіту. В окремих випадках з цією метою можуть залучатися родичі, сусіди, знайомі з підконтрольної території.",
+                  },
+                ],
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Залежно від того, до якої установи ви звернулися (ДП «Документ» чи консульський відділ Посольства України) і які докази вдалося зібрати, за результатами розгляду поданих документів ви отримаєте або закордонний паспорт громадянина України (у деяких випадках і ID-картку), або посвідчення особи на повернення в Україну. В останньому випадку потрібно буде приїхати в Україну і оформити паспорт вже на території держави.",
+            },
+          ],
+        },
+      ],
+    },
+    ru: {
+      question:
+        "Как гражданам Украины с временно оккупированных территорий восстановить или получить украинский паспорт?",
+      answer: [
+        {
+          text: [
+            {
+              type: "text",
+              gap: true,
+              text: "Одной из существенных проблем, с которой сталкиваются граждане Украины, выехавшие с временно оккупированных территорий и находящиеся за границей, является оформление новых украинских документов.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Казалось бы, если у человека есть оригинал заграничного паспорта гражданина Украины, срок действия которого истёк, паспорт образца 1994 года, свидетельство о рождении или другие официальные документы, никаких препятствий для получения нового паспорта быть не должно.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Однако с каждым годом восстановление документов становится всё более сложной процедурой. Государственные органы Украины (ГМС, дипломатические учреждения) вынуждены тщательно проверять любые документы, выданные на территориях, впоследствии оказавшихся под оккупацией. Это связано с рисками подделки, утраты актуальности данных и невозможностью сверить предоставленные сведения о личности и её гражданстве с актуальными реестрами. В результате документы, оформленные без внесения данных в электронные базы, могут вызывать сомнения и не приниматься в качестве безусловного доказательства. В то же время отсутствие информации в электронных реестрах и невозможность проверить факт выдачи паспорта не означают, что человек утратил гражданство Украины или не имеет права на его повторное получение.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Как адвокат, я иногда сталкиваюсь с устойчивым нежеланием сотрудников украинских дипломатических учреждений за рубежом помогать людям в восстановлении документов из-за возможного наличия у заявителей гражданства государства-агрессора. Заявителей нередко отправляют собирать справки без чёткого объяснения, какие именно документы и где необходимо получить, а иногда просто отказываются принимать обращения.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Поэтому важно понимать, что для получения нового паспорта необходимо документально подтвердить только два ключевых обстоятельства:",
+            },
+            {
+              type: "list",
+              numeric: true,
+              gap: true,
+              list: [
+                [
+                  { value: "Наличие гражданства Украины. ", bold: true },
+                  {
+                    value:
+                      "Человек должен доказать, что является гражданином Украины. Подтверждением могут служить, например, свидетельство о рождении на территории Украины, отметка о проживании в Украине по состоянию на 24 августа 1991 года, документы о гражданстве родителей и другие документы, подтверждающие гражданство.",
+                  },
+                ],
+                [
+                  {
+                    value: "Личность заявителя. ",
+                    bold: true,
+                  },
+                  {
+                    value:
+                      "Необходимо доказать, что обратившийся человек является именно тем лицом, на имя которого были выданы документы. Для этого используются документы с фотографией, архивные справки, дипломы об образовании. В отдельных случаях с этой целью могут привлекаться родственники, соседи, знакомые с подконтрольной территории.",
+                  },
+                ],
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "В зависимости от того, в какое учреждение вы обратились (ГП «Документ» или консульский отдел Посольства Украины) и какие доказательства удалось собрать, по результатам рассмотрения представленных документов вы получите либо заграничный паспорт гражданина Украины (в некоторых случаях и ID-карту), либо удостоверение личности на возвращение в Украину. В последнем случае необходимо будет приехать в Украину и оформить паспорт уже на территории государства.",
+            },
+          ],
+        },
+      ],
+    },
+    en: {
+      question:
+        "How can Ukrainian citizens from temporarily occupied territories restore or obtain a Ukrainian passport?",
+      answer: [
+        {
+          text: [
+            {
+              type: "text",
+              gap: true,
+              text: "One of the significant challenges faced by Ukrainian citizens who have left temporarily occupied territories and are staying abroad is obtaining new Ukrainian identity documents.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "At first glance, if a person has an original Ukrainian international passport whose validity has expired, a 1994-style passport, a birth certificate, or other official documents, there should be no obstacles to obtaining a new passport.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "However, restoring documents is becoming an increasingly complicated procedure every year. Ukrainian government authorities (the State Migration Service and diplomatic missions) are required to carefully verify any documents issued in territories that were subsequently occupied. This is due to the risks of forgery, outdated information, and the inability to cross-check the submitted personal and citizenship details against current registers. As a result, documents issued without being entered into electronic databases may raise doubts and may not be accepted as conclusive evidence. At the same time, the absence of information in electronic registers and the inability to verify that a passport was issued do not mean that a person has lost Ukrainian citizenship or is not entitled to obtain a replacement.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "As a lawyer, I sometimes encounter a persistent reluctance among staff at Ukrainian diplomatic missions abroad to assist people in restoring their documents due to the possibility that applicants may also hold citizenship of the aggressor state. Applicants are often sent away to collect certificates without a clear explanation of what exactly they need to obtain or where to obtain it, and sometimes their applications are simply refused.",
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Therefore, it is important to understand that, in order to obtain a new passport, only two key circumstances need to be documented:",
+            },
+            {
+              type: "list",
+              numeric: true,
+              gap: true,
+              list: [
+                [
+                  { value: "Ukrainian citizenship status. ", bold: true },
+                  {
+                    value:
+                      "A person must prove that they are a citizen of Ukraine. Evidence may include, for example, a birth certificate issued in Ukraine, a record confirming residence in Ukraine as of August 24, 1991, documents confirming the parents' citizenship, and other citizenship-related documents.",
+                  },
+                ],
+                [
+                  {
+                    value: "The applicant's identity. ",
+                    bold: true,
+                  },
+                  {
+                    value:
+                      "It must be established that the person submitting the application is indeed the individual in whose name the documents were issued. Documents containing a photograph, archival certificates, and educational diplomas may be used for this purpose. In certain cases, relatives, neighbours, or acquaintances from government-controlled territory may also be involved.",
+                  },
+                ],
+              ],
+            },
+            {
+              type: "text",
+              gap: true,
+              text: "Depending on which institution you apply to (the State Enterprise «Document» or the Consular Section of the Embassy of Ukraine) and which evidence you manage to collect, the review of your submitted documents may result in the issuance of either a Ukrainian international passport (and, in some cases, an ID card) or an identity certificate for returning to Ukraine. In the latter case, you will need to travel to Ukraine and apply for a passport there.",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
     id: "question07",
     uk: {
       question:
@@ -79,7 +274,7 @@ export const freeConsultationsList: FreeConsultationsListType[] = [
                 [
                   {
                     value:
-                      "Якщо після ознайомлення з отриманими документами ви вважаєте відмову в оформленні дозволу на імміграцію необгрунтованою, варто прийняти для себе рішення - оскаржувати такі дії міграційної служби до суду чи, враховуючи “недоліки”, через рік спробувати знову подати документи знов. Позасудова процедура оскарження рішень територіальних органів міграційної служби поки не є ефективною.",
+                      "Якщо після ознайомлення з отриманими документами ви вважаєте відмову в оформленні дозволу на імміграцію необгрунтованою, варто прийняти для себе рішення - оскаржувати такі дії міграційної служби до суду чи, враховуючи “недоліки”, через рік спробувати знову подати документи. Позасудова процедура оскарження рішень територіальних органів міграційної служби поки не є ефективною.",
                   },
                   {
                     value:
